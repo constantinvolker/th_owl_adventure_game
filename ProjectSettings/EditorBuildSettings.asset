@@ -62,6 +62,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Room_Hall_6.unity
     guid: 428e03729e2d97d478dd8598413080aa
+  - enabled: 1
+    path: Assets/Scenes/Room_Auditorium.unity
+    guid: f9fc0a9326c6a624f88206dc09b615b6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: e0ef46deb01711640870b961661b188e, type: 3}
   m_UseUCBPForAssetBundles: 0
