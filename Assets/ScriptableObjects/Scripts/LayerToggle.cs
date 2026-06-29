@@ -22,7 +22,9 @@ public class LayerToggle : MonoBehaviour
     public string foregroundSortingLayer = "Fade";
 
     [Header("Temporary Walls to toggle")]
+    [Tooltip("Optional. Leave empty if no foreground wall exists.")]
     public GameObject WallInForeground;
+    [Tooltip("Optional. Leave empty if no background wall exists.")]
     public GameObject WallInBackground;
 
     private SpriteRenderer _sr;
@@ -34,7 +36,8 @@ public class LayerToggle : MonoBehaviour
 
     public void TriggerBackground()
     {
-        _sr.sortingLayerName = backgroundSortingLayer;
+        if (_sr != null)
+            _sr.sortingLayerName = backgroundSortingLayer;
         if (WallInForeground != null)
             WallInForeground.SetActive(true);
         if (WallInBackground != null)
@@ -43,7 +46,8 @@ public class LayerToggle : MonoBehaviour
 
     public void TriggerForeground()
     {
-        _sr.sortingLayerName = foregroundSortingLayer;
+        if (_sr != null)
+            _sr.sortingLayerName = foregroundSortingLayer;
         if (WallInForeground != null)
             WallInForeground.SetActive(false);
         if (WallInBackground != null)
