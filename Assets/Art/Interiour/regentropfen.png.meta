@@ -1,0 +1,778 @@
+fileFormatVersion: 2
+guid: b277083d35abd7947b0fb001c193d37b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5517002433425670881
+    second: regentropfen_0
+  - first:
+      213: 129018015400120762
+    second: regentropfen_1
+  - first:
+      213: 157344005518785064
+    second: regentropfen_2
+  - first:
+      213: -2232587411071098471
+    second: regentropfen_3
+  - first:
+      213: -5394753734559444904
+    second: regentropfen_4
+  - first:
+      213: -4433366914307235956
+    second: regentropfen_5
+  - first:
+      213: 9083720891312511179
+    second: regentropfen_6
+  - first:
+      213: 7869769563838928733
+    second: regentropfen_7
+  - first:
+      213: -2793131963585995473
+    second: regentropfen_8
+  - first:
+      213: 5668821557124854649
+    second: regentropfen_9
+  - first:
+      213: -8326604416709679754
+    second: regentropfen_10
+  - first:
+      213: 6230130376775001785
+    second: regentropfen_11
+  - first:
+      213: 5931967031501224185
+    second: regentropfen_12
+  - first:
+      213: -997623336814076095
+    second: regentropfen_13
+  - first:
+      213: 5539557290307875427
+    second: regentropfen_14
+  - first:
+      213: 7210658498385746187
+    second: regentropfen_15
+  - first:
+      213: 2930143345903191395
+    second: regentropfen_16
+  - first:
+      213: 6303176248983045170
+    second: regentropfen_17
+  - first:
+      213: -8818275952696771283
+    second: regentropfen_18
+  - first:
+      213: 6622350735838070548
+    second: regentropfen_19
+  - first:
+      213: 3453300442431667208
+    second: regentropfen_20
+  - first:
+      213: -5700303987180006505
+    second: regentropfen_21
+  - first:
+      213: -4108611207423879706
+    second: regentropfen_22
+  - first:
+      213: 3237545941537371281
+    second: regentropfen_23
+  - first:
+      213: 7057431746440059496
+    second: regentropfen_24
+  - first:
+      213: 5869775983944746868
+    second: regentropfen_25
+  - first:
+      213: 8680548230342127338
+    second: regentropfen_26
+  - first:
+      213: 8584343423957824894
+    second: regentropfen_27
+  - first:
+      213: 2227598000144235780
+    second: regentropfen_28
+  - first:
+      213: 6583184083429824069
+    second: regentropfen_29
+  - first:
+      213: 2238089639487988540
+    second: regentropfen_30
+  - first:
+      213: 2641749351792692064
+    second: regentropfen_31
+  - first:
+      213: 881722196616500747
+    second: regentropfen_32
+  - first:
+      213: 603855413420582219
+    second: regentropfen_33
+  - first:
+      213: -6072190116765120187
+    second: regentropfen_34
+  - first:
+      213: 579315701255374145
+    second: regentropfen_35
+  - first:
+      213: 7735650668090981005
+    second: regentropfen_36
+  - first:
+      213: -4329345974833744438
+    second: regentropfen_37
+  - first:
+      213: -294157976124761022
+    second: regentropfen_38
+  - first:
+      213: 8749832480753196787
+    second: regentropfen_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: regentropfen_1
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 792
+        width: 53
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1dc81933d5ac100800000000000000
+      internalID: 129018015400120762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regentropfen_2
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 787
+        width: 81
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82afb741a8ffe2200800000000000000
+      internalID: 157344005518785064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regentropfen_3
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 793
+        width: 73
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991291114914401e0800000000000000
+      internalID: -2232587411071098471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regentropfen_4
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 794
+        width: 69
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8505fd0af0cf125b0800000000000000
+      internalID: -5394753734559444904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regentropfen_5
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 787
+        width: 87
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f5fb9c7448972c0800000000000000
+      internalID: -4433366914307235956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regentropfen_6
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 784
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc81a75e50cdf0e70800000000000000
+      internalID: 9083720891312511179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regentropfen_7
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 764
+        width: 103
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57dcc4f8b9073d60800000000000000
+      internalID: 7869769563838928733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regentropfen_11
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 598
+        width: 49
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b66b0ca19ed57650800000000000000
+      internalID: 6230130376775001785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regentropfen_13
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 594
+        width: 61
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f9e8d5cdab722f0800000000000000
+      internalID: -997623336814076095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regentropfen_14
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 592
+        width: 61
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362f9b5710670ec40800000000000000
+      internalID: 5539557290307875427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regentropfen_15
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 554
+        width: 76
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b091fe853b7611460800000000000000
+      internalID: 7210658498385746187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regentropfen_17
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 588
+        width: 41
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234405d1761697750800000000000000
+      internalID: 6303176248983045170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regentropfen_19
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 571
+        width: 102
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417cca358e057eb50800000000000000
+      internalID: 6622350735838070548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regentropfen_20
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 431
+        width: 150
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80cb6ddb4769cef20800000000000000
+      internalID: 3453300442431667208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regentropfen_21
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 430
+        width: 177
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7939464a9b374e0b0800000000000000
+      internalID: -5700303987180006505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regentropfen_23
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 394
+        width: 184
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194b75d61e21eec20800000000000000
+      internalID: 3237545941537371281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regentropfen_28
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 426
+        width: 155
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40db7fc24940aee10800000000000000
+      internalID: 2227598000144235780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regentropfen_29
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 422
+        width: 187
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54617df6b0b2c5b50800000000000000
+      internalID: 6583184083429824069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regentropfen_32
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 267
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0657ef8aa18c3c00800000000000000
+      internalID: 881722196616500747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regentropfen_36
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 279
+        width: 155
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a73122c4d8a5b60800000000000000
+      internalID: 7735650668090981005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regentropfen_37
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 280
+        width: 192
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5744416c21be3c0800000000000000
+      internalID: -4329345974833744438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regentropfen_38
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 270
+        width: 178
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c5c3511e0faebf0800000000000000
+      internalID: -294157976124761022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 03fbbed4a6cbd6e48a215fa0ae67fd74
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      regentropfen_0: 5517002433425670881
+      regentropfen_1: 129018015400120762
+      regentropfen_10: -8326604416709679754
+      regentropfen_11: 6230130376775001785
+      regentropfen_12: 5931967031501224185
+      regentropfen_13: -997623336814076095
+      regentropfen_14: 5539557290307875427
+      regentropfen_15: 7210658498385746187
+      regentropfen_16: 2930143345903191395
+      regentropfen_17: 6303176248983045170
+      regentropfen_18: -8818275952696771283
+      regentropfen_19: 6622350735838070548
+      regentropfen_2: 157344005518785064
+      regentropfen_20: 3453300442431667208
+      regentropfen_21: -5700303987180006505
+      regentropfen_22: -4108611207423879706
+      regentropfen_23: 3237545941537371281
+      regentropfen_24: 7057431746440059496
+      regentropfen_25: 5869775983944746868
+      regentropfen_26: 8680548230342127338
+      regentropfen_27: 8584343423957824894
+      regentropfen_28: 2227598000144235780
+      regentropfen_29: 6583184083429824069
+      regentropfen_3: -2232587411071098471
+      regentropfen_30: 2238089639487988540
+      regentropfen_31: 2641749351792692064
+      regentropfen_32: 881722196616500747
+      regentropfen_33: 603855413420582219
+      regentropfen_34: -6072190116765120187
+      regentropfen_35: 579315701255374145
+      regentropfen_36: 7735650668090981005
+      regentropfen_37: -4329345974833744438
+      regentropfen_38: -294157976124761022
+      regentropfen_39: 8749832480753196787
+      regentropfen_4: -5394753734559444904
+      regentropfen_40: -879739374
+      regentropfen_41: -876812561
+      regentropfen_5: -4433366914307235956
+      regentropfen_6: 9083720891312511179
+      regentropfen_7: 7869769563838928733
+      regentropfen_8: -2793131963585995473
+      regentropfen_9: 5668821557124854649
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
