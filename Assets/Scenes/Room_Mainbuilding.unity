@@ -693,7 +693,7 @@ ParticleSystemRenderer:
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
-  m_MotionVectors: 1
+  m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
@@ -950,7 +950,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 0.8773585, g: 0.8773585, b: 0.8773585, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -5492,11 +5492,11 @@ Transform:
   m_GameObject: {fileID: 970673150}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.08715578, w: 0.9961947}
-  m_LocalPosition: {x: -724.6026, y: -210.25465, z: -1}
+  m_LocalPosition: {x: -1.0000296, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1318518939}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -10}
 --- !u!1001 &1014199150
 PrefabInstance:
@@ -5714,12 +5714,12 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   rainIntensityMultiplier: 0.6
-  rainColorTint: {r: 0.44482023, g: 0.5084549, b: 0.6415094, a: 1}
+  rainColorTint: {r: 0.16153437, g: 0.20202923, b: 0.2830189, a: 1}
   rainEmissionRate: 60
   stormIntensityMultiplier: 0.4
   stormColorTint: {r: 0.5, g: 0.55, b: 0.65, a: 1}
   stormEmissionRate: 150
-  weatherTransitionSpeed: 1
+  weatherTransitionSpeed: 0
 --- !u!114 &1318518937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5766,9 +5766,7 @@ Transform:
   m_LocalPosition: {x: 723.513, y: 210.15625, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 970673153}
-  - {fileID: 1733601287}
+  m_Children: []
   m_Father: {fileID: 1508051206}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1330096921
@@ -6659,11 +6657,11 @@ Transform:
   m_GameObject: {fileID: 1733601285}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -723.513, y: -210.15625, z: 0}
+  m_LocalPosition: {x: 0.08957, y: 0.09841, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1318518939}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1792183913
 GameObject:
@@ -7086,3 +7084,5 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1508051206}
+  - {fileID: 970673153}
+  - {fileID: 1733601287}
