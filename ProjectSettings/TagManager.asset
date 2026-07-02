@@ -8,7 +8,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Background
   - Water
   - UI
   - Hotspot
@@ -42,13 +42,16 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Background
-    uniqueID: 3725894807
+    uniqueID: 2906529275
     locked: 0
   - name: Objects
     uniqueID: 2325526849
     locked: 0
   - name: Characters
     uniqueID: 4017115611
+    locked: 0
+  - name: Weather
+    uniqueID: 3963196727
     locked: 0
   - name: Fade
     uniqueID: 3281548305
@@ -58,3 +61,4 @@ TagManager:
     locked: 0
   m_RenderingLayers:
   - Default
+  - Weather
