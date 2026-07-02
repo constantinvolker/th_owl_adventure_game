@@ -1,47 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6257704976426407117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
-  m_Name: RenderObjects
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.RenderObjects
-  m_Active: 1
-  settings:
-    passTag: RenderObjectsFeature
-    Event: 300
-    filterSettings:
-      RenderQueueType: 0
-      LayerMask:
-        serializedVersion: 2
-        m_Bits: 0
-      PassNames: []
-    overrideMaterial: {fileID: 0}
-    overrideMaterialPassIndex: 0
-    overrideShader: {fileID: 0}
-    overrideShaderPassIndex: 0
-    overrideMode: 1
-    overrideDepthState: 0
-    depthCompareFunction: 4
-    enableWrite: 1
-    stencilSettings:
-      overrideStencilState: 0
-      stencilReference: 0
-      stencilCompareFunction: 8
-      passOperation: 0
-      failOperation: 0
-      zFailOperation: 0
-    cameraSettings:
-      overrideCamera: 0
-      restoreCamera: 1
-      offset: {x: 0, y: 0, z: 0, w: 0}
-      cameraFieldOfView: 60
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 11145981673336645838492a2d98e247, type: 3}
-  m_Name: URP_Asset_Render
+  m_Name: New Universal Render Pipeline Asset_Renderer
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.Renderer2DData
   debugShaders:
     debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7, type: 3}
@@ -66,9 +24,8 @@ MonoBehaviour:
     probeSamplingDebugMesh: {fileID: 0}
     probeSamplingDebugTexture: {fileID: 0}
     probeVolumeBlendStatesCS: {fileID: 0}
-  m_RendererFeatures:
-  - {fileID: -6257704976426407117}
-  m_RendererFeatureMap: 33ebe88a7a2a28a9
+  m_RendererFeatures: []
+  m_RendererFeatureMap: 
   m_UseNativeRenderPass: 0
   m_LayerMask:
     serializedVersion: 2

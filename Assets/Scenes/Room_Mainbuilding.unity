@@ -674,7 +674,7 @@ GameObject:
   - component: {fileID: 970673152}
   - component: {fileID: 970673151}
   m_Layer: 4
-  m_Name: Rain (1)
+  m_Name: Regen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -769,7 +769,7 @@ ParticleSystem:
   m_GameObject: {fileID: 970673150}
   serializedVersion: 8
   lengthInSec: 5
-  simulationSpeed: 0.5
+  simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
@@ -1597,7 +1597,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 150
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -5492,11 +5492,11 @@ Transform:
   m_GameObject: {fileID: 970673150}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.08715578, w: 0.9961947}
-  m_LocalPosition: {x: -1.08957, y: -0.09841, z: -1}
+  m_LocalPosition: {x: -724.6026, y: -210.25465, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1508051206}
+  m_Father: {fileID: 1318518939}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -10}
 --- !u!1001 &1014199150
 PrefabInstance:
@@ -5763,10 +5763,12 @@ Transform:
   m_GameObject: {fileID: 1318518935}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 723.51306, y: 210.15622, z: 0}
+  m_LocalPosition: {x: 723.513, y: 210.15625, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 970673153}
+  - {fileID: 1733601287}
   m_Father: {fileID: 1508051206}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1330096921
@@ -5918,8 +5920,6 @@ Transform:
   - {fileID: 854987283}
   - {fileID: 2133101636}
   - {fileID: 1318518939}
-  - {fileID: 970673153}
-  - {fileID: 1733601287}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1515013318 stripped
@@ -6591,7 +6591,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1733601287}
   - component: {fileID: 1733601286}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Outdoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6659,11 +6659,11 @@ Transform:
   m_GameObject: {fileID: 1733601285}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -723.513, y: -210.15625, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1508051206}
+  m_Father: {fileID: 1318518939}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1792183913
 GameObject:
