@@ -806,7 +806,7 @@ GameObject:
   - component: {fileID: 198806212}
   - component: {fileID: 198806211}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Weather_and_Time
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
