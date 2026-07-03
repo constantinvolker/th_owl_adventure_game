@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e423f05ceb393f14798988a335e61195, type: 3}
   m_Name: TimeSettingsSO
   m_EditorClassIdentifier: Assembly-CSharp::TimeSettingsSO
-  realSecondsPerIngameDay: 20
+  realSecondsPerIngameDay: 2000
   startHour: 10
   startMinute: 0
   startPaused: 0

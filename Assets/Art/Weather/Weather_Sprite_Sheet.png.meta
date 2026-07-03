@@ -1,0 +1,607 @@
+fileFormatVersion: 2
+guid: 9ad7224629f89c3479547ff1de1995e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7665063507388127694
+    second: Weather_Sprite_Sheet_0
+  - first:
+      213: 2146072597803573500
+    second: Weather_Sprite_Sheet_1
+  - first:
+      213: -6175322006324277096
+    second: Weather_Sprite_Sheet_2
+  - first:
+      213: 7450650504202781911
+    second: Weather_Sprite_Sheet_3
+  - first:
+      213: 1354173569623516554
+    second: Weather_Sprite_Sheet_4
+  - first:
+      213: -4308635491099762094
+    second: Weather_Sprite_Sheet_5
+  - first:
+      213: -5339179067112319471
+    second: Weather_Sprite_Sheet_6
+  - first:
+      213: -7564172268953339248
+    second: Weather_Sprite_Sheet_7
+  - first:
+      213: -929932710108460454
+    second: Weather_Sprite_Sheet_8
+  - first:
+      213: 1391663709948920791
+    second: Weather_Sprite_Sheet_9
+  - first:
+      213: 2415118756069935346
+    second: Weather_Sprite_Sheet_10
+  - first:
+      213: 5143844925639110412
+    second: Weather_Sprite_Sheet_11
+  - first:
+      213: 5145082058762555817
+    second: Weather_Sprite_Sheet_12
+  - first:
+      213: -616007767561868896
+    second: Weather_Sprite_Sheet_13
+  - first:
+      213: -4695622707503700893
+    second: Weather_Sprite_Sheet_14
+  - first:
+      213: 6363609740088909719
+    second: Weather_Sprite_Sheet_15
+  - first:
+      213: -9058096961939091699
+    second: Weather_Sprite_Sheet_16
+  - first:
+      213: 2702909247181521197
+    second: Weather_Sprite_Sheet_17
+  - first:
+      213: -3091544923150102810
+    second: Weather_Sprite_Sheet_18
+  - first:
+      213: 296803908471538077
+    second: Weather_Sprite_Sheet_19
+  - first:
+      213: -4201429272249936180
+    second: Weather_Sprite_Sheet_20
+  - first:
+      213: -1386503238528585077
+    second: Weather_Sprite_Sheet_21
+  - first:
+      213: -8049279020121231510
+    second: Weather_Sprite_Sheet_22
+  - first:
+      213: -6514456296043674998
+    second: Weather_Sprite_Sheet_23
+  - first:
+      213: 8903913305793807541
+    second: Weather_Sprite_Sheet_24
+  - first:
+      213: -1404041497275307857
+    second: Weather_Sprite_Sheet_25
+  - first:
+      213: 1836937348913627608
+    second: Weather_Sprite_Sheet_26
+  - first:
+      213: -5182927030385081412
+    second: Weather_Sprite_Sheet_27
+  - first:
+      213: -8307294792796898720
+    second: Weather_Sprite_Sheet_28
+  - first:
+      213: -6824249200282203487
+    second: Weather_Sprite_Sheet_29
+  - first:
+      213: 5593885059793808297
+    second: Weather_Sprite_Sheet_30
+  - first:
+      213: 1401450504842570880
+    second: Weather_Sprite_Sheet_31
+  - first:
+      213: -3249395183640438015
+    second: Weather_Sprite_Sheet_32
+  - first:
+      213: -179125282638423554
+    second: Weather_Sprite_Sheet_33
+  - first:
+      213: -592996775368614058
+    second: Weather_Sprite_Sheet_34
+  - first:
+      213: -4534662352039823960
+    second: Weather_Sprite_Sheet_35
+  - first:
+      213: 5493722613218551710
+    second: Weather_Sprite_Sheet_36
+  - first:
+      213: -3385874678209387764
+    second: Weather_Sprite_Sheet_37
+  - first:
+      213: -8534469254246404305
+    second: Weather_Sprite_Sheet_38
+  - first:
+      213: -4277865455455452454
+    second: Weather_Sprite_Sheet_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Weather_Sprite_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 784
+        width: 180
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236225de95930a590800000000000000
+      internalID: -7665063507388127694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Sprite_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 784
+        width: 180
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0284648a168cd10800000000000000
+      internalID: 2146072597803573500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Sprite_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 784
+        width: 180
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890936f7a59dc4aa0800000000000000
+      internalID: -6175322006324277096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Sprite_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 784
+        width: 180
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d487988827066760800000000000000
+      internalID: 7450650504202781911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Sprite_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 584
+        width: 180
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85e1a5dfadfac210800000000000000
+      internalID: 1354173569623516554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Sprite_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 584
+        width: 180
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252ab5659d6a434c0800000000000000
+      internalID: -4308635491099762094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Sprite_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 584
+        width: 180
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11691983dec67e5b0800000000000000
+      internalID: -5339179067112319471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Sprite_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 584
+        width: 180
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09afc29e569a60790800000000000000
+      internalID: -7564172268953339248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Sprite_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 384
+        width: 180
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a08fc80273813f0800000000000000
+      internalID: -929932710108460454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Sprite_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 384
+        width: 180
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3ce4655ce205310800000000000000
+      internalID: 1391663709948920791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Sprite_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 384
+        width: 180
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f88ee976b9348120800000000000000
+      internalID: 2415118756069935346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Sprite_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 384
+        width: 180
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f2a64e4bb926740800000000000000
+      internalID: 5143844925639110412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Sprite_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 184
+        width: 180
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a117c46fd0076740800000000000000
+      internalID: 5145082058762555817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Sprite_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 184
+        width: 180
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9e79bf2308377f0800000000000000
+      internalID: -616007767561868896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Sprite_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 184
+        width: 180
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364ebf7a60cc5deb0800000000000000
+      internalID: -4695622707503700893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weather_Sprite_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 184
+        width: 180
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f173fb755105850800000000000000
+      internalID: 6363609740088909719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 25a51706a1804b448a5e4c78d93dc66f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":180.0,"y":170.0},"gridSpriteOffset":{"x":80.0,"y":70.0},"gridSpritePadding":{"x":40.0,"y":30.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Weather_Sprite_Sheet_0: -7665063507388127694
+      Weather_Sprite_Sheet_1: 2146072597803573500
+      Weather_Sprite_Sheet_10: 2415118756069935346
+      Weather_Sprite_Sheet_11: 5143844925639110412
+      Weather_Sprite_Sheet_12: 5145082058762555817
+      Weather_Sprite_Sheet_13: -616007767561868896
+      Weather_Sprite_Sheet_14: -4695622707503700893
+      Weather_Sprite_Sheet_15: 6363609740088909719
+      Weather_Sprite_Sheet_2: -6175322006324277096
+      Weather_Sprite_Sheet_3: 7450650504202781911
+      Weather_Sprite_Sheet_4: 1354173569623516554
+      Weather_Sprite_Sheet_5: -4308635491099762094
+      Weather_Sprite_Sheet_6: -5339179067112319471
+      Weather_Sprite_Sheet_7: -7564172268953339248
+      Weather_Sprite_Sheet_8: -929932710108460454
+      Weather_Sprite_Sheet_9: 1391663709948920791
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
