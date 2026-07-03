@@ -5713,11 +5713,13 @@ MonoBehaviour:
     m_PreInfinity: 0
     m_PostInfinity: 2
     m_RotationOrder: 4
+  cloudyIntensityMultiplier: 0.8
+  cloudyColorTint: {r: 0.8, g: 0.8, b: 0.85, a: 1}
   rainIntensityMultiplier: 0.6
-  rainColorTint: {r: 0.16153437, g: 0.20202923, b: 0.2830189, a: 1}
+  rainColorTint: {r: 0.33090067, g: 0.3875561, b: 0.49056602, a: 1}
   rainEmissionRate: 60
-  stormIntensityMultiplier: 0.4
-  stormColorTint: {r: 0.5, g: 0.55, b: 0.65, a: 1}
+  stormIntensityMultiplier: 0.6
+  stormColorTint: {r: 0.22588108, g: 0.26142532, b: 0.33962262, a: 1}
   stormEmissionRate: 150
   weatherTransitionSpeed: 0
 --- !u!114 &1318518937

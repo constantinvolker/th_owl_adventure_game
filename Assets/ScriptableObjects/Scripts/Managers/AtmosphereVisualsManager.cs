@@ -16,10 +16,14 @@ public class AtmosphereVisualsManager : MonoBehaviour
     public Gradient dailyColor;
     public AnimationCurve dailyIntensity;
 
+    [Header("Weather Modifiers (Cloudy)")]
+    [Range(0f, 1f)] public float cloudyIntensityMultiplier = 0.8f; // Leicht dunkler als sonnig
+    public Color cloudyColorTint = new Color(0.8f, 0.8f, 0.85f); // Leichtes Grau
+    
     [Header("Weather Modifiers (Rain)")]
-    [Range(0f, 1f)] public float rainIntensityMultiplier = 0.6f;
-    public Color rainColorTint = new Color(0.7f, 0.75f, 0.85f);
-    public float rainEmissionRate = 60f;
+    [Range(0f, 1f)] public float rainIntensityMultiplier = 0.6f; // Macht das Licht auf 60% dunkler
+    public Color rainColorTint = new Color(0.7f, 0.75f, 0.85f); // Leichtes Grau-Blau
+    public float rainEmissionRate = 60f; // Wie viele Tropfen pro Sekunde
 
     [Header("Weather Modifiers (Storm)")]
     [Range(0f, 1f)] public float stormIntensityMultiplier = 0.4f;
@@ -96,7 +100,7 @@ public class AtmosphereVisualsManager : MonoBehaviour
     {
         Debug.Log($"[AtmosphereVisualsManager] Applying weather state: {weather}, rainParticleSystem is {(rainParticleSystem != null ? "assigned" : "NULL")}");
 
-        // 1. Partikel-Effekte steuern
+        // 1. Partikel-Effekte steuern (nur bei Regen/Sturm)
         if (rainParticleSystem != null)
         {
             if (weather == WeatherType.Rain || weather == WeatherType.Storm)
@@ -115,14 +119,15 @@ public class AtmosphereVisualsManager : MonoBehaviour
                     rainParticleSystem.Stop();
             }
         }
-        else
-        {
-            Debug.LogWarning("[AtmosphereVisualsManager] rainParticleSystem ist NULL!");
-        }
 
         // 2. Licht-Modifikatoren basierend auf dem Enum bestimmen
         switch (weather)
         {
+            case WeatherType.Cloudy:
+                targetWeatherIntensityMod = cloudyIntensityMultiplier;
+                targetWeatherColorMod = cloudyColorTint;
+                break;
+
             case WeatherType.Rain:
                 targetWeatherIntensityMod = rainIntensityMultiplier;
                 targetWeatherColorMod = rainColorTint;
@@ -136,7 +141,7 @@ public class AtmosphereVisualsManager : MonoBehaviour
             case WeatherType.Sunny:
             default:
                 targetWeatherIntensityMod = 1f;
-                targetWeatherColorMod = Color.white;
+                targetWeatherColorMod = Color.white; // Keine Veränderung bei Sonne
                 break;
         }
 
