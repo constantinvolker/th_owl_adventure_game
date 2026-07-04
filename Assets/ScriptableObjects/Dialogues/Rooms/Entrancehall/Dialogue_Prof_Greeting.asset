@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b577ddb795ab10f44b8b39f5a07fafc3, type: 3}
+  m_Name: Dialogue_Prof_Greeting
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speaker: {fileID: 11400000, guid: 8b70f07df4a4ed648b07b7971cfbf521, type: 2}
+    text: Ah, da bist du ja. Ich warte schon.
+  - speaker: {fileID: 11400000, guid: 8b70f07df4a4ed648b07b7971cfbf521, type: 2}
+    text: "Du wei\xDFt was heute ansteht: die Abgabe."
+  - speaker: {fileID: 11400000, guid: 8b70f07df4a4ed648b07b7971cfbf521, type: 2}
+    text: "Ich brauche drei Dinge von dir: den Bauplan aus der Bibliothek, das Holzgeh\xE4use
+      aus dem Labor und die best\xFCckte Platine aus dem FB5."
+  - speaker: {fileID: 11400000, guid: 8b70f07df4a4ed648b07b7971cfbf521, type: 2}
+    text: "Wenn du alles hast, komm zur\xFCck. Dann schauen wir was dein Team geleistet
+      hat."
+  options: []
+  repeatingDialogue: {fileID: 0}

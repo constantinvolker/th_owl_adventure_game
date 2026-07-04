@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052c0a25b336dcb438b3c3a9c4ea1b7f, type: 3}
+  m_Name: Combo_CalculatorBatteries
+  m_EditorClassIdentifier: Assembly-CSharp::ItemCombination
+  itemA: {fileID: 11400000, guid: fd49f65d6322ab842ace54aa9ca9aeb3, type: 2}
+  itemB: {fileID: 11400000, guid: 55b6f860773bbde42a4c5c9197315b69, type: 2}
+  result: {fileID: 11400000, guid: 84fe81d384196cf4abe9795db1fb5b19, type: 2}
+  consumeBoth: 1
+  successDialogue: {fileID: 0}
+  failDialogue: {fileID: 0}

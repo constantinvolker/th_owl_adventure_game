@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b577ddb795ab10f44b8b39f5a07fafc3, type: 3}
+  m_Name: Dialogue_April_MainOptions
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines: []
+  options:
+  - optionText: "Wo k\xF6nnte die Brille sein?"
+    nextDialogue: {fileID: 0}
+    isEndOption: 0
+  - optionText: "Was muss ich aufr\xE4umen?"
+    nextDialogue: {fileID: 0}
+    isEndOption: 0
+  - optionText: Ich schau mich mal um.
+    nextDialogue: {fileID: 0}
+    isEndOption: 1
+  repeatingDialogue: {fileID: 0}

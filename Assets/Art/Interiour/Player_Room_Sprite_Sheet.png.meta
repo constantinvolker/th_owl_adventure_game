@@ -1,0 +1,933 @@
+fileFormatVersion: 2
+guid: a1df2decf31774945a91e9ed03b922cd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3486638782478317582
+    second: Player_Room_Sprite_Sheet 1_0
+  - first:
+      213: 3412164798053365200
+    second: Player_Room_Sprite_Sheet 1_1
+  - first:
+      213: -8168218316243154430
+    second: Player_Room_Sprite_Sheet 1_2
+  - first:
+      213: 4343281588653226879
+    second: Player_Room_Sprite_Sheet 1_3
+  - first:
+      213: 3037456134525708126
+    second: Player_Room_Sprite_Sheet 1_4
+  - first:
+      213: 6784088107902802089
+    second: Player_Room_Sprite_Sheet 1_5
+  - first:
+      213: -257375604047049435
+    second: Player_Room_Sprite_Sheet 1_6
+  - first:
+      213: 3631548433227011431
+    second: Player_Room_Sprite_Sheet 1_7
+  - first:
+      213: -4976191349620804748
+    second: Player_Room_Sprite_Sheet 1_8
+  - first:
+      213: 6462051547748644286
+    second: Player_Room_Sprite_Sheet 1_9
+  - first:
+      213: -3795606642795311986
+    second: Player_Room_Sprite_Sheet 1_10
+  - first:
+      213: -6001382736499751540
+    second: Player_Room_Sprite_Sheet 1_11
+  - first:
+      213: -1261122851901408001
+    second: Player_Room_Sprite_Sheet 1_12
+  - first:
+      213: 7997417025987608645
+    second: Player_Room_Sprite_Sheet 1_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 484
+        width: 198
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85e1bae69970c940b049471677a3982
+      internalID: 1618193159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 452
+        width: 36
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5bb56f834c08a41bf82ccd67e710a4
+      internalID: -856392909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 420
+        width: 38
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589e0bafd8068034996353e215bd3695
+      internalID: 1022106064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 420
+        width: 38
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df0afb68d953a04895d8737948826da
+      internalID: 1760456855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 420
+        width: 36
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d129df865b704eb4e8fd198f11fce02f
+      internalID: 204662587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 420
+        width: 36
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd142e0b5495bb4499105e81094485e
+      internalID: 1002749118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 357
+        width: 36
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6204227c69234d7428fec01dbc6fa906
+      internalID: 720003353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 372
+        width: 66
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc93e9533fcb34428a19644ce4ef915
+      internalID: 741261828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 372
+        width: 48
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92ed4583afd9444d9bd94ec25f28e80
+      internalID: -2006891813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 294
+        width: 43
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5eaa5a2c35d864785635a4d09fee82
+      internalID: 1086026619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 294
+        width: 43
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d733f2803160d79488f3f3ca81d59977
+      internalID: -453893030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 294
+        width: 43
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9a630e9a0ee574ea20e1a6a3310f1b
+      internalID: -714889330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 294
+        width: 43
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed661dbf889af544aa31d2716f64bc1d
+      internalID: 1834095834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 229
+        width: 74
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae27268860250d4b80a4cbd5a19fe70
+      internalID: 327435300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 265
+        width: 16
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c657e7d221823d49bce77ff4f63a7b8
+      internalID: -538604327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 260
+        width: 16
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc498b70a243804bac72f07a4aa4219
+      internalID: 705083324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 148
+        width: 36
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59700a1c455663d4f9f002faf6a428fd
+      internalID: -1739751319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 197
+        width: 67
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0133f7fe7742746a31c5aba8fbc665
+      internalID: -45106735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 148
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a95bbdbeac75647831e9ef2a5ea9ae
+      internalID: 1772459728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 148
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa67b71af74b3274a955f29bcc53f457
+      internalID: 1017590155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 148
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a4f65421215634b9d45fe4b75a8e94
+      internalID: -874841368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 103
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecd7d164540a0542922b698043f2b37
+      internalID: -1439331332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 84
+        width: 12
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5190e6450d9f9c409d3556a5de30ec1
+      internalID: -61546695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 84
+        width: 12
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d53046933cb9f749b85529b171ceb7a
+      internalID: -2127231022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 67
+        width: 57
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1b90e8828a2d74fa021aa3375d1bb1
+      internalID: 1378194040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 67
+        width: 23
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3b539e08d750a4b9b64d0310f82bc9
+      internalID: -6360724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 66
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a309d72238208b94c884351bffec9f69
+      internalID: 629309058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 84
+        width: 8
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e870ea0393ff5c04184852201a35a1dd
+      internalID: 143718523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 31
+        width: 57
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4bd5b76879c43449c7ad53d0716952
+      internalID: 264239581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 19
+        width: 50
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed0eb1064d17e24d9b5d0f07a30c4c4
+      internalID: -504318391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 52
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c994cdca86eb1458a81dc0cae3cb27
+      internalID: 1839452337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 5
+        width: 58
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f69018c8b15819449cb2d9228bf2595
+      internalID: -588767014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Room_Sprite_Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 4
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff4115f39030894cb9807da9b648ed2
+      internalID: 250376668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e6ddd0ae9bf80fa4299f969d42b5514b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Player_Room_Sprite_Sheet_0: 1618193159
+      Player_Room_Sprite_Sheet_1: -856392909
+      Player_Room_Sprite_Sheet_10: -453893030
+      Player_Room_Sprite_Sheet_11: -714889330
+      Player_Room_Sprite_Sheet_12: 1834095834
+      Player_Room_Sprite_Sheet_13: 327435300
+      Player_Room_Sprite_Sheet_14: -538604327
+      Player_Room_Sprite_Sheet_15: 705083324
+      Player_Room_Sprite_Sheet_16: -1739751319
+      Player_Room_Sprite_Sheet_17: -45106735
+      Player_Room_Sprite_Sheet_18: 1772459728
+      Player_Room_Sprite_Sheet_19: 1017590155
+      Player_Room_Sprite_Sheet_2: 1022106064
+      Player_Room_Sprite_Sheet_20: -874841368
+      Player_Room_Sprite_Sheet_21: -1439331332
+      Player_Room_Sprite_Sheet_22: -61546695
+      Player_Room_Sprite_Sheet_23: -2127231022
+      Player_Room_Sprite_Sheet_24: 1378194040
+      Player_Room_Sprite_Sheet_25: -6360724
+      Player_Room_Sprite_Sheet_26: 629309058
+      Player_Room_Sprite_Sheet_27: 143718523
+      Player_Room_Sprite_Sheet_28: 264239581
+      Player_Room_Sprite_Sheet_29: -504318391
+      Player_Room_Sprite_Sheet_3: 1760456855
+      Player_Room_Sprite_Sheet_30: 1839452337
+      Player_Room_Sprite_Sheet_31: -588767014
+      Player_Room_Sprite_Sheet_32: 250376668
+      Player_Room_Sprite_Sheet_4: 204662587
+      Player_Room_Sprite_Sheet_5: 1002749118
+      Player_Room_Sprite_Sheet_6: 720003353
+      Player_Room_Sprite_Sheet_7: 741261828
+      Player_Room_Sprite_Sheet_8: -2006891813
+      Player_Room_Sprite_Sheet_9: 1086026619
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
