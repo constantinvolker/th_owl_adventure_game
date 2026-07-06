@@ -11,11 +11,11 @@ public class ForegroundZone : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
-            wall.TriggerForeground();
+            wall?.TriggerForeground();
     }
     void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
-            wall.TriggerForeground();
+            wall?.TriggerForeground();
     }
 }
