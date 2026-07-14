@@ -3,7 +3,7 @@ using UnityEngine.U2D;
 using UnityEngine.Rendering.Universal;
 
 [RequireComponent(typeof(Camera))]
-[RequireComponent(typeof(UnityEngine.U2D.PixelPerfectCamera))]
+
 public class CameraFollow : MonoBehaviour
 {
     public static CameraFollow Instance { get; private set; }
@@ -46,6 +46,12 @@ public class CameraFollow : MonoBehaviour
         _cam.cullingMask = -1;
     }
 
+    void OnDestroy()
+    {
+        if (Instance == this)
+            Instance = null;
+    }
+
     void Start()
     {
         TryFindTarget();
@@ -61,7 +67,7 @@ public class CameraFollow : MonoBehaviour
             if (_target == null) return;
         }
 
-        // Zielposition berechnen. WICHTIG: Behält die aktuelle Z-Position der Kamera bei (sollte -10 sein!)
+        // Zielposition berechnen. WICHTIG: Behï¿½lt die aktuelle Z-Position der Kamera bei (sollte -10 sein!)
         Vector3 desired = new Vector3(
             _target.position.x,
             _target.position.y,
