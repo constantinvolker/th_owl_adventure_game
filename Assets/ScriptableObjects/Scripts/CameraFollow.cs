@@ -1,9 +1,8 @@
 using UnityEngine;
-using UnityEngine.U2D;
 using UnityEngine.Rendering.Universal;
 
 [RequireComponent(typeof(Camera))]
-[RequireComponent(typeof(UnityEngine.U2D.PixelPerfectCamera))]
+
 public class CameraFollow : MonoBehaviour
 {
     public static CameraFollow Instance { get; private set; }
@@ -13,14 +12,13 @@ public class CameraFollow : MonoBehaviour
 
     [Header("Ziel (Target)")]
     [Tooltip("Ziehe deinen Spieler hier rein!")]
-    [SerializeField] private Transform _target; // <-- HIER IST DER FIX! Jetzt im Inspector sichtbar.
+    [SerializeField] private Transform _target;
 
     [Header("Grenzen (Bounds)")]
     private Bounds _roomBounds;
     private bool _hasBounds = false;
 
     private Camera _cam;
-    private UnityEngine.U2D.PixelPerfectCamera _pixelPerfect;
     private UniversalAdditionalCameraData _additionalCameraData;
 
     void Awake()
@@ -31,11 +29,9 @@ public class CameraFollow : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-
         Instance = this;
 
         _cam = GetComponent<Camera>();
-        _pixelPerfect = GetComponent<UnityEngine.U2D.PixelPerfectCamera>();
 
         // URP Kamera Setup
         _additionalCameraData = GetComponent<UniversalAdditionalCameraData>();
@@ -53,26 +49,25 @@ public class CameraFollow : MonoBehaviour
 
     void LateUpdate()
     {
-        // Wenn wir kein Ziel haben, versuche es nochmal zu finden. 
-        // Bricht ab, wenn immer noch keins da ist.
+        // 1. Haben wir ein Ziel?
         if (_target == null)
         {
             TryFindTarget();
             if (_target == null) return;
         }
 
-        // Zielposition berechnen. WICHTIG: Behält die aktuelle Z-Position der Kamera bei (sollte -10 sein!)
+        // 2. Zielposition berechnen. Zwingt die Kamera auf Z = -10!
         Vector3 desired = new Vector3(
             _target.position.x,
             _target.position.y,
-            transform.position.z
+            -10f // WICHTIG: Fest auf -10 gesetzt, damit sie nicht in den Spieler rutscht
         );
 
-        // Grenzen anwenden, falls vorhanden
+        // 3. Grenzen anwenden
         if (_hasBounds)
             desired = ClampToBounds(desired);
 
-        // Sanfte Kamerabewegung (Lerp)
+        // 4. Bewegen
         transform.position = Vector3.Lerp(
             transform.position,
             desired,
@@ -82,10 +77,14 @@ public class CameraFollow : MonoBehaviour
 
     private void TryFindTarget()
     {
-        // Sucht nur automatisch nach dem Spieler, wenn das Feld im Inspector leer gelassen wurde
         if (_target == null && PlayerMovement.Instance != null)
         {
             _target = PlayerMovement.Instance.transform;
+            Debug.Log("CameraFollow: Spieler wurde erfolgreich gefunden und als Ziel gesetzt!");
+        }
+        else if (_target == null)
+        {
+            Debug.LogWarning("CameraFollow: Warte auf Spieler... Kein Ziel gefunden!");
         }
     }
 
@@ -104,11 +103,7 @@ public class CameraFollow : MonoBehaviour
     {
         if (_target == null) return;
 
-        Vector3 pos = new Vector3(
-            _target.position.x,
-            _target.position.y,
-            transform.position.z
-        );
+        Vector3 pos = new Vector3(_target.position.x, _target.position.y, -10f);
 
         if (_hasBounds)
             pos = ClampToBounds(pos);
