@@ -18,7 +18,7 @@ using System.Collections.Generic;
 /// <para> - Randomly selects which seats are occupied and assigns NPC sprites.
 /// </para>
 /// </remarks>
-public class AuditoriumStateController : MonoBehaviour
+public class AuditoriumStateController : SpriteControllerList
 {
     private int totalSeats;
     [Header("Number of chairs taken by NPCs")]
@@ -49,8 +49,7 @@ public class AuditoriumStateController : MonoBehaviour
         if (takenSeats == 0) {
             foreach (var seat in seats)
                 seat.SetSprite(1);  // chair up
-            foreach (var npc in npcs)
-                npc.DeactivateObject();
+            DeactivateAll(npcs);
             return;
         }
         else if (takenSeats >= totalSeats)
@@ -66,16 +65,7 @@ public class AuditoriumStateController : MonoBehaviour
     }
     private void SetTakenSeats()
     {
-        List<int> indices = new();
-        for (int i = 0; i < totalSeats; i++)
-            indices.Add(i);
-    
-        // shuffle
-        for (int i = 0; i < indices.Count; i++)
-        {
-            int swap = Random.Range(i, indices.Count);
-            (indices[i], indices[swap]) = (indices[swap], indices[i]);
-        }
+        List<int> indices = GetRandomIndices(totalSeats);
 
         // deactivate all
         for (int i = 0; i < totalSeats; i++)

@@ -41,7 +41,7 @@ public class SpriteController : MonoBehaviour
     }
     public void SetSprite(int index)
     {
-        if (spriteRenderer != null && sprites.Length > index)
+        if (spriteRenderer != null && sprites.Length > index && index >= 0)
         {
             spriteRenderer.sprite = sprites[index];
         }
@@ -55,6 +55,10 @@ public class SpriteController : MonoBehaviour
     public void DeactivateObject()
     {
         gameObject.SetActive(false);
+    }
+    public void ActivateObject()
+    {
+        gameObject.SetActive(true);
     }
     public void SetRandomSprite()
     {

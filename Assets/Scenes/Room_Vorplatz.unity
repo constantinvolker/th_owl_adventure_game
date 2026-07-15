@@ -492,7 +492,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2249516894290289689, guid: efebb9154c214774c97d0cdc15142f8d, type: 3}
+  m_Sprite: {fileID: 5669618639632676738, guid: efebb9154c214774c97d0cdc15142f8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3486,7 +3486,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -6218472690837380741, guid: efebb9154c214774c97d0cdc15142f8d, type: 3}
+  m_Sprite: {fileID: 5669618639632676738, guid: efebb9154c214774c97d0cdc15142f8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4769,6 +4769,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1793528748}
+  - {fileID: 1438383075}
   - {fileID: 254353497}
   - {fileID: 838520807}
   - {fileID: 41308967}
@@ -9105,7 +9107,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2249516894290289689, guid: efebb9154c214774c97d0cdc15142f8d, type: 3}
+  m_Sprite: {fileID: 554621093947482703, guid: efebb9154c214774c97d0cdc15142f8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9852,7 +9854,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2249516894290289689, guid: efebb9154c214774c97d0cdc15142f8d, type: 3}
+  m_Sprite: {fileID: 5669618639632676738, guid: efebb9154c214774c97d0cdc15142f8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11093,7 +11095,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 554621093947482703, guid: efebb9154c214774c97d0cdc15142f8d, type: 3}
+  m_Sprite: {fileID: 5669618639632676738, guid: efebb9154c214774c97d0cdc15142f8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11641,7 +11643,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -6218472690837380741, guid: efebb9154c214774c97d0cdc15142f8d, type: 3}
+  m_Sprite: {fileID: 5669618639632676738, guid: efebb9154c214774c97d0cdc15142f8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11742,6 +11744,68 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &643106493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 643106494}
+  - component: {fileID: 643106495}
+  m_Layer: 0
+  m_Name: WerbeTafelnSpriteControllerList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &643106494
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643106493}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1912898527}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &643106495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643106493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 219f471a2be61404bbf1e303c265cc96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteControllerList
+  spriteControllers:
+  - {fileID: 827374998}
+  - {fileID: 353848125}
+  - {fileID: 129350317}
+  - {fileID: 691971700}
+  configurations:
+  - timePeriod: 1
+    activation: 0
+    fromAllSprites: 0
+    SpriteIndexRange:
+      min: 0
+      max: 0
+  - timePeriod: 2
+    activation: 0
+    fromAllSprites: 0
+    SpriteIndexRange:
+      min: 2
+      max: 9
 --- !u!1 &644270951
 GameObject:
   m_ObjectHideFlags: 0
@@ -12642,6 +12706,7 @@ Transform:
   - {fileID: 965116785}
   - {fileID: 2126027833}
   - {fileID: 486216709}
+  - {fileID: 2020737291}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &691706546
@@ -14977,6 +15042,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1006888568}
   - {fileID: 1124157728}
   - {fileID: 1322750031}
   - {fileID: 1170418377}
@@ -15830,6 +15896,76 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1006888566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1006888568}
+  - component: {fileID: 1006888567}
+  m_Layer: 0
+  m_Name: FahrraederSpriteControllerList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1006888567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006888566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 219f471a2be61404bbf1e303c265cc96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteControllerList
+  spriteControllers:
+  - {fileID: 1424482846}
+  - {fileID: 496440041}
+  - {fileID: 1310489266}
+  - {fileID: 1789068560}
+  - {fileID: 640541320}
+  - {fileID: 1523654966}
+  - {fileID: 471269778}
+  - {fileID: 575521263}
+  - {fileID: 2009167927}
+  - {fileID: 5819168}
+  - {fileID: 434429981}
+  - {fileID: 162238049}
+  configurations:
+  - timePeriod: 1
+    activation: 3
+    fromAllSprites: 1
+    SpriteIndexRange:
+      min: 0
+      max: 0
+  - timePeriod: 2
+    activation: 4
+    fromAllSprites: 1
+    SpriteIndexRange:
+      min: 0
+      max: 0
+--- !u!4 &1006888568
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006888566}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 929342780}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1009914899
 GameObject:
   m_ObjectHideFlags: 0
@@ -20871,7 +21007,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -6218472690837380741, guid: efebb9154c214774c97d0cdc15142f8d, type: 3}
+  m_Sprite: {fileID: -2249516894290289689, guid: efebb9154c214774c97d0cdc15142f8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -22304,6 +22440,81 @@ Transform:
   - {fileID: 1155230155}
   m_Father: {fileID: 92936202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1438383074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1438383075}
+  - component: {fileID: 1438383076}
+  m_Layer: 0
+  m_Name: LaternenLichtSpriteControllerList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1438383075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438383074}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 264008387}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1438383076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438383074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 219f471a2be61404bbf1e303c265cc96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteControllerList
+  spriteControllers:
+  - {fileID: 73440939}
+  - {fileID: 1571993746}
+  - {fileID: 1976496685}
+  - {fileID: 436234388}
+  - {fileID: 1416806755}
+  - {fileID: 2065389785}
+  - {fileID: 1386812902}
+  - {fileID: 402941276}
+  - {fileID: 388332032}
+  - {fileID: 1850140340}
+  - {fileID: 376284181}
+  - {fileID: 1284775014}
+  - {fileID: 2125347811}
+  - {fileID: 1789385844}
+  - {fileID: 2130624684}
+  - {fileID: 1413471784}
+  - {fileID: 1820966944}
+  configurations:
+  - timePeriod: 1
+    activation: 0
+    fromAllSprites: 0
+    SpriteIndexRange:
+      min: 0
+      max: 0
+  - timePeriod: 2
+    activation: 1
+    fromAllSprites: 0
+    SpriteIndexRange:
+      min: 0
+      max: 0
 --- !u!1 &1448900667
 GameObject:
   m_ObjectHideFlags: 0
@@ -27582,7 +27793,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 554621093947482703, guid: efebb9154c214774c97d0cdc15142f8d, type: 3}
+  m_Sprite: {fileID: 5669618639632676738, guid: efebb9154c214774c97d0cdc15142f8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -27698,6 +27909,81 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1793528747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1793528748}
+  - component: {fileID: 1793528749}
+  m_Layer: 0
+  m_Name: LaternenSpriteControllerList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1793528748
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793528747}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 264008387}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1793528749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793528747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 219f471a2be61404bbf1e303c265cc96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteControllerList
+  spriteControllers:
+  - {fileID: 1384897129}
+  - {fileID: 1824235624}
+  - {fileID: 1229525964}
+  - {fileID: 2133827326}
+  - {fileID: 1009914903}
+  - {fileID: 53041710}
+  - {fileID: 1787416812}
+  - {fileID: 935545127}
+  - {fileID: 934979616}
+  - {fileID: 1625787264}
+  - {fileID: 1233573884}
+  - {fileID: 147683070}
+  - {fileID: 65469638}
+  - {fileID: 312302914}
+  - {fileID: 1657866085}
+  - {fileID: 1622225281}
+  - {fileID: 110171318}
+  configurations:
+  - timePeriod: 2
+    activation: 0
+    fromAllSprites: 0
+    SpriteIndexRange:
+      min: 0
+      max: 0
+  - timePeriod: 1
+    activation: 0
+    fromAllSprites: 0
+    SpriteIndexRange:
+      min: 1
+      max: 1
 --- !u!1 &1811174270
 GameObject:
   m_ObjectHideFlags: 0
@@ -29132,6 +29418,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 643106494}
   - {fileID: 1757292924}
   - {fileID: 498141263}
   - {fileID: 299057065}
@@ -30648,6 +30935,56 @@ Transform:
   - {fileID: 266818385}
   m_Father: {fileID: 1082261012}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2020737290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2020737291}
+  - component: {fileID: 2020737292}
+  m_Layer: 0
+  m_Name: SpriteControllerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2020737291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020737290}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 686273554}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2020737292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020737290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0466613e2394ba34baa1f7172daa3bf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteControllerManager
+  currentTimePeriod: 2
+  spriteControllerLists:
+  - {fileID: 1006888567}
+  - {fileID: 1438383076}
+  - {fileID: 1793528749}
+  - {fileID: 643106495}
 --- !u!1 &2021017260
 GameObject:
   m_ObjectHideFlags: 0
