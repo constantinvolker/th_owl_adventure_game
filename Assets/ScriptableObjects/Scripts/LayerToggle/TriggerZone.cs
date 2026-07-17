@@ -1,64 +1,66 @@
 using UnityEngine;
 using System.Collections.Generic;
-
-/// <summary>
-/// Trigger zone that switches the referenced LayerToggle object
-/// to its foreground and background sorting layer.
-/// </summary>
-/// <remarks>
-/// Use case: Colliders are used for multiple objects.
-/// </remarks>
-public class TriggerZone : MonoBehaviour
+namespace AdventureGame.LayerToggle
 {
-    [Header("Objects to toggle")]
-    public Transform[] targetsRoot;
-
-    private LayerToggle[] targets;
-
-    private void OnValidate()
+    /// <summary>
+    /// Trigger zone that switches the referenced LayerToggle object
+    /// to its foreground and background sorting layer.
+    /// </summary>
+    /// <remarks>
+    /// Use case: Colliders are used for multiple objects.
+    /// </remarks>
+    public class TriggerZone : MonoBehaviour
     {
-        if (targetsRoot == null || targetsRoot.Length == 0)
+        [Header("Objects to toggle")]
+        public Transform[] targetsRoot;
+
+        private LayerToggle[] targets;
+
+        private void OnValidate()
         {
-            targets = new LayerToggle[0];
-            return;
+            if (targetsRoot == null || targetsRoot.Length == 0)
+            {
+                targets = new LayerToggle[0];
+                return;
+            }
+
+            List<LayerToggle> collected = new List<LayerToggle>();
+
+            foreach (var root in targetsRoot)
+            {
+                if (root == null) continue;
+
+                collected.AddRange(root.GetComponentsInChildren<LayerToggle>(true));
+            }
+
+            targets = collected.ToArray();
         }
-
-        List<LayerToggle> collected = new List<LayerToggle>();
-
-        foreach (var root in targetsRoot)
+        private void OnTriggerEnter2D(Collider2D other)
         {
-            if (root == null) continue;
+            if (!other.CompareTag("Player")) return;
 
-            collected.AddRange(root.GetComponentsInChildren<LayerToggle>(true));
+            foreach (var t in targets)
+            {
+                t?.TriggerForeground();
+            }
         }
-
-        targets = collected.ToArray();
-    }
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (!other.CompareTag("Player")) return;
-
-        foreach (var t in targets)
+        private void OnTriggerStay2D(Collider2D other)
         {
-            t?.TriggerForeground();
+            if (!other.CompareTag("Player")) return;
+
+            foreach (var t in targets)
+            {
+                t?.TriggerForeground();
+            }
         }
-    }
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        if (!other.CompareTag("Player")) return;
-
-        foreach (var t in targets)
+        private void OnTriggerExit2D(Collider2D other)
         {
-            t?.TriggerForeground();
-        }
-    }
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (!other.CompareTag("Player")) return;
+            if (!other.CompareTag("Player")) return;
 
-        foreach (var t in targets)
-        {
-            t?.TriggerBackground();
+            foreach (var t in targets)
+            {
+                t?.TriggerBackground();
+            }
         }
     }
 }
