@@ -1,10 +1,31 @@
 fileFormatVersion: 2
-guid: c624a7cd3319e274ab6ef7b6d121b18a
+guid: f721c0674fb5d5f4ba61a7f80acd8972
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6810686183202779940
-    second: Bibliothek_Sprite_Sheet_0
+      213: 6538653482961652223
+    second: Pflanzen_Sprite_Sheet_0
+  - first:
+      213: 5696357512674788646
+    second: Pflanzen_Sprite_Sheet_1
+  - first:
+      213: -7051192778562637847
+    second: Pflanzen_Sprite_Sheet_2
+  - first:
+      213: -8686277617533035908
+    second: Pflanzen_Sprite_Sheet_3
+  - first:
+      213: -7712676539341719863
+    second: Pflanzen_Sprite_Sheet_4
+  - first:
+      213: -8379305269352340821
+    second: Pflanzen_Sprite_Sheet_5
+  - first:
+      213: -7736968372920934733
+    second: Pflanzen_Sprite_Sheet_6
+  - first:
+      213: -1377949096737686344
+    second: Pflanzen_Sprite_Sheet_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -24,7 +45,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -96,194 +117,181 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bibliothek_Sprite_Sheet_0
+      name: Pflanzen_Sprite_Sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 484
-        width: 200
-        height: 16
+        x: 3
+        y: 927
+        width: 122
+        height: 71
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cdc898d30059b71a0800000000000000
-      internalID: -6810686183202779940
+      spriteID: ff9cc4113b6fdba50800000000000000
+      internalID: 6538653482961652223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bibliothek_Sprite_Sheet_1
+      name: Pflanzen_Sprite_Sheet_1
       rect:
         serializedVersion: 2
-        x: 15
-        y: 411
-        width: 74
-        height: 68
+        x: 162
+        y: 840
+        width: 75
+        height: 152
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c115098a5b20c6b41a5b5275167ac864
-      internalID: -593881675
+      spriteID: 625cb982af68d0f40800000000000000
+      internalID: 5696357512674788646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bibliothek_Sprite_Sheet_2
+      name: Pflanzen_Sprite_Sheet_2
       rect:
         serializedVersion: 2
-        x: 99
-        y: 410
-        width: 74
-        height: 70
+        x: 256
+        y: 751
+        width: 76
+        height: 243
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 333632e13c623c14db96851624deb78a
-      internalID: -1227557401
+      spriteID: 9ef69f6d681252e90800000000000000
+      internalID: -7051192778562637847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bibliothek_Sprite_Sheet_3
+      name: Pflanzen_Sprite_Sheet_3
       rect:
         serializedVersion: 2
-        x: 17
-        y: 327
-        width: 74
-        height: 69
+        x: 3
+        y: 839
+        width: 152
+        height: 75
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 69a1a5c100481e848a68e16fdcf0e580
-      internalID: 813107483
+      spriteID: c7a548a5784247780800000000000000
+      internalID: -8686277617533035908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bibliothek_Sprite_Sheet_4
+      name: Pflanzen_Sprite_Sheet_4
       rect:
         serializedVersion: 2
-        x: 100
-        y: 326
-        width: 74
-        height: 68
+        x: 3
+        y: 752
+        width: 243
+        height: 75
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ea886f32c02b6824daa99771f4d072b6
-      internalID: 1516256892
+      spriteID: 9c63c0d0d8117f490800000000000000
+      internalID: -7712676539341719863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bibliothek_Sprite_Sheet_5
+      name: Pflanzen_Sprite_Sheet_5
       rect:
         serializedVersion: 2
-        x: 31
-        y: 237
-        width: 42
-        height: 43
-      alignment: 9
-      pivot: {x: 0.47654915, y: 0.47798562}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73c0cdb53d493a744be34e24e56deb50
-      internalID: -1461663038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bibliothek_Sprite_Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 190
-        width: 80
-        height: 45
+        x: 2
+        y: 662
+        width: 335
+        height: 75
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3de1e33849c793d45b2e5bee295e7661
-      internalID: -1736119720
+      spriteID: ba2e1b3c04ab6bb80800000000000000
+      internalID: -8379305269352340821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bibliothek_Sprite_Sheet_7
+      name: Pflanzen_Sprite_Sheet_6
       rect:
         serializedVersion: 2
-        x: 126
-        y: 239
-        width: 43
-        height: 21
+        x: 10
+        y: 501
+        width: 185
+        height: 152
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 31de8e3c4c48aaa4fafdb333de119781
-      internalID: 2102605621
+      spriteID: 3be9d9dc144c0a490800000000000000
+      internalID: -7736968372920934733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pflanzen_Sprite_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 337
+        width: 185
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc3162e89a80ece0800000000000000
+      internalID: -1377949096737686344
       vertices: []
       indices: 
       edges: []
@@ -292,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5981a0eccc0b7f941a0fc9812cd0141d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -300,18 +308,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Bibliothek_Sprite_Sheet_0: -6810686183202779940
-      Bibliothek_Sprite_Sheet_1: -593881675
-      Bibliothek_Sprite_Sheet_2: -1227557401
-      Bibliothek_Sprite_Sheet_3: 813107483
-      Bibliothek_Sprite_Sheet_4: 1516256892
-      Bibliothek_Sprite_Sheet_5: -1461663038
-      Bibliothek_Sprite_Sheet_6: -1736119720
-      Bibliothek_Sprite_Sheet_7: 2102605621
+      Pflanzen_Sprite_Sheet_0: 6538653482961652223
+      Pflanzen_Sprite_Sheet_1: 5696357512674788646
+      Pflanzen_Sprite_Sheet_2: -7051192778562637847
+      Pflanzen_Sprite_Sheet_3: -8686277617533035908
+      Pflanzen_Sprite_Sheet_4: -7712676539341719863
+      Pflanzen_Sprite_Sheet_5: -8379305269352340821
+      Pflanzen_Sprite_Sheet_6: -7736968372920934733
+      Pflanzen_Sprite_Sheet_7: -1377949096737686344
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

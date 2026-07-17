@@ -1,10 +1,40 @@
 fileFormatVersion: 2
-guid: c624a7cd3319e274ab6ef7b6d121b18a
+guid: 3a2c4952d1e2d8d4ab0d66e3e9f7f44f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6810686183202779940
-    second: Bibliothek_Sprite_Sheet_0
+      213: -5001080368970603164
+    second: Werbetafel_Sprite_Sheet_0
+  - first:
+      213: 7343845729988958752
+    second: Werbetafel_Sprite_Sheet_1
+  - first:
+      213: -551132208757202380
+    second: Werbetafel_Sprite_Sheet_2
+  - first:
+      213: -1551842899802711553
+    second: Werbetafel_Sprite_Sheet_3
+  - first:
+      213: 6919498216366202461
+    second: Werbetafel_Sprite_Sheet_4
+  - first:
+      213: 7810583881349304989
+    second: Werbetafel_Sprite_Sheet_5
+  - first:
+      213: -5785165536815633911
+    second: Werbetafel_Sprite_Sheet_6
+  - first:
+      213: 5898132281676355109
+    second: Werbetafel_Sprite_Sheet_7
+  - first:
+      213: 2318909835732308156
+    second: Werbetafel_Sprite_Sheet_8
+  - first:
+      213: 3978729910033012755
+    second: Werbetafel_Sprite_Sheet_9
+  - first:
+      213: -8694593258410334114
+    second: Werbetafel_Sprite_Sheet_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -24,7 +54,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -96,30 +126,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bibliothek_Sprite_Sheet_0
+      name: Werbetafel_Sprite_Sheet_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 484
-        width: 200
-        height: 16
+        x: 16
+        y: 429
+        width: 49
+        height: 107
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,20 +145,174 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cdc898d30059b71a0800000000000000
-      internalID: -6810686183202779940
+      spriteID: 43220c81d2cf958f0800000000000000
+      internalID: -551132208757202380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bibliothek_Sprite_Sheet_1
+      name: Werbetafel_Sprite_Sheet_3
       rect:
         serializedVersion: 2
-        x: 15
-        y: 411
-        width: 74
-        height: 68
+        x: 80
+        y: 429
+        width: 49
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff91c0aca1fb67ae0800000000000000
+      internalID: -1551842899802711553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werbetafel_Sprite_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 429
+        width: 49
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ed47a77fef60060800000000000000
+      internalID: 6919498216366202461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werbetafel_Sprite_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 429
+        width: 49
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92973868a4c46c60800000000000000
+      internalID: 7810583881349304989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werbetafel_Sprite_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 301
+        width: 49
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90aa54b6896f6bfa0800000000000000
+      internalID: -5785165536815633911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werbetafel_Sprite_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 301
+        width: 49
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526559f7f006ad150800000000000000
+      internalID: 5898132281676355109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werbetafel_Sprite_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 301
+        width: 49
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb0dbf0a53c6e2020800000000000000
+      internalID: 2318909835732308156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werbetafel_Sprite_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 301
+        width: 49
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3185db0e5c9473730800000000000000
+      internalID: 3978729910033012755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werbetafel_Sprite_Sheet_aus
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 557
+        width: 49
+        height: 107
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +321,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c115098a5b20c6b41a5b5275167ac864
-      internalID: -593881675
+      spriteID: cc415febac176c74bb6974cd87d6593e
+      internalID: -5001080368970603164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bibliothek_Sprite_Sheet_2
+      name: Werbetafel_Sprite_Sheet_fehler
       rect:
         serializedVersion: 2
-        x: 99
-        y: 410
-        width: 74
-        height: 70
+        x: 80
+        y: 557
+        width: 49
+        height: 107
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,118 +343,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 333632e13c623c14db96851624deb78a
-      internalID: -1227557401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bibliothek_Sprite_Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 327
-        width: 74
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69a1a5c100481e848a68e16fdcf0e580
-      internalID: 813107483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bibliothek_Sprite_Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 326
-        width: 74
-        height: 68
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea886f32c02b6824daa99771f4d072b6
-      internalID: 1516256892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bibliothek_Sprite_Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 237
-        width: 42
-        height: 43
-      alignment: 9
-      pivot: {x: 0.47654915, y: 0.47798562}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73c0cdb53d493a744be34e24e56deb50
-      internalID: -1461663038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bibliothek_Sprite_Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 190
-        width: 80
-        height: 45
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3de1e33849c793d45b2e5bee295e7661
-      internalID: -1736119720
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bibliothek_Sprite_Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 126
-        y: 239
-        width: 43
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 31de8e3c4c48aaa4fafdb333de119781
-      internalID: 2102605621
+      spriteID: 725f752d958386e43b5a6ffd40a98f92
+      internalID: 7343845729988958752
       vertices: []
       indices: 
       edges: []
@@ -292,7 +353,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5981a0eccc0b7f941a0fc9812cd0141d
+    spriteID: 48623c2ed736ec04190b4b1c6e522a3c
     internalID: 0
     vertices: []
     indices: 
@@ -304,14 +365,16 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Bibliothek_Sprite_Sheet_0: -6810686183202779940
-      Bibliothek_Sprite_Sheet_1: -593881675
-      Bibliothek_Sprite_Sheet_2: -1227557401
-      Bibliothek_Sprite_Sheet_3: 813107483
-      Bibliothek_Sprite_Sheet_4: 1516256892
-      Bibliothek_Sprite_Sheet_5: -1461663038
-      Bibliothek_Sprite_Sheet_6: -1736119720
-      Bibliothek_Sprite_Sheet_7: 2102605621
+      Werbetafel_Sprite_Sheet_2: -551132208757202380
+      Werbetafel_Sprite_Sheet_3: -1551842899802711553
+      Werbetafel_Sprite_Sheet_4: 6919498216366202461
+      Werbetafel_Sprite_Sheet_5: 7810583881349304989
+      Werbetafel_Sprite_Sheet_6: -5785165536815633911
+      Werbetafel_Sprite_Sheet_7: 5898132281676355109
+      Werbetafel_Sprite_Sheet_8: 2318909835732308156
+      Werbetafel_Sprite_Sheet_9: 3978729910033012755
+      Werbetafel_Sprite_Sheet_aus: -5001080368970603164
+      Werbetafel_Sprite_Sheet_fehler: 7343845729988958752
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
