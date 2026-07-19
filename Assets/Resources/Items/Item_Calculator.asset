@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b300bd985ed74142afc91ffba5a6262, type: 3}
+  m_Name: Item_Calculator
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemID: Item_Calculator
+  itemName: Taschenrechner
+  description: 
+  icon: {fileID: 2844867284933964699, guid: 7362ad34f3b138d43a51b5f52a530bbf, type: 3}
+  isBackpack: 0

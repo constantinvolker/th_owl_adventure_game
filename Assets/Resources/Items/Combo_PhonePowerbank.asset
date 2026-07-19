@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052c0a25b336dcb438b3c3a9c4ea1b7f, type: 3}
+  m_Name: Combo_PhonePowerbank
+  m_EditorClassIdentifier: Assembly-CSharp::ItemCombination
+  itemA: {fileID: 11400000, guid: 82c0690c52dc75e46a7f0edb2891c9c8, type: 2}
+  itemB: {fileID: 11400000, guid: a9b64566bd4f95b47a9892705b68ced2, type: 2}
+  result: {fileID: 11400000, guid: 6889cbbc1c7ea79428ae2476ae3bb534, type: 2}
+  consumeBoth: 1
+  successDialogue: {fileID: 11400000, guid: 819209fd616661446bb1b32dd4df5685, type: 2}
+  failDialogue: {fileID: 0}
