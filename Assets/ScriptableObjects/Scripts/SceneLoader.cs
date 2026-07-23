@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class SceneLoader : MonoBehaviour
 {
@@ -9,12 +10,33 @@ public class SceneLoader : MonoBehaviour
     [SerializeField] private string     gameplayPrefix = "Room";
     [SerializeField] private GameObject gameplayCanvas;
 
+    public TextMeshProUGUI uiTextDisplay;
+    private Coroutine hideCoroutine;
+
     private bool _loadingViaRoutine = false;
 
     void Awake() => Instance = this;
 
     void OnEnable()  => SceneManager.sceneLoaded += OnSceneLoaded;
     void OnDisable() => SceneManager.sceneLoaded -= OnSceneLoaded;
+
+    void Start()
+    {
+        if (uiTextDisplay == null)
+        {
+            GameObject textObj = GameObject.Find("RoomNameText");
+
+            if (textObj != null)
+            {
+                uiTextDisplay = textObj.GetComponent<TextMeshProUGUI>();
+                Debug.Log(" gefunden");
+            }
+            else
+                Debug.Log("nicht gefunden");
+        }
+
+        uiTextDisplay.text = "";
+    }
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
@@ -68,5 +90,91 @@ public class SceneLoader : MonoBehaviour
 
         foreach (var h in FindObjectsByType<TransitionHotspot>(FindObjectsSortMode.None))
             h.ResetTrigger();
+
+        Debug.Log("Jetzt Text anzeigen");
+
+        if (hideCoroutine != null) StopCoroutine(hideCoroutine);
+
+        uiTextDisplay.text = GetSceneNameForTooltip(sceneName);
+        Debug.Log(sceneName);
+        uiTextDisplay.color = new Color(uiTextDisplay.color.r, uiTextDisplay.color.g, uiTextDisplay.color.b, 1f);
+
+        uiTextDisplay.ForceMeshUpdate();
+
+        hideCoroutine = StartCoroutine(HideTextAfterDelay(3f));
+    }
+
+    private System.Collections.IEnumerator HideTextAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        if (uiTextDisplay != null)
+        {
+            uiTextDisplay.text = "";
+        }
+    }
+
+    private string GetSceneNameForTooltip(string sceneName)
+    {
+        Debug.Log(sceneName);
+        switch (sceneName)
+        {
+            case "Room_ApartmentBedroom":
+                return "Schlafzimmer";
+                break;
+
+            case "Room_ApartmentLivingroom":
+                return "Wohnzimmer";
+                break;
+
+            case "Room_Vorplatz":
+                return "Vorplatz";
+                break;
+
+            case "Room_Entrancehall":
+                return "Eingangshalle";
+                break;
+
+            case "Room_Library":
+                return "Bibliothek";
+                break;
+
+            case "Room_Hall_0":
+                return "Etage 0";
+                break;
+
+            case "Room_Hall_2":
+                return "Etage 2";
+                break;
+
+            case "Room_Hall_3":
+                return "Etage 3";
+                break;
+
+            case "Room_Hall_4":
+                return "Etage 4";
+                break;
+
+            case "Room_Hall_5":
+                return "Etage 5";
+                break;
+
+            case "Room_Hall_6":
+                return "Etage 6";
+                break;
+
+            case "Room_Hall_7":
+                return "Etage 7";
+                break;
+
+            case "Room_Auditorium":
+                return "Audimax";
+                break;
+
+            case "Room_Stairway":
+                return "Treppenhaus";
+                break;
+        }
+
+        return "Name des Raums: " + sceneName + " im Script SceneLoader hinzufügen";
     }
 }

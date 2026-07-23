@@ -1,12 +1,14 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems; // ZWINGEND ERFORDERLICH für UI-Events!
+using TMPro;
 
 [RequireComponent(typeof(Button))]
 public class InventorySlot : MonoBehaviour
 {
     [SerializeField] private Image iconImage;
 
-    private ItemData _item;
+    public ItemData _item;
 
     public void Setup(ItemData item)
     {
