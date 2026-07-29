@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     private const string KEY_HAS_SAVE   = "has_save";
     private const string KEY_LAST_SCENE = "last_scene";
     private const string KEY_LAST_SPAWN = "last_spawn";
+    private const string KEY_PREVIOUS_SCENE = "previous_scene";
+    private const string KEY_PREVIOUS_SPAWN = "previous_spawn";
 
     private bool _pendingReset = false;
     public  bool PendingReset  => _pendingReset;
@@ -73,8 +75,12 @@ public class GameManager : MonoBehaviour
     /// Called by SceneLoader every time the player enters a room.
     public void SaveLastRoom(string sceneName, string spawnName)
     {
+        PlayerPrefs.SetString(KEY_PREVIOUS_SCENE, GetLastScene());
+        PlayerPrefs.SetString(KEY_PREVIOUS_SPAWN, GetLastSpawn());
+
         PlayerPrefs.SetString(KEY_LAST_SCENE, sceneName);
         PlayerPrefs.SetString(KEY_LAST_SPAWN, spawnName);
+
         PlayerPrefs.SetInt(KEY_HAS_SAVE, 1);
         PlayerPrefs.Save();
     }
@@ -84,6 +90,12 @@ public class GameManager : MonoBehaviour
 
     public string GetLastSpawn()
         => PlayerPrefs.GetString(KEY_LAST_SPAWN, firstSpawnPoint);
+
+    public string GetPreviousScene()
+        => PlayerPrefs.GetString(KEY_PREVIOUS_SCENE, GetLastScene());
+
+    public string GetPreviousSpawn()
+        => PlayerPrefs.GetString(KEY_PREVIOUS_SPAWN, GetLastSpawn());
 
     // ── Object state ─────────────────────────────────────────────────────────────
 

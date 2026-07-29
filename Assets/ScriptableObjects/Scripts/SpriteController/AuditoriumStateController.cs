@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
-namespace AdventureGame.SpriteController
+namespace AdventureGame.SpriteManagement
 {
     
     /// <summary>
