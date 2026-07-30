@@ -2,18 +2,14 @@ using UnityEngine;
 using Pathfinding;
 
 [RequireComponent(typeof(Rigidbody2D))]
-
-///seeker is part of Pathfinding package
-///seeker is used to calculate the path within the walk area
 [RequireComponent(typeof(Seeker))]
-
 public class PlayerMovement : MonoBehaviour
 {
     public static PlayerMovement Instance;
 
     [Header("Movement")]
     [SerializeField] private float speed = 3f;
-    [SerializeField] private float nextWaypointDistance = 0.1f;
+    [SerializeField] private float nextWaypointDistance = 0.2f;
 
     private Rigidbody2D rb;
     private Seeker seeker;
@@ -25,22 +21,34 @@ public class PlayerMovement : MonoBehaviour
     public bool canMove = true;
 
     private Vector3 targetPos;
-
     public Vector3 TargetPos => targetPos;
 
-    void Awake()
+    private void Awake()
     {
         Instance = this;
+
         rb = GetComponent<Rigidbody2D>();
         seeker = GetComponent<Seeker>();
 
         targetPos = transform.position;
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         if (!moving || path == null)
             return;
+
+        // Bereits erreichte beziehungsweise sehr nahe Wegpunkte überspringen
+        while (
+            currentWaypoint < path.vectorPath.Count &&
+            Vector2.Distance(
+                rb.position,
+                path.vectorPath[currentWaypoint]
+            ) <= nextWaypointDistance
+        )
+        {
+            currentWaypoint++;
+        }
 
         if (currentWaypoint >= path.vectorPath.Count)
         {
@@ -49,19 +57,22 @@ public class PlayerMovement : MonoBehaviour
         }
 
         Vector2 waypoint = path.vectorPath[currentWaypoint];
+        Vector2 direction = waypoint - rb.position;
 
-        Vector2 newPos = Vector2.MoveTowards(
-            rb.position,
-            waypoint,
-            speed * Time.fixedDeltaTime
-        );
-
-        rb.MovePosition(newPos);
-
-        if (Vector2.Distance(rb.position, waypoint) <= nextWaypointDistance)
+        if (direction.sqrMagnitude <= 0.0001f)
         {
             currentWaypoint++;
+            return;
         }
+
+        float maxDistance = speed * Time.fixedDeltaTime;
+
+        Vector2 newPosition =
+            rb.position +
+            direction.normalized *
+            Mathf.Min(maxDistance, direction.magnitude);
+
+        rb.MovePosition(newPosition);
     }
 
     public bool MoveTo(Vector3 worldPos)
@@ -69,13 +80,42 @@ public class PlayerMovement : MonoBehaviour
         if (!canMove)
             return false;
 
-        if (!IsWalkable(worldPos))
+        return StartPathToNearestWalkable(worldPos);
+    }
+
+    public void ForceMoveTo(Vector3 worldPos)
+    {
+        StartPathToNearestWalkable(worldPos);
+    }
+
+    private bool StartPathToNearestWalkable(Vector3 worldPos)
+    {
+        if (AstarPath.active == null)
             return false;
 
-        targetPos = new Vector3(worldPos.x, worldPos.y, transform.position.z);
+        NNConstraint constraint = new NNConstraint
+        {
+            constrainWalkability = true,
+            walkable = true
+        };
+
+        NNInfo nearest = AstarPath.active.GetNearest(worldPos, constraint);
+
+        if (nearest.node == null || !nearest.node.Walkable)
+            return false;
+
+        Vector3 nearestPosition = nearest.position;
+
+        targetPos = new Vector3(
+            nearestPosition.x,
+            nearestPosition.y,
+            transform.position.z
+        );
+
+        moving = false;
+        path = null;
 
         seeker.StartPath(rb.position, targetPos, OnPathComplete);
-
         return true;
     }
 
@@ -84,29 +124,49 @@ public class PlayerMovement : MonoBehaviour
         if (AstarPath.active == null)
             return false;
 
-        var node = AstarPath.active.GetNearest(worldPos).node;
-        return node != null && node.Walkable;
+        NNConstraint constraint = new NNConstraint
+        {
+            constrainWalkability = true,
+            walkable = true
+        };
+
+        NNInfo nearest = AstarPath.active.GetNearest(worldPos, constraint);
+
+        return nearest.node != null && nearest.node.Walkable;
     }
 
-    public void ForceMoveTo(Vector3 worldPos)
+    private void OnPathComplete(Path newPath)
     {
-        targetPos = new Vector3(worldPos.x, worldPos.y, transform.position.z);
-
-        seeker.StartPath(rb.position, targetPos, OnPathComplete);
-    }
-
-    private void OnPathComplete(Path p)
-    {
-        if (p.error)
+        if (
+            newPath.error ||
+            newPath.vectorPath == null ||
+            newPath.vectorPath.Count == 0
+        )
         {
             moving = false;
             path = null;
             return;
         }
 
-        path = p;
+        path = newPath;
         currentWaypoint = 0;
-        moving = true;
+
+        // Startpunkt sofort überspringen, falls er direkt beim Player liegt
+        while (
+            currentWaypoint < path.vectorPath.Count &&
+            Vector2.Distance(
+                rb.position,
+                path.vectorPath[currentWaypoint]
+            ) <= nextWaypointDistance
+        )
+        {
+            currentWaypoint++;
+        }
+
+        moving = currentWaypoint < path.vectorPath.Count;
+
+        if (!moving)
+            targetPos = transform.position;
     }
 
     public bool IsMoving()

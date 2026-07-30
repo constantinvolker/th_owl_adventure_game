@@ -982,7 +982,7 @@ GameObject:
   - component: {fileID: 407414901}
   - component: {fileID: 407414900}
   - component: {fileID: 407414899}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Collider2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1631,7 +1631,7 @@ GameObject:
   - component: {fileID: 665717747}
   - component: {fileID: 665717746}
   - component: {fileID: 665717752}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3137,7 +3137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1137796040}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TemporaryWall1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3170,7 +3170,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1147383319}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TemporaryWall2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4302,7 +4302,7 @@ GameObject:
   - component: {fileID: 1333984549}
   - component: {fileID: 1333984548}
   - component: {fileID: 1333984547}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4836,7 +4836,7 @@ GameObject:
   - component: {fileID: 1580611947}
   - component: {fileID: 1580611946}
   - component: {fileID: 1580611945}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Collider1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5231,7 +5231,7 @@ GameObject:
   - component: {fileID: 1613080719}
   - component: {fileID: 1613080718}
   - component: {fileID: 1613080717}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5772,12 +5772,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: AstarPathfindingProject::AstarPath
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAAAIIexTm8YTdwIAADMFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMzoWxzYehtxYI6SEJE9LJxRdhr7EGWfJIcoBk+O/VyjJ2qC+W3369fbvyF2FCV5AaqTaKZU8yA/JzQPBMfgw64yOc6UGKHfuE1uedZaZAJ+p8Xqlh0uIhhmlZglEs/SUOHJ0DC9aC5VKV6+wAS6mNtnBOuQZrUtJgtLDQ14Cc7Wu4wJCLPUUxnj7taREMrvaYgjCgOtdgFEZT7zwMRtE0wGfmg4aT0SQOxuNxvFgPg7nLUIuU07KCDNvpEk1G87hNFDaewvbqndoyqeScaU+WmEvlxNhVBShANTJGbe+OIEpRADsUBvvox77kuQbjhVH0smLKStgkJb9lo2tJ9bFh90F5jWXCqKHVJH36zz4MnTlXsnxs64YB1jAFS4+v9JJSbXrC9+HVd+K1OFF+pHsO7wWIZ7lRshaZNRpVY2itIVp1n7fWlgWkxw5vqN6BddUbn1e8nTL2cHXdn5eclXsn/aQBdlw6ufETlJ3NH8vXbY72rC2KJP5qeKOH/op5wwNT2liTdxfIbi9rha5k7STDZmqzlEqAgz3nCgTl5rK1acz9BO9svbJ3lgeKl8kX97b2jtyFOLjzD4I701aebrPShTw9gS5easOZgI40Gp6tTkspRLNgfU3asF2tcpr2wg41y75vFtnPZ/vJLIB8vJ9F43k8DBYwXUTTcB5DNI+imLjVY8L2Sfm2IerlsUMTXXJh16z9xww2ilZu2TNFTxv2Wcqe5EzkcpcqAPHSZLgRB2WL2HuZrTNmBdqBMUy4eZOvhHCZHiFLbokS1+n6bBRNuiwJqdiHNIgkZOl+KglB+LbKWwUfDE5YvE12Jdd/UEsDBBQAAAgIAAAIIewzvEhnbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrRSkoVZkomZQWqacZKZkbGFua6BZaqppZGpoYV5qpGFkZG5UixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAAAIIexTm8YTdwIAADMFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAAAIIewzvEhnbQAAAHgAAAAJACQAAAAAAAAAAAAAAMQCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAfAMAAAAA
+    dataString: UEsDBBQAAAgIAAAIIewgT8hqcAIAACkFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMFy4jAM/RXG54VJUijJ3naB0j20ZUp3esnFJArx4NgZ2ynQDv++luOQlD3FlvSkpyc5X4QJXUNmpForlj/JHMjPEcEz+THqnY9wonsptuwTuph3lpsSg6iLeaWGSWsPEaZlBUax7JfYcwwOrLERrJCqWuV7WEhttDUXlGuwLiUNooU1fY3IyX7GCULO9hTN8fRpT0kwuthjBsKA6kODSRhNkyROPGAcTPCezKZzD2xxjcg4rWrIsYkePp3E85mHhrGLFLZDH4TJ0ZtJzpn2FIk5106CbV2CAtQgZ9R27GihACWwfWmQ/RD7UhQajJdD0fOSKStcm5T8lq2aFdWHlt0H5Q2WCaOWVpv06T//OHTuQsnqsasbBljDlCw7vNJzRrUZyD00L78Tb8SR8gPdcXgvQTzLtZKNyK3TqAahjYZo2V+vrS1KyA69vaV6Y2zqwdC84t1ssYeL6/604KzaOemnrWHLpZMbr6DsbP5Yvm5ftGdtrUjir4Y3uh8ulnc8MKWNdflwgex2slEYSlZOMmymMQupBDiz51yDoNycNzaNuZ3gjW9Q9sbzQPEJ+eLe172MG4gz9/FBcOPayON1VrqUxyfQ5UtjOBPQk0bHs9VpIYVoF2yoSQfbNqqg2QC2b1j+fbPILr7fTe8DKO5299FdPB8HCcySaBbGc4jiKJoTt3pM2D4p37REvTx2aKJPLuyadX+W0VrR2i17ruhxzT4rOZCciUJuMwUgXtoMV+KgbBH7LvNVzqxAWzCGCTdv8pUSLrMD5Ok1Ueo6XZ2MommfJSU1+5AGLSlZuF9JStB8XeWNgg8GRyzeJbuQyz9QSwMEFAAACAgAAAgh7DO8SGdtAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tFKShVmSiZlBappxkpmRsYW5roFlqqmlkamhhXmqkYWRkblSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAAgh7CBPyGpwAgAAKQUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAAgh7DO8SGdtAAAAeAAAAAkAJAAAAAAAAAAAAAAAvQIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAAB1AwAAAAA=
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
     cacheStartup: 0
-  showNavGraphs: 0
+  showNavGraphs: 1
   showUnwalkableNodes: 1
   debugMode: 0
   debugFloor: 0
@@ -6011,7 +6011,7 @@ GameObject:
   - component: {fileID: 1798507080}
   - component: {fileID: 1798507079}
   - component: {fileID: 1798507078}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Collider2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6910,7 +6910,7 @@ GameObject:
   - component: {fileID: 2120233692}
   - component: {fileID: 2120233691}
   - component: {fileID: 2120233690}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Collider1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

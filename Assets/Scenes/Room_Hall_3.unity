@@ -129,7 +129,8 @@ GameObject:
   m_Component:
   - component: {fileID: 56709894}
   - component: {fileID: 56709896}
-  m_Layer: 0
+  - component: {fileID: 56709897}
+  m_Layer: 7
   m_Name: Sprite (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,6 +212,52 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!61 &56709897
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56709893}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.53, y: 0.7}
+    newSize: {x: 0.87, y: 0.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.53, y: 0.7}
+  m_EdgeRadius: 0
 --- !u!1001 &68712269
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -733,7 +780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 193611215}
   - component: {fileID: 193611216}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -915,7 +962,7 @@ GameObject:
   m_Component:
   - component: {fileID: 275271733}
   - component: {fileID: 275271734}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1484,12 +1531,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: AstarPathfindingProject::AstarPath
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAAAIIey9q7vfegIAADcFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVF1zojAU/StOnlcHqAru2661dh/aOrU7feElwkUyhoRJQtV2/O+bG4JQlxfCuV/nnnvDF2FC15AZqdaK5U8yB/JzRPBMfox64yOc6F6KLfuEzued5aZEJ+p8Xqlh0uIhhmlZgVEs+yX2HJ0DCzaCFVJVq3wPS6mNtnBBuQZrUtJgtLDQ14ic7Gu8wJCzPUUxnj7taRGMLvaYgTCgetdgEkYz7xxMZgE+kQ9JJotpME/C1ThIXHAjMk6rGnLspM8RhpMk7pLEk3i6sM8sciHC9uu9u1KZ5JxpT5iYc+0E2dYlKEBFckZt/44kylEC25cGexnGvhSFBuPFUfR8z5SVsU1KfstW24rqQ0vzg/IGy4RR20mb9Ok/+zh05kLJ6rGrGwZYw5QsO7zSc0a1GYg/hO+/E2/EkfID3XF4L0E8y7WSjcit0agGQxsN0X3/eW1tWUJ26PGW6g3Y1IMRduPzY8MeLq7705Kzauekn7bAlksnN36CsrP5Y/m67dGetUWRxF8Nb3Q/XDNveGBKG2vy7gLZ7WSj0JWsnGTYTGOWUglwsOdcg6DcnDc2jbmd4I1tUPbG8kDxQvni3tbdk5sQB/f+QXBj2sjjdVa6lMcn0OVLYzgT0JNGw7PVaSmFaBdsqEkXtm1UQbNB2L5h+ffNIrtkvpvOAyjudvPoLonHwQJmi2gWJjFESRTFxK0eE7ZPyjctUS+PHZrokwu7Zt1/ZrRWtHbLnit6XLPPSg4kZ6KQ20wBiJc2w5U4KFvE3st8lTMr0BaMYcLNm3ylhMvsAHl6TZS6Tlcno2jaZ0lJzT6kQSQlS/djSQnC11XeKPhgcMTiXbILufwDUEsDBBQAAAgIAAAIIewzvEhnbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrRSkoVZkomZQWqacZKZkbGFua6BZaqppZGpoYV5qpGFkZG5UixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAAAIIey9q7vfegIAADcFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAAAIIewzvEhnbQAAAHgAAAAJACQAAAAAAAAAAAAAAMcCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAfwMAAAAA
+    dataString: UEsDBBQAAAgIAAAIIewinEQJdwIAAC8FAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMmS2jAQ/RVK50DJZjO5JcAwOTBQQ1Jz8UXYbaxCllySzFr8eyRZxg45WerXy+vXLd8R5aqERAu5kjRdixTQ9x6yZ/St14LvcCEHwXf0Bo3PF011bp2I8/kkmgpjD2yYEgVoSZMf/MCsMzbGitNMyGKZHmAulFbGnBGmwEBSaBvNjeneQxfz6c9syNWcwqk93cxphnsPc0yAa5CtKx4E4RhjPBqGPgQPxj6kjqh4wkhRQmrpt4FB6PxsxHQwdp7c9Oad8ABbNBGMUeW5IX0tXe+7MgcJtvmUEtOq42PL50APufaXZ+wmyxRor4Mk1wWVRrE6KfopahkLoo41uRNhFTiCkWNVJ13/h/cDB2dSFO9N3QDbGjqnyfGTXBOidEfnrnnREg+cRmfCjmTP4CsH/iFWUlQ8NaCWlQ2tFISL9vpsbZ5DcmztNdUXY1V2ptWMdTCMRkE0GU6WfTz147INPZwUlzmjxd6NYVQbdkw47e0VpJnTL0PebY3yLRirZfRHwW9y6K6XB96oVNpA3p1bqntRSeuKlk4/21ml50JycGbfQAmcMH3dmjT6dZwvWKfsC/JG7EPyxT3WvI+XEGdu/TF+gbbi/BycysV5DSrfVJpRDi1pC3wYneaC83rbupo0YbtKZiTphB0qmv67ZmgfTfajCYZsuJ+Ew2jaxzMYz8JxEE0hjMJwitweUm76JGxbE/XymKHxNjk3O9f8X3orSUq3+akk5xW9FaIjOeWZ2CUSgG/qDE/iIE0R80bTZUqNQDvQmnI3b3SPERPJEdL4mSh2nS4vWpK4zRKjkp6EtpYYzd0PJUbW/NzrrYQThbMt3iR7oMdfUEsDBBQAAAgIAAAIIewzvEhnbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrRSkoVZkomZQWqacZKZkbGFua6BZaqppZGpoYV5qpGFkZG5UixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAAAIIewinEQJdwIAAC8FAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAAAIIewzvEhnbQAAAHgAAAAJACQAAAAAAAAAAAAAAMQCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAfAMAAAAA
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
     cacheStartup: 0
-  showNavGraphs: 0
+  showNavGraphs: 1
   showUnwalkableNodes: 1
   debugMode: 0
   debugFloor: 0
@@ -1965,7 +2012,7 @@ GameObject:
   - component: {fileID: 673063968}
   - component: {fileID: 673063967}
   - component: {fileID: 673063966}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2592,7 +2639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 756933931}
   - component: {fileID: 756933932}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2685,7 +2732,7 @@ GameObject:
   - component: {fileID: 838284509}
   - component: {fileID: 838284508}
   - component: {fileID: 838284507}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Walls_center
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3012,7 +3059,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1042422831}
   - component: {fileID: 1042422832}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3103,7 +3150,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1075065246}
   - component: {fileID: 1075065247}
-  m_Layer: 0
+  - component: {fileID: 1075065248}
+  m_Layer: 7
   m_Name: Sprite (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3185,6 +3233,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!65 &1075065248
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075065245}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.53, y: 0.7, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1100177775
 GameObject:
   m_ObjectHideFlags: 0
@@ -3286,7 +3355,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1122725229}
   - component: {fileID: 1122725230}
-  m_Layer: 0
+  - component: {fileID: 1122725231}
+  m_Layer: 7
   m_Name: Sprite (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3368,6 +3438,52 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!61 &1122725231
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122725228}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.53, y: 0.7}
+    newSize: {x: 0.87, y: 0.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.53, y: 0.7}
+  m_EdgeRadius: 0
 --- !u!1 &1172088057
 GameObject:
   m_ObjectHideFlags: 0
@@ -3995,7 +4111,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1613080715}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4278,7 +4394,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1834767565}
   - component: {fileID: 1834767566}
-  m_Layer: 0
+  - component: {fileID: 1834767567}
+  m_Layer: 7
   m_Name: Sprite (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4360,6 +4477,52 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!61 &1834767567
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834767564}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.53, y: 0.7}
+    newSize: {x: 0.87, y: 0.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.53, y: 0.7}
+  m_EdgeRadius: 0
 --- !u!1 &1892417952
 GameObject:
   m_ObjectHideFlags: 0
