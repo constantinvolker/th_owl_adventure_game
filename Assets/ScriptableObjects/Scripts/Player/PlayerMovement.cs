@@ -1,5 +1,6 @@
 using UnityEngine;
 using Pathfinding;
+using System.Collections.Generic;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Seeker))]
@@ -23,6 +24,13 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 targetPos;
     public Vector3 TargetPos => targetPos;
 
+    //for stairs
+    private bool followingFixedPath;
+    private readonly List<Vector2> fixedPath = new();
+    private int fixedPathIndex;
+    private StairPath pendingStair;
+    private bool pendingStairUpwards;
+
     private void Awake()
     {
         Instance = this;
@@ -35,10 +43,15 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (followingFixedPath)
+        {
+            FollowFixedPath();
+            return;
+        }
+
         if (!moving || path == null)
             return;
 
-        // Bereits erreichte beziehungsweise sehr nahe Wegpunkte überspringen
         while (
             currentWaypoint < path.vectorPath.Count &&
             Vector2.Distance(
@@ -52,18 +65,45 @@ public class PlayerMovement : MonoBehaviour
 
         if (currentWaypoint >= path.vectorPath.Count)
         {
-            StopMoving();
+            OnNormalPathFinished();
             return;
         }
 
         Vector2 waypoint = path.vectorPath[currentWaypoint];
-        Vector2 direction = waypoint - rb.position;
+        MoveTowards(waypoint);
+    }
+
+    public bool UseStair(StairPath stair)
+    {
+        if (!canMove || stair == null)
+            return false;
+
+        bool moveUpwards = stair.IsCloserToBottom(rb.position);
+
+        Transform entry = moveUpwards
+            ? stair.BottomEntry
+            : stair.TopEntry;
+
+        pendingStair = stair;
+        pendingStairUpwards = moveUpwards;
+
+        bool pathStarted = StartPathToNearestWalkable(entry.position);
+
+        if (!pathStarted)
+        {
+            pendingStair = null;
+            return false;
+        }
+
+        return true;
+    }
+
+    private void MoveTowards(Vector2 target)
+    {
+        Vector2 direction = target - rb.position;
 
         if (direction.sqrMagnitude <= 0.0001f)
-        {
-            currentWaypoint++;
             return;
-        }
 
         float maxDistance = speed * Time.fixedDeltaTime;
 
@@ -79,6 +119,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!canMove)
             return false;
+
+        pendingStair = null;
 
         return StartPathToNearestWalkable(worldPos);
     }
@@ -145,13 +187,13 @@ public class PlayerMovement : MonoBehaviour
         {
             moving = false;
             path = null;
+            pendingStair = null;
             return;
         }
 
         path = newPath;
         currentWaypoint = 0;
 
-        // Startpunkt sofort überspringen, falls er direkt beim Player liegt
         while (
             currentWaypoint < path.vectorPath.Count &&
             Vector2.Distance(
@@ -165,8 +207,12 @@ public class PlayerMovement : MonoBehaviour
 
         moving = currentWaypoint < path.vectorPath.Count;
 
+        // Falls der Player bereits direkt am Eingang steht,
+        // muss die Treppe trotzdem gestartet werden.
         if (!moving)
-            targetPos = transform.position;
+        {
+            OnNormalPathFinished();
+        }
     }
 
     public bool IsMoving()
@@ -174,10 +220,97 @@ public class PlayerMovement : MonoBehaviour
         return moving;
     }
 
+    private void OnNormalPathFinished()
+    {
+        moving = false;
+        path = null;
+
+        if (pendingStair != null)
+        {
+            StartFixedStairPath(
+                pendingStair,
+                pendingStairUpwards
+            );
+
+            pendingStair = null;
+            return;
+        }
+
+        targetPos = transform.position;
+    }
+
     public void StopMoving()
     {
         moving = false;
         path = null;
+        targetPos = transform.position;
+    }
+
+    //Stairs logic
+
+    private void StartFixedStairPath(StairPath stair, bool upwards)
+    {
+        fixedPath.Clear();
+
+        IReadOnlyList<Transform> points = stair.PathPoints;
+
+        if (upwards)
+        {
+            fixedPath.Add(stair.BottomEntry.position);
+
+            for (int i = 0; i < points.Count; i++)
+            {
+                fixedPath.Add(points[i].position);
+            }
+
+            fixedPath.Add(stair.TopEntry.position);
+        }
+        else
+        {
+            fixedPath.Add(stair.TopEntry.position);
+
+            for (int i = points.Count - 1; i >= 0; i--)
+            {
+                fixedPath.Add(points[i].position);
+            }
+
+            fixedPath.Add(stair.BottomEntry.position);
+        }
+
+        fixedPathIndex = 0;
+        followingFixedPath = true;
+        canMove = false;
+    }
+
+    private void FollowFixedPath()
+    {
+        if (fixedPathIndex >= fixedPath.Count)
+        {
+            FinishFixedPath();
+            return;
+        }
+
+        Vector2 point = fixedPath[fixedPathIndex];
+
+        if (
+            Vector2.Distance(rb.position, point)
+            <= nextWaypointDistance
+        )
+        {
+            fixedPathIndex++;
+            return;
+        }
+
+        MoveTowards(point);
+    }
+
+    private void FinishFixedPath()
+    {
+        followingFixedPath = false;
+        fixedPath.Clear();
+        fixedPathIndex = 0;
+
+        canMove = true;
         targetPos = transform.position;
     }
 }
