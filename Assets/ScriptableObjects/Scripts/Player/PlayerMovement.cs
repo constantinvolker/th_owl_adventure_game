@@ -166,15 +166,17 @@ public class PlayerMovement : MonoBehaviour
         if (AstarPath.active == null)
             return false;
 
-        NNConstraint constraint = new NNConstraint
-        {
-            constrainWalkability = true,
-            walkable = true
-        };
+        NNInfo nearest = AstarPath.active.GetNearest(worldPos);
 
-        NNInfo nearest = AstarPath.active.GetNearest(worldPos, constraint);
+        if (nearest.node == null || !nearest.node.Walkable)
+            return false;
 
-        return nearest.node != null && nearest.node.Walkable;
+        float distance = Vector2.Distance(
+            worldPos,
+            (Vector2)nearest.position
+        );
+
+        return distance <= 0.25f;
     }
 
     private void OnPathComplete(Path newPath)
