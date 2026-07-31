@@ -92,13 +92,12 @@ public class ClickController : MonoBehaviour
                 return;
             }
 
-            // Treppe prüfen
-            StairPath stair =
-                hit.collider.GetComponentInParent<StairPath>();
+            // check stairs
+            StairButton stairButton = hit.collider.GetComponentInParent<StairButton>();
 
-            if (stair != null)
+            if (stairButton != null)
             {
-                PlayerMovement.Instance.UseStair(stair);
+                stairButton.Activate();
                 return;
             }
 

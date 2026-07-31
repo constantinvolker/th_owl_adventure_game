@@ -73,12 +73,10 @@ public class PlayerMovement : MonoBehaviour
         MoveTowards(waypoint);
     }
 
-    public bool UseStair(StairPath stair)
+    public bool UseStair(StairPath stair, bool moveUpwards)
     {
         if (!canMove || stair == null)
             return false;
-
-        bool moveUpwards = stair.IsCloserToBottom(rb.position);
 
         Transform entry = moveUpwards
             ? stair.BottomEntry
@@ -117,16 +115,18 @@ public class PlayerMovement : MonoBehaviour
 
     public bool MoveTo(Vector3 worldPos)
     {
-        if (!canMove)
+        if (!canMove || followingFixedPath)
             return false;
 
         pendingStair = null;
-
         return StartPathToNearestWalkable(worldPos);
     }
 
     public void ForceMoveTo(Vector3 worldPos)
     {
+        if (followingFixedPath)
+            return;
+
         StartPathToNearestWalkable(worldPos);
     }
 
@@ -179,6 +179,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnPathComplete(Path newPath)
     {
+        // ein verspäteter A* callback darf den treppenpfad nicht wieder überschreiben
+        if (followingFixedPath)
+            return;
+
         if (
             newPath.error ||
             newPath.vectorPath == null ||
@@ -207,8 +211,6 @@ public class PlayerMovement : MonoBehaviour
 
         moving = currentWaypoint < path.vectorPath.Count;
 
-        // Falls der Player bereits direkt am Eingang steht,
-        // muss die Treppe trotzdem gestartet werden.
         if (!moving)
         {
             OnNormalPathFinished();
@@ -239,10 +241,16 @@ public class PlayerMovement : MonoBehaviour
         targetPos = transform.position;
     }
 
-    public void StopMoving()
+   public void StopMoving()
     {
         moving = false;
         path = null;
+
+        followingFixedPath = false;
+        fixedPath.Clear();
+        fixedPathIndex = 0;
+
+        pendingStair = null;
         targetPos = transform.position;
     }
 
@@ -250,65 +258,99 @@ public class PlayerMovement : MonoBehaviour
 
     private void StartFixedStairPath(StairPath stair, bool upwards)
     {
-        fixedPath.Clear();
+        // normales A* movement vollständig beenden
+        seeker.CancelCurrentPathRequest();
+        moving = false;
+        path = null;
 
-        IReadOnlyList<Transform> points = stair.PathPoints;
+        canMove = false;
+
+        fixedPath.Clear();
+        fixedPathIndex = 0;
 
         if (upwards)
         {
-            fixedPath.Add(stair.BottomEntry.position);
-
-            for (int i = 0; i < points.Count; i++)
+            foreach (Transform point in stair.PointsBottomToTop)
             {
-                fixedPath.Add(points[i].position);
+                if (point != null)
+                    fixedPath.Add(point.position);
             }
 
-            fixedPath.Add(stair.TopEntry.position);
+            if (stair.TopEntry != null)
+                fixedPath.Add(stair.TopEntry.position);
         }
         else
         {
-            fixedPath.Add(stair.TopEntry.position);
-
-            for (int i = points.Count - 1; i >= 0; i--)
+            for (int i = stair.PointsBottomToTop.Count - 1; i >= 0; i--)
             {
-                fixedPath.Add(points[i].position);
+                Transform point = stair.PointsBottomToTop[i];
+
+                if (point != null)
+                    fixedPath.Add(point.position);
             }
 
-            fixedPath.Add(stair.BottomEntry.position);
+            if (stair.BottomEntry != null)
+                fixedPath.Add(stair.BottomEntry.position);
         }
 
-        fixedPathIndex = 0;
-        followingFixedPath = true;
-        canMove = false;
+        followingFixedPath = fixedPath.Count > 0;
+
+        Debug.Log(
+            $"Starte Treppe: {(upwards ? "hoch" : "runter")}, " +
+            $"{fixedPath.Count} Punkte"
+        );
+
+        if (!followingFixedPath)
+        {
+            canMove = true;
+            Debug.LogWarning($"Treppe {stair.name} hat keine gültigen Punkte.");
+        }
     }
 
     private void FollowFixedPath()
     {
+        if (!followingFixedPath)
+            return;
+
         if (fixedPathIndex >= fixedPath.Count)
         {
             FinishFixedPath();
             return;
         }
 
-        Vector2 point = fixedPath[fixedPathIndex];
+        Vector2 target = fixedPath[fixedPathIndex];
 
-        if (
-            Vector2.Distance(rb.position, point)
-            <= nextWaypointDistance
-        )
+        if (Vector2.Distance(rb.position, target) <= nextWaypointDistance)
         {
+            Debug.Log($"Treppenpunkt {fixedPathIndex} erreicht.");
+
             fixedPathIndex++;
-            return;
+
+            if (fixedPathIndex >= fixedPath.Count)
+            {
+                FinishFixedPath();
+                return;
+            }
+
+            target = fixedPath[fixedPathIndex];
         }
 
-        MoveTowards(point);
+        MoveTowards(target);
     }
 
     private void FinishFixedPath()
     {
+        Debug.Log("Treppenpfad vollständig beendet.");
+
         followingFixedPath = false;
         fixedPath.Clear();
         fixedPathIndex = 0;
+
+        moving = false;
+        path = null;
+
+        pendingStair = null;
+        pendingStairUpwards = false;
 
         canMove = true;
         targetPos = transform.position;
