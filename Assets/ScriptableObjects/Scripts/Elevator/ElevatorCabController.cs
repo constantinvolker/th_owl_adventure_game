@@ -4,35 +4,38 @@ using System.Collections;
 using AdventureGame.SpriteManagement;
 using System.Collections.Generic;
 
-namespace AdventureGame.Elevator
+namespace AdventureGame.ElevatorManagement
 {
-    public class ElevatorManager : MonoBehaviour
+    /// <summary>
+    /// Controls the elevator cabin. 
+    /// Handles floor buttons, movement between floors, and door behavior inside the cabin.
+    /// </summary>
+    public class ElevatorCabController : ElevatorBase
     {
+        /// <summary>
+        /// A button inside the elevator cabin. 
+        /// Each button has a floor number and a target scene name.
+        /// </summary>
         [Serializable]
-        [RequireComponent(typeof(SpriteController))]
         public class Button
         {
             public SpriteController sprite;
             public int floor;
             public string sceneName;
         }
+        /// <summary> All floor buttons inside the elevator cabin. </summary>
         public Button[] buttons;
-        public ElevatorDoor door;
-        public SpriteController displayNumber;
-        public TransitionHotspot transitionHotspot;
-        public int maxFloor = 7;
-        public int minFloor = 0;
-        public float travelTimePerFloor = 2f;
-        
-        private int currentFloor = 0;
+
+        /// <summary> A list of floors that the elevator should move to. </summary>
         private readonly List<int> floorRequests = new List<int>();
-        private Coroutine elevatorRoutine = null;
 
-        private enum Movement {GoingUp, GoingDown, NotMoving}
-        private Movement movement = Movement.NotMoving;
-
-
-        void Awake()
+        /// <summary>
+        /// Sets the starting floor inside the elevator cabin.
+        /// The floor is chosen based on the scene the player came from.
+        /// The door is opened, and the target scene and button states are updated.
+        /// After that, the base Awake() updates displays.
+        /// </summary>
+        public override void Awake()
         {
             string previousScene = GameManager.Instance.GetPreviousScene();
             foreach (var btn in buttons)
@@ -43,38 +46,36 @@ namespace AdventureGame.Elevator
                     break;
                 }
             }
-            UpdateDisplay();
+            door.SetDoorIsOpen(true);
+
             UpdateTargetScene();
+            UpdateButtonSprites();
+
+            base.Awake();
         }
-        void OnValidate()
+        public override void OnValidate()
         {
+            base.OnValidate();
+
             if (buttons == null || buttons.Length == 0)
                 Debug.LogWarning("Buttons array is empty!");
-
-            if (displayNumber == null)
-                Debug.LogWarning("DisplayNumber is not assigned!");
-
-            if (door == null)
-                Debug.LogWarning("Door is not assigned!");
         }
-        void Start()
-        {
-            door.Close();
-        }
-
 
         // ---------------------------------
         // Interactions
         // ---------------------------------
         /// <summary>
-        /// method to use when the door is clicked
+        /// Handles door interaction from the hotspot inside the cabin.
         /// </summary>
-        public void HandleDoorInteraction()
+        public override void HandleDoorInteraction(bool isTriggered)
         {
-            // if moving
             if (movement == Movement.NotMoving)
-                door.Toggle();
+                if(isTriggered)
+                    door.Open();
         }
+        /// <summary>
+        /// Called when a floor button is pressed. Adds the floor to the request list.
+        /// </summary>
         public void HandleBtnClick(int targetFloor)
         {
             if (targetFloor < minFloor || targetFloor > maxFloor || floorRequests.Contains(targetFloor))
@@ -86,22 +87,21 @@ namespace AdventureGame.Elevator
                 elevatorRoutine = StartCoroutine(ElevatorRoutine()); 
         
         }
-        // ---------------------------------------------
-        // Elevator Movement
-        // ---------------------------------------------
+        /// <summary>
+        /// Moves the elevator to requested floors one by one.
+        /// </summary>
         private IEnumerator ElevatorRoutine()
         {
             while (floorRequests.Count > 0)
             {
-                if (door.DoorIsOpen)
-                {
-                    door.Close();
-                    yield return new WaitForSeconds(door.doorOpenTime);
-                }
-
                 int nextFloor = GetNextTargetFloor();
                 if (nextFloor != currentFloor)
                 {
+                    door.Close();
+                    UpdateHotspot();
+                    while(door.DoorIsOpen)
+                        yield return null;
+
                     switch (nextFloor > currentFloor)
                     {
                         case true:
@@ -112,10 +112,10 @@ namespace AdventureGame.Elevator
                             break;
 
                     }
-                    UpdateHotspot();
+                    UpdateDisplayArrow();
 
                     // moving
-                    yield return new WaitForSeconds(travelTimePerFloor/2);
+                    yield return new WaitForSeconds(travelTimePerFloor/2f);
                     switch (movement)
                     {
                         case Movement.GoingDown:
@@ -125,9 +125,9 @@ namespace AdventureGame.Elevator
                             currentFloor += 1;
                             break;
                     }
-                    UpdateDisplay();
+                    UpdateDisplayNumber();
                     UpdateTargetScene();
-                    yield return new WaitForSeconds(travelTimePerFloor/2);
+                    yield return new WaitForSeconds(travelTimePerFloor/2f);
 
                 }
 
@@ -135,18 +135,23 @@ namespace AdventureGame.Elevator
                 if (currentFloor == nextFloor)
                 {
                     floorRequests.Remove(nextFloor);
-                    UpdateButtonSprites();
                     movement = Movement.NotMoving;
-                    UpdateHotspot();
+                    UpdateDisplayArrow();
                     door.Open();
-                    yield return new WaitForSeconds(door.doorOpenTime*2);
+                    while(!door.DoorIsOpen)
+                        yield return null;
+                    UpdateHotspot();
+                    UpdateButtonSprites();
+                    yield return new WaitForSeconds(door.doorOpenTime);
                 }
 
             }
 
             elevatorRoutine = null;
         }
-
+        /// <summary>
+        /// Finds the closest requested floor.
+        /// </summary>
         private int GetNextTargetFloor()
         {
             // nearest floor
@@ -168,11 +173,9 @@ namespace AdventureGame.Elevator
         // ---------------------------------------------
         // Updates
         // ---------------------------------------------
-        private void UpdateDisplay()
-        {
-            displayNumber.SetSprite(currentFloor);
-        }
-
+        /// <summary>
+        /// Updates button graphics to show which floors are requested.
+        /// </summary>
         private void UpdateButtonSprites()
         {
             foreach (var btn in buttons)
@@ -184,6 +187,9 @@ namespace AdventureGame.Elevator
                 btn.sprite.SetSprite(spriteIndex);
             }
         }
+        /// <summary>
+        /// Updates the target scene based on the current floor.
+        /// </summary>
         private void UpdateTargetScene()
         {
             foreach (var btn in buttons)
@@ -195,9 +201,12 @@ namespace AdventureGame.Elevator
                 }
             }
         }
-        private void UpdateHotspot()
+        /// <summary>
+        /// Enables or disables the hotspot depending on movement.
+        /// </summary>
+        protected override void UpdateHotspot()
         {
-            if(movement == Movement.NotMoving)
+            if(movement == Movement.NotMoving && door.DoorIsOpen)
                 transitionHotspot.gameObject.SetActive(true);
             else
                 transitionHotspot.gameObject.SetActive(false);

@@ -2918,7 +2918,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1884342304
 Transform:
   m_ObjectHideFlags: 0
@@ -3076,6 +3076,7 @@ MonoBehaviour:
     sceneName: Room_Hall_7
   door: {fileID: 943333290}
   displayNumber: {fileID: 1450689861}
+  displayArrow: {fileID: 1884342305}
   transitionHotspot: {fileID: 1047911634}
   maxFloor: 7
   minFloor: 0
