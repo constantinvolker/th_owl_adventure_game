@@ -1,6 +1,6 @@
 using UnityEngine;
 using System;
-namespace AdventureGame.SpriteController
+namespace AdventureGame.SpriteManagement
 {
     /// <summary>
     /// Configuration settings defining how a SpriteControllerList behaves during a specific time period.

@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Linq;
-namespace AdventureGame.SpriteController
+namespace AdventureGame.SpriteManagement
 {
     /// <summary>
     /// Automatically cycles through a defined sprite range on a SpriteController

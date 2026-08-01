@@ -1,7 +1,7 @@
 using UnityEngine;
 using System;
 
-namespace AdventureGame.SpriteController
+namespace AdventureGame.SpriteManagement
 {
     /// <summary>
     /// Manages sprite assignment and visibility for a GameObject with a SpriteRenderer.  

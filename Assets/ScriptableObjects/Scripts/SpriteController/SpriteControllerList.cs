@@ -1,7 +1,7 @@
 using UnityEngine;
 using System;
 using System.Collections.Generic;
-namespace AdventureGame.SpriteController
+namespace AdventureGame.SpriteManagement
 {
     /// <summary>
     /// Manages a collection of SpriteControllers and applies configuration rules to them.

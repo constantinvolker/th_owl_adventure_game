@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Linq;
-namespace AdventureGame.SpriteController
+namespace AdventureGame.SpriteManagement
 {
     /// <summary>
     /// Controls multiple SpriteControllerLists and applies configurations based on the current time period.
