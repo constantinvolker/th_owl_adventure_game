@@ -23,6 +23,14 @@ public class AtmosphereVisualsManager : MonoBehaviour
     public Gradient dailyColor;
     public AnimationCurve dailyIntensity;
 
+    [Header("Night Lights (Laternen, Fenster, etc.)")]
+    [Tooltip("Ziehe hier alle 2D Lichter rein, die nachts an sein sollen.")]
+    public Light2D[] nightLights;
+    [Tooltip("Kurve für Laternen: 0 (Mitternacht) = hoch, 0.5 (Mittag) = null, 1 (Mitternacht) = hoch.")]
+    public AnimationCurve nightLightsCurve;
+    [Tooltip("Wie hell sollen die Laternen maximal leuchten?")]
+    public float maxNightLightIntensity = 1f;
+
     [Header("Weather Modifiers (Cloudy)")]
     [Range(0f, 1f)] public float cloudyIntensityMultiplier = 0.8f; // Leicht dunkler als sonnig
     public Color cloudyColorTint = new Color(0.8f, 0.8f, 0.85f); // Leichtes Grau
@@ -215,21 +223,38 @@ public class AtmosphereVisualsManager : MonoBehaviour
         targetLight.color = baseColor * currentWeatherColorMod;
         targetLight.intensity = baseIntensity * currentWeatherIntensityMod;
 
-        // --- 4. AUDIO FADE (NEU) ---
+        // --- 4. AUDIO FADE ---
         if (weatherAudioSource != null)
         {
-            // Sanftes Ein- und Ausblenden der Lautstärke (halbe Geschwindigkeit für einen weicheren Sound-Fade)
             weatherAudioSource.volume = Mathf.MoveTowards(weatherAudioSource.volume, targetAudioVolume, Time.deltaTime * (weatherTransitionSpeed * 0.5f));
 
-            // Optimiere Performance: Stoppe die AudioSource, wenn sie komplett leise ist
             if (weatherAudioSource.volume <= 0f && weatherAudioSource.isPlaying)
             {
                 weatherAudioSource.Stop();
             }
-            // Starte sie wieder, falls sie lauter werden soll aber gestoppt war
             else if (weatherAudioSource.volume > 0f && !weatherAudioSource.isPlaying)
             {
                 weatherAudioSource.Play();
+            }
+        }
+
+        // --- 5. NACHTLICHTER (LATERNEN) STEUERN ---
+        if (nightLights != null && nightLights.Length > 0)
+        {
+            // Berechne die aktuelle Helligkeit der Laternen anhand der Zeit-Kurve
+            float currentNightIntensity = nightLightsCurve.Evaluate(timePercent) * maxNightLightIntensity;
+
+            // Auch Laternen können bei Unwetter leicht schwanken/dunkler werden, 
+            // wenn du das möchtest. Hier nehmen wir einfach die Basis-Intensität.
+            foreach (Light2D light in nightLights)
+            {
+                if (light != null)
+                {
+                    light.intensity = currentNightIntensity;
+
+                    // Performance-Optimierung: Lichtkomponente ganz ausschalten, wenn es Tag ist (Wert nahe 0)
+                    light.enabled = currentNightIntensity > 0.01f;
+                }
             }
         }
     }

@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Light
   layers:
   - Default
   - TransparentFX
@@ -13,7 +14,7 @@ TagManager:
   - UI
   - Hotspot
   - Obstacle
-  - 
+  - Light
   - 
   - 
   - 
@@ -62,3 +63,4 @@ TagManager:
   m_RenderingLayers:
   - Default
   - Weather
+  - Light
