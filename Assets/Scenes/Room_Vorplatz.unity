@@ -10360,7 +10360,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -569072489
+  m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
@@ -31992,8 +31992,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.20653534
-      value: -0.0048217773
+      time: 0.2366575
+      value: 0.113042876
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -32037,8 +32037,8 @@ MonoBehaviour:
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.9294739
-      value: -0.012397766
+      time: 0.8812866
+      value: 0.122276306
       inSlope: 0
       outSlope: 0
       tangentMode: 0
