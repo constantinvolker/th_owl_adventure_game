@@ -117,11 +117,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 484
         width: 200
-        height: 500
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,11 +134,165 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Bibliothek_Sprite_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 411
+        width: 74
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c115098a5b20c6b41a5b5275167ac864
+      internalID: -593881675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bibliothek_Sprite_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 410
+        width: 74
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333632e13c623c14db96851624deb78a
+      internalID: -1227557401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bibliothek_Sprite_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 327
+        width: 74
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a1a5c100481e848a68e16fdcf0e580
+      internalID: 813107483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bibliothek_Sprite_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 326
+        width: 74
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea886f32c02b6824daa99771f4d072b6
+      internalID: 1516256892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bibliothek_Sprite_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 237
+        width: 42
+        height: 43
+      alignment: 9
+      pivot: {x: 0.47654915, y: 0.47798562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c0cdb53d493a744be34e24e56deb50
+      internalID: -1461663038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bibliothek_Sprite_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 190
+        width: 80
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de1e33849c793d45b2e5bee295e7661
+      internalID: -1736119720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bibliothek_Sprite_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 239
+        width: 43
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31de8e3c4c48aaa4fafdb333de119781
+      internalID: 2102605621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5981a0eccc0b7f941a0fc9812cd0141d
     internalID: 0
     vertices: []
     indices: 
@@ -146,9 +300,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Bibliothek_Sprite_Sheet_0: -6810686183202779940
+      Bibliothek_Sprite_Sheet_1: -593881675
+      Bibliothek_Sprite_Sheet_2: -1227557401
+      Bibliothek_Sprite_Sheet_3: 813107483
+      Bibliothek_Sprite_Sheet_4: 1516256892
+      Bibliothek_Sprite_Sheet_5: -1461663038
+      Bibliothek_Sprite_Sheet_6: -1736119720
+      Bibliothek_Sprite_Sheet_7: 2102605621
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

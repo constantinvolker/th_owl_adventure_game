@@ -65,6 +65,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Room_Auditorium.unity
     guid: f9fc0a9326c6a624f88206dc09b615b6
+  - enabled: 1
+    path: Assets/Scenes/Room_Vorplatz.unity
+    guid: 87f80024ee584224098e9d357db1dbeb
+  - enabled: 1
+    path: Assets/Scenes/Room_Elevator.unity
+    guid: 230ead3d62847a94895d87e09dfedd0a
   m_configObjects:
+    com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: e0ef46deb01711640870b961661b188e, type: 3}
   m_UseUCBPForAssetBundles: 0
