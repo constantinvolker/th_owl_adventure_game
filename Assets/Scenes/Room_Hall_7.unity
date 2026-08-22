@@ -508,10 +508,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: FuseBoxInteraction, Assembly-CSharp
-        m_MethodName: CloseMinigame
-        m_Mode: 1
+      - m_Target: {fileID: 240754324}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -864,7 +864,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &240754325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1534,7 +1534,7 @@ GameObject:
   - component: {fileID: 577134549}
   - component: {fileID: 577134551}
   - component: {fileID: 577134552}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fusebox-wallcover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1673,7 +1673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ef2ac1d6a45f7241afe54f84e56a164, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractHotspot
-  interactLabel: 
+  interactLabel: Fusebox oeffnen
   OnInteract:
     m_PersistentCalls:
       m_Calls:

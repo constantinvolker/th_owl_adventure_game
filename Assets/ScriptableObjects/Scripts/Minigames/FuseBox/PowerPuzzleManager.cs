@@ -138,8 +138,10 @@ public class PowerPuzzleManager : MonoBehaviour
             if (fuse.fuseToggle.isOn) currentPowerB += fuse.powerValue;
 
         // Show maximum values
-        displayA.text = $"{overloadLimitA} A";
-        displayB.text = $"{overloadLimitB} A";
+        if (displayA != null)
+            displayA.text = $"{overloadLimitA} A";
+        if (displayB != null)
+            displayB.text = $"{overloadLimitB} A";
 
         // Main Off 
         if (!mainFuseToggle.isOn)
