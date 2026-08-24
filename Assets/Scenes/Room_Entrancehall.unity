@@ -144,7 +144,7 @@ Transform:
   m_GameObject: {fileID: 66123156}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.213, y: 1.052, z: 0}
+  m_LocalPosition: {x: 1.215, y: 1.054, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -878,7 +878,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: AstarPathfindingProject::AstarPath
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAAAIIex3iVz/bwIAACUFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMtyozAQ/BWXzmsX4Bfe267jOHtw4op3KxcuMgxGZSFResR2Uv731QgwxDkhuntGPQ/4JEzoClIj1VqxbCMzID8HBM/kx6Ajn+BMD1Ls2Ae0mjeWmQJF1GteqWHS4SGGaVmCUSz9JQ4cxYEDrWC5VOUqO8BSaqMdnFOuwVFKGowWDvockLN7DBcYcnGnaI6nD3daBIOrO6YgDKhO2gpbWa2yIuW0rCBDy514OppF0yZgOoqmXitcRY0sGIWeTyXnTDeWiLlUvuRdVYACrDlj1FXobWDBBbBDYdBtP/YlzzWYxpqilwemXKPqpOS3rLtXUn2s/b1TbvGaMIq9rTrp5hs/DD2dK1k+tfeGAd5hCpYeX+klpdr02tuHH74at+JE+ZHuObwVIJ7lWkkrMkcaZTHUaogeutdbacsC0mOH11bvQFt9H1I0GseTMJ6NZ6thMG8mhgVdfSvOS87KvZ/DpAZ2XPre4ysoN6g/zrxfFt2U4FB09E/DX3rob1VDPDKljaMauUCre2kVSsnK9w8rs2YplQAPNwVUICg3l61LY+7Hecf1rr1jHil+P83lDdd+FnchHu70QXBHbeXpNjhdyNMGdPFiDWcCOtNIPLs+LaUQ9bbpryRG7azKadqLOliWfd0yso9n+8ksgHy8n0XjeD4MFjBdRNMwnkMUR9Gc+DVkwpVJ+bb22XTHzUx0yYVbufavMlgrWvnFzxQ9rdlHKXv+mMjlLlUA4qXO0HZIg3KXuG80W2XM9WcHxjDhx00+E8JleoQsuSVKfKWrs1E06bIkpGLv0iCSkKX/jSQE4dtabxW8Mzjh5W2yK7n+B1BLAwQUAAAICAAACCHsM7xIZ20AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNdRUEovSizIKAaKGII4pZkpIHa0UpKFWZKJmUFqmnGSmZGxhbmugWWqqaWRqaGFeaqRhZGRuVIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAACCHsd4lc/28CAAAlBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAACCHsM7xIZ20AAAB4AAAACQAkAAAAAAAAAAAAAAC8AgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAHQDAAAAAA==
+    dataString: UEsDBBQAAAgIAAAIIezT74b8hwIAAEEFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMzoUxBn/11hJCekjClHZy8UXYa6xBljySHCAZ/ntXso0derL83n6+XemTMKFryIxUG8XyZ5kD+T4h9ky+TQbyCc70IMWOfUBv88ZyU1oj6mx+U8Mk4nPrpmUFRrHshzhwa+wh2AhWSFWt8wOspDYa4YJyDUgpaay3QOhzQs74mSbW5YInP7KnDzwl3uSKxwyEATWYerMg9IPO2pvN42iZJHEYdl6L2SLwo8BfJOupF7sIjcg4rWrIbTtDoHAW9WGWszgKnK3AbjszjO3yZJJzprtyibnUTo5dXYICq0fOKHbvSrRilMAOpbGdjH1fi0KD6aRR9PLAFIrYBiU/ZatsRfWxre+d8sammfttC23Q5//46dzRhZLVU5937tkcpmTZ8Te9ZFSbkfRj+OFr4Y04UX6kew5vJYgXuVGyETmSRjXWtdHgPwy/t9ZWJWTHAW9LvQObejTAftKzRbycx+EixElF3fhsQ1cnxXnFWbV3c1i2wI5Lp739BYWD+oXFu0XSXQuI2or+avhDD+ON64hHprRBqjMXttS9bJQ1JWunn+2sMSupBDi4a6AGQbm5bDGMuR/nHTdKe8c8Unu3uuQd11+ZOxcHD/aed0dt5ek2OF3K0zPo8rUxnAkYirbEC+q0kkK026a/ktZr16iCZiOvQ8Pyr1tG9nG4X4YeFIt96C/iaOolECR+gJcP/Nj3I+LWkAlsk/JtW2enDs5MDMEFrlz/4kw2itZu8XNFTxv2UclRfUwUcpcpAPHaRugV0qAwCd7RfJ0z1GcHxjDhxk0+U8JldoQ8vQVKXafrs1E0HaKkpGbv0lgkJSv3xKTEwre13ip4Z3CyyftgV3L9B1BLAwQUAAAICAAACCHsM7xIZ20AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNdRUEovSizIKAaKGII4pZkpIHa0UpKFWZKJmUFqmnGSmZGxhbmugWWqqaWRqaGFeaqRhZGRuVIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAACCHs0++G/IcCAABBBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAACCHsM7xIZ20AAAB4AAAACQAkAAAAAAAAAAAAAADUAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAIwDAAAAAA==
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -3489,7 +3489,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1648893608
 Transform:
   m_ObjectHideFlags: 0
@@ -3499,7 +3499,7 @@ Transform:
   m_GameObject: {fileID: 1648893607}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.06, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4358,7 +4358,7 @@ Transform:
   m_GameObject: {fileID: 1771476776}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.288, y: 0.142, z: 0}
+  m_LocalPosition: {x: 0.292, y: 0.143, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
