@@ -4233,8 +4233,8 @@ MonoBehaviour:
   targetLight: {fileID: 0}
   rainParticleSystem: {fileID: 0}
   weatherAudioSource: {fileID: 0}
-  rainSound: {fileID: 8300000, guid: 2b55859b5f2dfff45b8148a944b8af8d, type: 3}
-  stormSound: {fileID: 8300000, guid: f78e94ebd021a3745a39961f7d2f6626, type: 3}
+  rainSound: {fileID: 0}
+  stormSound: {fileID: 0}
   maxWeatherVolume: 1
   dailyColor:
     serializedVersion: 2
