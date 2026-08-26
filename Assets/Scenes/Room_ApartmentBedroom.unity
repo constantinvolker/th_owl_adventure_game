@@ -756,17 +756,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.34, y: 0.45}
   m_EdgeRadius: 0
---- !u!114 &240624844 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5579854032184595960, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
-  m_PrefabInstance: {fileID: 1450562573}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b25b0d6e37a3fc4a9339a3fae423209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PickupHotspot
 --- !u!4 &276709977 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9003452674208764464, guid: 9dbff4ff650bc4d48bd6aa96d4899d79, type: 3}
@@ -3789,7 +3778,7 @@ PrefabInstance:
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: lootPickup
       value: 
-      objectReference: {fileID: 240624844}
+      objectReference: {fileID: 0}
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: openSprite
       value: 
@@ -3805,7 +3794,7 @@ PrefabInstance:
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: openDialogue
       value: 
-      objectReference: {fileID: 11400000, guid: c97ffef847f28d14c94363729eda1746, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: spriteRenderer
       value: 
@@ -3813,7 +3802,7 @@ PrefabInstance:
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: searchedDialogue
       value: 
-      objectReference: {fileID: 11400000, guid: 3006f3f373fdfaf4f94cc3915e1551e8, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: OnSearched.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -3865,7 +3854,7 @@ PrefabInstance:
     - target: {fileID: 5579854032184595960, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: item
       value: 
-      objectReference: {fileID: 11400000, guid: 42647f8fa955f2045a75f7e181057cce, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 5579854032184595960, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: pickupDialogue
       value: 
