@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b300bd985ed74142afc91ffba5a6262, type: 3}
-  m_Name: Item_SafetyGlasses
+  m_Name: Item_Bauplan
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemID: Item_SafetyGlasses
-  itemName: Schutzbrille
+  itemID: Item_Bauplan
+  itemName: Bauplan
   description: 
-  icon: {fileID: -8238675395855271416, guid: 373df9a71db7e1441bfbae9a803329db, type: 3}
+  icon: {fileID: 4876575012699844274, guid: 7d93218814d5b874f83a69a3bd5ae519, type: 3}
   isBackpack: 0
