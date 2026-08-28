@@ -16,4 +16,4 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 0033f0343c9a4834ea412ac30f0b5605, type: 2}
     text: Wo soll ich mir das hin stecken, ich habe keine Zaubertasche.
   options: []
-  repeatingDialogue: {fileID: 0}
+  repeatingDialogue: {fileID: 11400000, guid: 357ea854d14f70949a200e429a4db76a, type: 2}

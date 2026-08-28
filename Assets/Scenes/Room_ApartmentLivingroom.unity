@@ -175,7 +175,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3377309631456093620, guid: 9dbff4ff650bc4d48bd6aa96d4899d79, type: 3}
       propertyPath: m_Name
-      value: Item_Banana_3
+      value: banana_3
       objectReference: {fileID: 0}
     - target: {fileID: 5994863066533347574, guid: 9dbff4ff650bc4d48bd6aa96d4899d79, type: 3}
       propertyPath: m_Size.y
@@ -288,6 +288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CleanupItem
   cleanupDialogue: {fileID: 0}
   group: {fileID: 1583620567}
+  itemID: 
 --- !u!114 &168227721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -516,7 +517,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3377309631456093620, guid: 9dbff4ff650bc4d48bd6aa96d4899d79, type: 3}
       propertyPath: m_Name
-      value: Item_Banana_2
+      value: banana_2
       objectReference: {fileID: 0}
     - target: {fileID: 5994863066533347574, guid: 9dbff4ff650bc4d48bd6aa96d4899d79, type: 3}
       propertyPath: m_Size.y
@@ -621,6 +622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CleanupItem
   cleanupDialogue: {fileID: 0}
   group: {fileID: 1583620567}
+  itemID: 
 --- !u!114 &300536500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1429,7 +1431,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3377309631456093620, guid: 9dbff4ff650bc4d48bd6aa96d4899d79, type: 3}
       propertyPath: m_Name
-      value: Item_Banana
+      value: banana_1
       objectReference: {fileID: 0}
     - target: {fileID: 3377309631456093620, guid: 9dbff4ff650bc4d48bd6aa96d4899d79, type: 3}
       propertyPath: m_Layer
@@ -1546,6 +1548,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CleanupItem
   cleanupDialogue: {fileID: 0}
   group: {fileID: 1583620567}
+  itemID: 
 --- !u!114 &593660805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3750,7 +3753,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3377309631456093620, guid: 9dbff4ff650bc4d48bd6aa96d4899d79, type: 3}
       propertyPath: m_Name
-      value: Item_Banana_4
+      value: banana_4
       objectReference: {fileID: 0}
     - target: {fileID: 5994863066533347574, guid: 9dbff4ff650bc4d48bd6aa96d4899d79, type: 3}
       propertyPath: m_Size.y
@@ -3855,6 +3858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CleanupItem
   cleanupDialogue: {fileID: 0}
   group: {fileID: 1583620567}
+  itemID: 
 --- !u!114 &1806890259
 MonoBehaviour:
   m_ObjectHideFlags: 0
