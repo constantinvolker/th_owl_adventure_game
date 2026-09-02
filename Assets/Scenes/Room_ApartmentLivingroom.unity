@@ -175,7 +175,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3377309631456093620, guid: 9dbff4ff650bc4d48bd6aa96d4899d79, type: 3}
       propertyPath: m_Name
-      value: Item_Banana_3
+      value: banana_3
       objectReference: {fileID: 0}
     - target: {fileID: 5994863066533347574, guid: 9dbff4ff650bc4d48bd6aa96d4899d79, type: 3}
       propertyPath: m_Size.y
@@ -288,6 +288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CleanupItem
   cleanupDialogue: {fileID: 0}
   group: {fileID: 1583620567}
+  itemID: 
 --- !u!114 &168227721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -516,7 +517,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3377309631456093620, guid: 9dbff4ff650bc4d48bd6aa96d4899d79, type: 3}
       propertyPath: m_Name
-      value: Item_Banana_2
+      value: banana_2
       objectReference: {fileID: 0}
     - target: {fileID: 5994863066533347574, guid: 9dbff4ff650bc4d48bd6aa96d4899d79, type: 3}
       propertyPath: m_Size.y
@@ -621,6 +622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CleanupItem
   cleanupDialogue: {fileID: 0}
   group: {fileID: 1583620567}
+  itemID: 
 --- !u!114 &300536500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1350,7 +1352,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -569072489
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 1086026619, guid: a1df2decf31774945a91e9ed03b922cd, type: 3}
@@ -1429,7 +1431,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3377309631456093620, guid: 9dbff4ff650bc4d48bd6aa96d4899d79, type: 3}
       propertyPath: m_Name
-      value: Item_Banana
+      value: banana_1
       objectReference: {fileID: 0}
     - target: {fileID: 3377309631456093620, guid: 9dbff4ff650bc4d48bd6aa96d4899d79, type: 3}
       propertyPath: m_Layer
@@ -1546,6 +1548,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CleanupItem
   cleanupDialogue: {fileID: 0}
   group: {fileID: 1583620567}
+  itemID: 
 --- !u!114 &593660805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2023,7 +2026,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -569072489
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2909710671531299024, guid: ce4b0d6f237cb0742961d463bbb48e70, type: 3}
@@ -3348,6 +3351,8 @@ GameObject:
   - component: {fileID: 1613080720}
   - component: {fileID: 1613080722}
   - component: {fileID: 1613080721}
+  - component: {fileID: 1613080724}
+  - component: {fileID: 1613080723}
   m_Layer: 7
   m_Name: Walls
   m_TagString: Untagged
@@ -3692,6 +3697,98 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.1, y: 4}
   m_EdgeRadius: 0
+--- !u!61 &1613080723
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613080713}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -1.0429682, y: -0.0015093684}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.38726395, y: 0.80982506}
+  m_EdgeRadius: 0
+--- !u!61 &1613080724
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613080713}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.042261094, y: -0.0030186474}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.49286693, y: 0.8188811}
+  m_EdgeRadius: 0
 --- !u!1 &1717580013
 GameObject:
   m_ObjectHideFlags: 0
@@ -3750,7 +3847,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3377309631456093620, guid: 9dbff4ff650bc4d48bd6aa96d4899d79, type: 3}
       propertyPath: m_Name
-      value: Item_Banana_4
+      value: banana_4
       objectReference: {fileID: 0}
     - target: {fileID: 5994863066533347574, guid: 9dbff4ff650bc4d48bd6aa96d4899d79, type: 3}
       propertyPath: m_Size.y
@@ -3855,6 +3952,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CleanupItem
   cleanupDialogue: {fileID: 0}
   group: {fileID: 1583620567}
+  itemID: 
 --- !u!114 &1806890259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3948,7 +4046,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -569072489
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2343364255203954103, guid: a8a8ed99b7b69fd41a9538820e3d1e4f, type: 3}
