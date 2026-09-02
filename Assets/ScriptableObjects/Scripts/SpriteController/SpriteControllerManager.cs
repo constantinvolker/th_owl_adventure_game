@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Linq;
+using AdventureGame.TimeSystem;
 namespace AdventureGame.SpriteManagement
 {
     /// <summary>
@@ -7,11 +8,6 @@ namespace AdventureGame.SpriteManagement
     /// </summary>
     public class SpriteControllerManager : MonoBehaviour
     {
-        // statt TimePeriod soll TimeManager.Instance.CurrentHour, TimeManager.Instance.CurrentMinute genutzt werden
-        public enum TimePeriod {Undefined, Night, Day}
-        [Header("Temporary Time Period")]
-        public TimePeriod currentTimePeriod;
-
         [Header("Sprite Controller Lists")]
         public SpriteControllerList[] spriteControllerLists;
         private SpriteControllerList[] updateListOnTimeChange;
@@ -31,7 +27,7 @@ namespace AdventureGame.SpriteManagement
                 .Where(list => list.ApplyOnStartOnly == false).ToArray();
 
             // event abo
-            // TimeManager.Instance.OnMinuteChanged += UpdateApply;
+            TimeManager.Instance.OnMinuteChanged += UpdateApply;
         }
         /// <summary>
         /// apply configurations for current time from updateListOnTimeChange where ApplyOnStartOnly is false.
@@ -67,11 +63,12 @@ namespace AdventureGame.SpriteManagement
         /// </summary>
         private bool TimeInConfigTimeRange(SpriteControllerConfig config)
         {
-            // statt TimePeriod verleichen, soll hier public bool TimeManager.IsTimeBetween(int startHour, int startMinute, int endHour, int endMinute) verwendet werden
-
-            if (config.timePeriod == TimePeriod.Undefined || currentTimePeriod == TimePeriod.Undefined)
-                return true;
-            return config.timePeriod == currentTimePeriod;
+            return TimeManager.Instance.IsTimeBetween(
+                        config.timePeriod.startHour,
+                        config.timePeriod.startMinute,
+                        config.timePeriod.endHour,
+                        config.timePeriod.endMinute
+                        );
         }
     }
 }
