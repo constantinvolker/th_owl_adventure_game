@@ -25,17 +25,17 @@ EditorBuildSettings:
     guid: 989dd34edcdac8a4e920dca0420b33f6
   - enabled: 1
     path: Assets/Scenes/Room_ApartmentLivingroom.unity
-    guid: 46c1649c80018404a821cd82c3e7d82b
+    guid: 8683222bacfc4de469de5d1161257c66
   - enabled: 1
     path: Assets/Scenes/Room_Entrancehall.unity
-    guid: ae7fe760661e3084a9b403dc9348cb19
+    guid: 18df482f450af4447862a21512806171
   - enabled: 1
     path: Assets/Scenes/Room_Library.unity
     guid: b379c7c0e8becec4fbe6f14cdbab4204
   - enabled: 1
     path: Assets/Scenes/unfinished/Room_ComputerScienceRoom.unity
     guid: c4d9efab23b0281409566903c29318cc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/unfinished/Room_WoodLaboratory.unity
     guid: a9300e6f57fe0ed45a5d4948a89f03ed
   - enabled: 1
@@ -71,6 +71,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Room_Elevator.unity
     guid: 230ead3d62847a94895d87e09dfedd0a
+  - enabled: 1
+    path: Assets/Scenes/Room_Physik.unity
+    guid: e5e64dc0e2cb1d94792e8a328af89d38
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: e0ef46deb01711640870b961661b188e, type: 3}
