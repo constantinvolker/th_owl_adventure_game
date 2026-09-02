@@ -882,7 +882,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &706572094
 Transform:
   m_ObjectHideFlags: 0
@@ -3112,11 +3112,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2683164546644069670, guid: aa44efa85c4f60647bf58d2f64e4772b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3231089140114362649, guid: aa44efa85c4f60647bf58d2f64e4772b, type: 3}
       propertyPath: spawnName
-      value: FromCSRoom
+      value: FromInformatikRaum
       objectReference: {fileID: 0}
     - target: {fileID: 3444322835463298042, guid: aa44efa85c4f60647bf58d2f64e4772b, type: 3}
       propertyPath: m_Name
@@ -3128,7 +3128,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5897516521385575546, guid: aa44efa85c4f60647bf58d2f64e4772b, type: 3}
       propertyPath: targetScene
-      value: Room_ComputerScienceRoom
+      value: Room_InformatikRaum
       objectReference: {fileID: 0}
     - target: {fileID: 5897516521385575546, guid: aa44efa85c4f60647bf58d2f64e4772b, type: 3}
       propertyPath: targetSpawnName
