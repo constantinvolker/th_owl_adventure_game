@@ -618,7 +618,7 @@ GameObject:
   m_Component:
   - component: {fileID: 215410168}
   - component: {fileID: 215410169}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -967,7 +967,7 @@ GameObject:
   m_Component:
   - component: {fileID: 826815940}
   - component: {fileID: 826815941}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1214,12 +1214,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: AstarPathfindingProject::AstarPath
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAAAIIewdBMMbhQIAAEIFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1zmzAQ/SsenWsPYGygt9ZxnB6SeOp2cuEiw2I0FhKjj9hOxv+9khCGuCfEe7urt28XPhFhsoVCcbERpHzmJaDvE2TP6NtkIJ/gjA+c7cgH9DFvpFS1DcIu5jdWhBs8tGmSN6AEKX6wA7XBgQE1IxUXzbo8wIpLJQ1cYSrBUIIrm80M9DlBZ/OYZjblYk5RYk8f5pQFk6s5FsAUiCE0mM2TOMuyeBn7lGkwiyySLaK5z53GszgJ5slyPQ1SV0azguKmhdL2NFRbzMJo4evELpCZfn1M4MmCU0qkF4zUpXWG7NoaBFhHSoJN/06ktaMGcqiV7WWc+1pVEpQ3R+DLAxHGxq4o+sk7bxssj524d0y1vSaMOv1d0ef/+Gno6Erw5qm/NwzsHaomxfE3vhRYqpH5Y/jhq3DNTpge8Z7CWw3shW8E16w0pBLapmoJ0cPwemttVUNxHPBO6h2o29EI+1nP5mkcpnZIST84087VGXFeUdLs3RTiDthR7py3ryDMmH4Z6W6RpG/AoFbPXwl/8GG8cZ54JEIqQ/lwZoXuuRY2FK2de7YvrVZcMHCwl98Cw1RdtqaMuh/mHTe69o55xPbb8pd7rv9k7lIcPMQHwR215afb2GTNT88g61etKGEwiLbEi/FpxRnrdm3sSZ+206LCxSjtoEn5dcnQPl3u42UA1Xy/jOZpMg0yWGTRIkwTiNIoSpDbQsJMn5huO6HeHjM0NhRnZuP6X85kI3Dr9r4U+LQhHw0fWU5YxXeFAGCvXYWbcBDmEvOJluuSGIN2oBRhbt7oM0eUF0co81uh3HW6PiuB86FKjlryzpVFcrRy/5gcWfi21VsB7wRO9vK+2BVd/wFQSwMEFAAACAgAAAgh7DO8SGdtAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tFKShVmSiZlBappxkpmRsYW5roFlqqmlkamhhXmqkYWRkblSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAAgh7B0EwxuFAgAAQgUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAAgh7DO8SGdtAAAAeAAAAAkAJAAAAAAAAAAAAAAA0gIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAACKAwAAAAA=
+    dataString: UEsDBBQAAAgIAAAIIey5GhPjeQIAADEFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1zmzAQ/SsenWsP4C/orXUcp4cknrqdXLjIsBiNhcRIIraT8X+vVghD3BPSvv14b3fFJ2FC15AZqTaK5c8yB/J9RPBMvo168AnO9CDFjn1A5/PGclOiE3U+v6lh0tpDDNOyAqNY9kMcODoH1tgIVkhVrfMDrKQ22poLyjVYSEmD0cKaPkfkbD/jBEMu9hQt8fRhT0kwutpjBsKA6l2DyXQ5S5Jk4QPGwSTCezILEx/ZBjYi47SqIUcVffzcx82dk7DqPB5MAsQyyTnTnh0xl9qp39UlKED5OaNWrGOE2ktgh9Ig8WHsa1FoML4Til4emLI9a5OSn7JtZEX1seX1TnmDZcIodqzapM//4ePQwYWS1VNXNwywhilZdvxNLxnVZtDpofnhK/FGnCg/0j2HtxLEi9wo2YjcgkY1GNpoiB76603aqoTs2NtbqnfGph7MqxvsZBrPwngxXazHwdJPCgVdXSvOK86qvRvDrDXsuHS9xysoO6dflrzbG+0lWCsy+qvhDz0MF8wDj0xpYyHvLpDqXjYKXcna9Q+VNWYllQBn9gJqEJSby9amMffjvMMGZe+QR4pPyRf3WPdC7kKcufcPgjtoK0+3welSnp5Bl6+N4UxATxqBF9unlRSi3bZhT7qwXaMKmg3CDg3Lv64Z2ceL/WwRQDHdL6JpvBwHCcyTaB7GS4jiKFoSt4dMWJ2Ub1uivj12aKJPLuzOdX+Y0UbR2m1+ruhpwz4qOWg5E4XcZQpAvLYZbsRB2SL2jebrnNkG7cAYJty8yWdKuMyOkKe3RKlTuj4bRdM+S0pq9i4NWlKycr+UlKD5ttdbBe8MTli8S3Yl139QSwMEFAAACAgAAAgh7DO8SGdtAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tFKShVmSiZlBappxkpmRsYW5roFlqqmlkamhhXmqkYWRkblSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAAgh7LkaE+N5AgAAMQUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAAgh7DO8SGdtAAAAeAAAAAkAJAAAAAAAAAAAAAAAxgIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAAB+AwAAAAA=
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
     cacheStartup: 0
-  showNavGraphs: 0
+  showNavGraphs: 1
   showUnwalkableNodes: 1
   debugMode: 0
   debugFloor: 0
@@ -1988,7 +1988,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1465304666}
   - component: {fileID: 1465304667}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2196,7 +2196,7 @@ GameObject:
   - component: {fileID: 1613080719}
   - component: {fileID: 1613080718}
   - component: {fileID: 1613080717}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2436,7 +2436,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 1.26757, y: -1.6385701}
+  m_Offset: {x: 2, y: -1.6385701}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2446,7 +2446,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.5774765, y: 3.1843653}
+  m_Size: {x: 2, y: 3.1843653}
   m_EdgeRadius: 0
 --- !u!61 &1613080721
 BoxCollider2D:
@@ -2705,7 +2705,7 @@ GameObject:
   - component: {fileID: 1787279479}
   - component: {fileID: 1787279481}
   - component: {fileID: 1787279480}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sprite (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2922,7 +2922,7 @@ GameObject:
   - component: {fileID: 1821667170}
   - component: {fileID: 1821667172}
   - component: {fileID: 1821667171}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sprite (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3217,7 +3217,7 @@ GameObject:
   - component: {fileID: 2018610324}
   - component: {fileID: 2018610325}
   - component: {fileID: 2018610326}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sprite (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

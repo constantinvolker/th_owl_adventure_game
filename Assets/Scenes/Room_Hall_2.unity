@@ -129,7 +129,8 @@ GameObject:
   m_Component:
   - component: {fileID: 56709894}
   - component: {fileID: 56709896}
-  m_Layer: 0
+  - component: {fileID: 56709897}
+  m_Layer: 7
   m_Name: Sprite (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,6 +212,52 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!61 &56709897
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56709893}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.53, y: 0.7}
+    newSize: {x: 0.87, y: 0.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.53, y: 0.7}
+  m_EdgeRadius: 0
 --- !u!1 &96897811
 GameObject:
   m_ObjectHideFlags: 0
@@ -705,7 +752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 275271733}
   - component: {fileID: 275271734}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1077,12 +1124,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: AstarPathfindingProject::AstarPath
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAAAIIey9q7vfegIAADcFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVF1zojAU/StOnlcHqAru2661dh/aOrU7feElwkUyhoRJQtV2/O+bG4JQlxfCuV/nnnvDF2FC15AZqdaK5U8yB/JzRPBMfox64yOc6F6KLfuEzued5aZEJ+p8Xqlh0uIhhmlZgVEs+yX2HJ0DCzaCFVJVq3wPS6mNtnBBuQZrUtJgtLDQ14ic7Gu8wJCzPUUxnj7taRGMLvaYgTCgetdgEkYz7xxMZgE+kQ9JJotpME/C1ThIXHAjMk6rGnLspM8RhpMk7pLEk3i6sM8sciHC9uu9u1KZ5JxpT5iYc+0E2dYlKEBFckZt/44kylEC25cGexnGvhSFBuPFUfR8z5SVsU1KfstW24rqQ0vzg/IGy4RR20mb9Ok/+zh05kLJ6rGrGwZYw5QsO7zSc0a1GYg/hO+/E2/EkfID3XF4L0E8y7WSjcit0agGQxsN0X3/eW1tWUJ26PGW6g3Y1IMRduPzY8MeLq7705Kzauekn7bAlksnN36CsrP5Y/m67dGetUWRxF8Nb3Q/XDNveGBKG2vy7gLZ7WSj0JWsnGTYTGOWUglwsOdcg6DcnDc2jbmd4I1tUPbG8kDxQvni3tbdk5sQB/f+QXBj2sjjdVa6lMcn0OVLYzgT0JNGw7PVaSmFaBdsqEkXtm1UQbNB2L5h+ffNIrtkvpvOAyjudvPoLonHwQJmi2gWJjFESRTFxK0eE7ZPyjctUS+PHZrokwu7Zt1/ZrRWtHbLnit6XLPPSg4kZ6KQ20wBiJc2w5U4KFvE3st8lTMr0BaMYcLNm3ylhMvsAHl6TZS6Tlcno2jaZ0lJzT6kQSQlS/djSQnC11XeKPhgcMTiXbILufwDUEsDBBQAAAgIAAAIIewzvEhnbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrRSkoVZkomZQWqacZKZkbGFua6BZaqppZGpoYV5qpGFkZG5UixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAAAIIey9q7vfegIAADcFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAAAIIewzvEhnbQAAAHgAAAAJACQAAAAAAAAAAAAAAMcCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAfwMAAAAA
+    dataString: UEsDBBQAAAgIAAAIIezEx3EgdQIAAC0FAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMty4jAQ/BVK54WSzcvsbRcI2UMSKmQrF1+EPcYqZMmlR4Ck+PeVZBk77Mly9/So52F/IcpVDZkWciNp/iRyQD8HyJ3Rj0FHPsKZHATf0U9oY95prksXRHzMK9FUWDxyMiUq0JJmv/iBuWBsQcNpIWS1zg+wFEorCxeEKbCUFNqpuYW+BuhsH8OFk1zsKZ6706c9LfDgao8ZcA2yC8WjKJ5ijCeLOEjwaBokjcLwjJGqhtzZ74RR7OOcIvFx3FYWQvAIOy4TjFEVnCF9qX3lu7oECa70nBJbqHfj6i6BHkrtTPe1L0WhQIcuSHJZUWn71SRFv0XTxIqoY2PtgzAD3l7jqkn69B8/jDxdSFE9tvdG2N2hS5odX8klI0r3utyHV9+NG34i7Ej2DN5L4M9iI4XhuSW1NE5qFMSr7vVW2rKE7NjhjdU70NS9WbVDHY2TSZTMxrP1EM/DsFxBV9+K85LRau/HMGmAHRO+9+4VpJ3TH2ve74wKJVjUOfqr4I0c+ssViAcqlbZUCOfO6l4Y6ULR2vfPVWb0UkgOHg4F1MAJ05etTaPvx3nH9a69Yx6I+4zC5YFrv447iYe7eIzvqK043QanSnF6AlW+GM0oh860I55tn5aC82bb+j1pZTsjC5L1ZAdD8+9rhvbJbD+ZYSjG+1k8TuZDvIDpIp5GyRziJI7nyO8h5bZOwraN0dAeOzTeJed259q/y2AjSe03P5fktKGflei1nPJC7DIJwF+aDDfjIO0l9hvN1zm1DdqB1pT7eaOvFDGRHSFPb4lSX+n6rCVJuywpqumH0A5J0dL/TlLk4NtebyV8UDi5y9tkV3T9B1BLAwQUAAAICAAACCHsM7xIZ20AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNdRUEovSizIKAaKGII4pZkpIHa0UpKFWZKJmUFqmnGSmZGxhbmugWWqqaWRqaGFeaqRhZGRuVIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAACCHsxMdxIHUCAAAtBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAACCHsM7xIZ20AAAB4AAAACQAkAAAAAAAAAAAAAADCAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAHoDAAAAAA==
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
     cacheStartup: 0
-  showNavGraphs: 0
+  showNavGraphs: 1
   showUnwalkableNodes: 1
   debugMode: 0
   debugFloor: 0
@@ -1563,7 +1610,7 @@ GameObject:
   - component: {fileID: 673063964}
   - component: {fileID: 673063963}
   - component: {fileID: 673063962}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2376,7 +2423,7 @@ GameObject:
   - component: {fileID: 838284508}
   - component: {fileID: 838284507}
   - component: {fileID: 838284506}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Walls_center
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2737,7 +2784,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1042422831}
   - component: {fileID: 1042422832}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2919,7 +2966,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1122725229}
   - component: {fileID: 1122725230}
-  m_Layer: 0
+  - component: {fileID: 1122725231}
+  m_Layer: 7
   m_Name: Sprite (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3001,6 +3049,52 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!61 &1122725231
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122725228}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.53, y: 0.7}
+    newSize: {x: 0.87, y: 0.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.53, y: 0.7}
+  m_EdgeRadius: 0
 --- !u!1 &1172088057
 GameObject:
   m_ObjectHideFlags: 0
@@ -3296,7 +3390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1395698220}
   - component: {fileID: 1395698221}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3478,7 +3572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1474344508}
   - component: {fileID: 1474344509}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3691,7 +3785,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1613080715}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3897,7 +3991,7 @@ GameObject:
   - component: {fileID: 1754632934}
   - component: {fileID: 1754632936}
   - component: {fileID: 1754632935}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4198,7 +4292,7 @@ GameObject:
   - component: {fileID: 1935386610}
   - component: {fileID: 1935386612}
   - component: {fileID: 1935386611}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
