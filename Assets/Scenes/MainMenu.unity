@@ -1418,6 +1418,7 @@ GameObject:
   - component: {fileID: 507545806}
   - component: {fileID: 507545808}
   - component: {fileID: 507545807}
+  - component: {fileID: 507545809}
   m_Layer: 5
   m_Name: MenuContainer
   m_TagString: Untagged
@@ -1489,6 +1490,20 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &507545809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507545805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e62f82ddc0637945ade7a4b20260a32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MainMenuUI
+  exitButton: {fileID: 595717749}
+  feedbackButton: {fileID: 563209485}
 --- !u!1 &560901898
 GameObject:
   m_ObjectHideFlags: 0
