@@ -429,7 +429,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.00011867285}
+  m_Offset: {x: 0, y: 0.01409233}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -439,7 +439,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.74, y: 0.59088814}
+  m_Size: {x: 0.74, y: 0.5861406}
   m_EdgeRadius: 0
 --- !u!1 &217120746
 GameObject:
@@ -472,7 +472,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: AstarPathfindingProject::AstarPath
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAAAIIewwW9DJZQIAABwFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMly4jAQ/RVK5yFlm7DNbQYImQOBCjOViy/CbmMVsuTSwpbi30ct29ghJ8v9Xne/XqRPwoQuITFSLRVLVzIF8rNH8Ex+9FrwFc50L8WWXaHhfLDU5EiinvNODZPOHqKblgUYxZJfYs+RHDijFSyTqlike5hJbbQzZ5RrcJCSBr2FM332yNl9+lN0ubhTNMbT1Z2mQe/mjgkIA6qlNsSGVrGsSDgtSkhRckse1uSBJwlXSo0HTwFiieSc6VoKMZfSl7otc1CAtaaMusp8eiw0B7bPDars+q6zTIOpJSl6mTPlGlQFJb9l1bWC6kOl60i5xTRhNPGqqqCrb3g/9HCmZPHa5A0DzGFylhze6SWh2nTa2jXPvwq34kT5ge44fOQg3uRSSStSBxpl0dVqiObt7720WQ7JobVXUh+Mtvw+nPApnEbBdLDoB+N6TljOzTfiPOOs2PkhPFeGLZe+8/gLyk3pj5PuV0TXBTgr6vmn4S/dd3epBl6Y0sZBNV2g0J20Cqlk4buHdVkzk0qAN9fySxCUm8vGhTGPw3zAOmkfkBeKt6ZOXmPNZXhw8eaWHwQP0Eae7mPTuTytQOdrazgT0IpG4M31aSaFqHat25PGbWtVRpOO296y9OuSkd1ktHseBZANdqNoMBn3gykMp9EwnIwhmkTRmPgtZMLVSfmmElq3xw1NtMGF27jmMektFS393qeKnpbsWshOy5nI5DZRAGJdRbgLB+WSuBuaLlLmGrQFY5jw8yafMeEyOUAa3wPFvtLF2Sgat1FiUrKjNGiJycy/HjFB832rNwqODE6YvAl2I7f/UEsDBBQAAAgIAAAIIewzvEhnbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrRSkoVZkomZQWqacZKZkbGFua6BZaqppZGpoYV5qpGFkZG5UixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAAAIIewwW9DJZQIAABwFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAAAIIewzvEhnbQAAAHgAAAAJACQAAAAAAAAAAAAAALICAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAagMAAAAA
+    dataString: UEsDBBQAAAgIAAAIIewdUxJ6fAIAADcFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVEuTojAQ/itWzqsF+ED2tquOswdnrHG35sIlQiMpQ0IlwcdM+d+3E0AYhwvh69fXX3f4JEzoEhIj1VqxdCNTID8HxJ7Jj0FnfIYLPUixYx/Q+ryz1OTWiTqfN2qYRNy3YVoWYBRLfokDt84egpVgmVTFKj3AQmqjEc4o14AmJY2NFgh9DsgFX8PIhlzxFIT29IGnyBvc8JiAMKA619Zx6I38YBLhM2kChsEoGE/92XwWrobe3EVXIuG0KCG1rXRJpm21UTh1fgK7bFy8kWfNieSc6YYlMdfSqbArc1BgZUgZxaYdM6tBDuyQG5uyH/uaZRpMw1rR65Ip1K5OSn7LWtCC6mNN7UR5Zcv4Qc2+Trr5Zh/6zpwpWTy3dX3P1jA5S45v9JpQbXqK9+HlV+KVOFN+pHsO7zmIF7lWshIpGo2qbGilIVh2n/fWFjkkxw6vqT6AVfl9bv7IjwIvGuOIwnZw2M7NCXFZcFbs3RAmNbDj0ilvP0HhlP4gdbc9umkAUcvnn4a/9NBfs8bwxJQ2aGrchSW6l5WyrmTl1LN9VWYhlQAHN/RLEJSb6xbTmMdhPth6ZR8sT9ReqKZ4Y2vvyUOIgzt/z3swbeX5Pjady/MGdP5aGc4EdKSt4QV1Wkgh6l3ra9KG7SqV0aQXdqhY+nXJyH4+209mHmTj/SwYz8OhF8E0Cqb+PIRgHgQhcVvIBPZJ+bYm2siDQxNdcoEb1/5nBmtFS7f3qaLnNfsoZE9yJjK5SxSAeK0z3ImDwiJ4Q9NVylCgHRjDhJs3+YwJl8kR0vieKHadri5G0bjLEpOSnaSxSEwW7scSEwvft3qr4MTgbIu3yW7k9h9QSwMEFAAACAgAAAgh7DO8SGdtAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tFKShVmSiZlBappxkpmRsYW5roFlqqmlkamhhXmqkYWRkblSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAAgh7B1TEnp8AgAANwUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAAgh7DO8SGdtAAAAeAAAAAkAJAAAAAAAAAAAAAAAyQIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAACBAwAAAAA=
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -3823,6 +3823,7 @@ GameObject:
   - component: {fileID: 1613080721}
   - component: {fileID: 1613080720}
   - component: {fileID: 1613080719}
+  - component: {fileID: 1613080723}
   m_Layer: 7
   m_Name: Walls
   m_TagString: Untagged
@@ -3879,7 +3880,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 0.94257927}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3889,7 +3890,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 5, y: 0.4}
+  m_Size: {x: 5, y: 0.51484156}
   m_EdgeRadius: 0
 --- !u!61 &1613080719
 BoxCollider2D:
@@ -3925,7 +3926,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 3, y: -1.3}
+  m_Offset: {x: 2.9435897, y: -1.1813698}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3935,7 +3936,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.1128206, y: 1.2372603}
   m_EdgeRadius: 0
 --- !u!61 &1613080720
 BoxCollider2D:
@@ -3971,7 +3972,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 3, y: 0.6}
+  m_Offset: {x: 2.9476686, y: 0.48751408}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3981,7 +3982,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.1046627, y: 1.2249719}
   m_EdgeRadius: 0
 --- !u!61 &1613080721
 BoxCollider2D:
@@ -4017,7 +4018,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -2.4, y: -0.2}
+  m_Offset: {x: -2.3274667, y: -0.17338324}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4027,7 +4028,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.1, y: 1.6}
+  m_Size: {x: 0.24506712, y: 2.4091482}
   m_EdgeRadius: 0
 --- !u!61 &1613080722
 BoxCollider2D:
@@ -4074,6 +4075,52 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Size: {x: 5, y: 0.4}
+  m_EdgeRadius: 0
+--- !u!61 &1613080723
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613080713}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -2.1313443, y: -1.038662}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.31246948, y: 0.356668}
   m_EdgeRadius: 0
 --- !u!1 &1819252399
 GameObject:
@@ -4203,8 +4250,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.1, y: 0.29}
+  m_Offset: {x: 0.002423495, y: -0.014944926}
+  m_Size: {x: 0.19694012, y: 0.31988987}
   m_Direction: 0
 --- !u!1 &2126027832
 GameObject:
