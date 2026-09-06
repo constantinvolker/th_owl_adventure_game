@@ -1490,7 +1490,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 257296861261491303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: interactLabel
-      value: 
+      value: "Kiste \xF6ffnen"
       objectReference: {fileID: 0}
     - target: {fileID: 257296861261491303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: OnInteract.m_PersistentCalls.m_Calls.Array.size
@@ -1578,7 +1578,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: objectID
-      value: "TechnischesGer\xE4t_0"
+      value: Bedroom_Box_02
       objectReference: {fileID: 0}
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: m_Enabled
@@ -1603,7 +1603,7 @@ PrefabInstance:
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: openDialogue
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: c97ffef847f28d14c94363729eda1746, type: 2}
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: spriteRenderer
       value: 
@@ -1611,7 +1611,7 @@ PrefabInstance:
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: searchedDialogue
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 3006f3f373fdfaf4f94cc3915e1551e8, type: 2}
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: OnSearched.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -2678,7 +2678,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 257296861261491303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: interactLabel
-      value: 
+      value: "Kiste \xF6ffnen"
       objectReference: {fileID: 0}
     - target: {fileID: 257296861261491303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: OnInteract.m_PersistentCalls.m_Calls.Array.size
@@ -2758,7 +2758,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: objectID
-      value: InformatikSchrank2_0
+      value: Bedroom_Box_02
       objectReference: {fileID: 0}
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: m_Enabled
@@ -2783,7 +2783,7 @@ PrefabInstance:
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: openDialogue
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: c97ffef847f28d14c94363729eda1746, type: 2}
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: spriteRenderer
       value: 
@@ -2791,7 +2791,7 @@ PrefabInstance:
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: searchedDialogue
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 3006f3f373fdfaf4f94cc3915e1551e8, type: 2}
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: OnSearched.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -5626,7 +5626,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 257296861261491303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: interactLabel
-      value: 
+      value: "Kiste \xF6ffnen"
       objectReference: {fileID: 0}
     - target: {fileID: 257296861261491303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: OnInteract.m_PersistentCalls.m_Calls.Array.size
@@ -5706,7 +5706,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: objectID
-      value: InformatikSchrank1_0
+      value: Bedroom_Box_02
       objectReference: {fileID: 0}
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: m_Enabled
@@ -5731,7 +5731,7 @@ PrefabInstance:
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: openDialogue
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: c97ffef847f28d14c94363729eda1746, type: 2}
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: spriteRenderer
       value: 
@@ -5739,7 +5739,7 @@ PrefabInstance:
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: searchedDialogue
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 3006f3f373fdfaf4f94cc3915e1551e8, type: 2}
     - target: {fileID: 3959479670939291303, guid: 3b60c8a56a1093444b81009866a8e12d, type: 3}
       propertyPath: OnSearched.m_PersistentCalls.m_Calls.Array.size
       value: 0

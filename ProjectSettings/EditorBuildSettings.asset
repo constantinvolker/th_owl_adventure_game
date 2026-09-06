@@ -74,6 +74,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Room_Physik.unity
     guid: e5e64dc0e2cb1d94792e8a328af89d38
+  - enabled: 1
+    path: Assets/Scenes/Room_InformatikRaum.unity
+    guid: 9a2dfa3616887e18db66942179a01a00
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: e0ef46deb01711640870b961661b188e, type: 3}
