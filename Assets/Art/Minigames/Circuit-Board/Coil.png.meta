@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3b04ae47d73a1884ea92bbe063b56a65
+guid: ff744635d68f1ac439873a9a86a9447e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 280311292056779982
-    second: Hilfebutton_0
+      213: -5909173768048615255
+    second: SpuleAlpha_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hilfebutton_0
+      name: SpuleAlpha_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 40
+        width: 60
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ecc339d82add3e300800000000000000
-      internalID: 280311292056779982
+      spriteID: 9a0e76f14c56efda0800000000000000
+      internalID: -5909173768048615255
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: df09ba3bf1515d9488f09f7c05905e18
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Hilfebutton_0: 280311292056779982
+      SpuleAlpha_0: -5909173768048615255
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

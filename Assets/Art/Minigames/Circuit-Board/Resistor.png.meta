@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: aed4f826e3df608419b65e0f18f205cb
+guid: 333f434aa0f613d4f888c422ebc8d1be
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1623350136098766560
-    second: SchalterAlpha 2_0
+      213: -1850167545018513494
+    second: WiderstandAlpha_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SchalterAlpha 2_0
+      name: WiderstandAlpha_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0eebf30195c478610800000000000000
-      internalID: 1623350136098766560
+      spriteID: aa70730ab62e256e0800000000000000
+      internalID: -1850167545018513494
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0e73977b4463a6a4f88802b76ab313db
+    spriteID: bcf1c5721279dca46a9214dc205a6323
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SchalterAlpha 2_0: 1623350136098766560
+      WiderstandAlpha_0: -1850167545018513494
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

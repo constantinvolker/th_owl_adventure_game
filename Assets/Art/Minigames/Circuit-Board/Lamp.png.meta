@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ff744635d68f1ac439873a9a86a9447e
+guid: 70a7414ff7b46654cad07194cae0c715
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5909173768048615255
-    second: SpuleAlpha_0
+      213: -4958056262596885888
+    second: LampeAlpha_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpuleAlpha_0
+      name: LampeAlpha_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a0e76f14c56efda0800000000000000
-      internalID: -5909173768048615255
+      spriteID: 082038b1912713bb0800000000000000
+      internalID: -4958056262596885888
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: df09ba3bf1515d9488f09f7c05905e18
+    spriteID: 83dc0c50ff6af9341a77c402866b3947
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SpuleAlpha_0: -5909173768048615255
+      LampeAlpha_0: -4958056262596885888
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

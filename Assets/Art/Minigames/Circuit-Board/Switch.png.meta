@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 70a7414ff7b46654cad07194cae0c715
+guid: aed4f826e3df608419b65e0f18f205cb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4958056262596885888
-    second: LampeAlpha_0
+      213: 1623350136098766560
+    second: SchalterAlpha 2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LampeAlpha_0
+      name: SchalterAlpha 2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 082038b1912713bb0800000000000000
-      internalID: -4958056262596885888
+      spriteID: 0eebf30195c478610800000000000000
+      internalID: 1623350136098766560
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 83dc0c50ff6af9341a77c402866b3947
+    spriteID: 0e73977b4463a6a4f88802b76ab313db
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      LampeAlpha_0: -4958056262596885888
+      SchalterAlpha 2_0: 1623350136098766560
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
