@@ -14,9 +14,16 @@ namespace AdventureGame.SpriteManagement
             public int min;
             public int max;
         }
-        // statt TimePeriod soll hier int startHour, int startMinute, int endHour, int endMinute eingegeben werden koennen
+        [Serializable]
+        public class TimePeriod
+        {
+            public int startHour;
+            public int startMinute;
+            public int endHour;
+            public int endMinute;
+        }
         [Header("Time Period when Configuration is active")]
-        public SpriteControllerManager.TimePeriod timePeriod;
+        public TimePeriod timePeriod;
 
         public enum Activation {ActivateAll, DeactivateAll, ActivateRandom, ActivateLow, ActivateMedium, ActivateHigh}
         [Header("How many active sprites (Activate All/ Deactivate All/ Activation based on activity level)")]
