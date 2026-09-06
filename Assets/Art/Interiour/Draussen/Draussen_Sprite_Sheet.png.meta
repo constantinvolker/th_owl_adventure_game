@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: efebb9154c214774c97d0cdc15142f8d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3663671081070467995
+    second: Draussen_Sprite_Sheet_0
+  - first:
+      213: -5445657341608289883
+    second: Draussen_Sprite_Sheet_1
+  - first:
+      213: -3384123544481347221
+    second: Draussen_Sprite_Sheet_2
+  - first:
+      213: 7387358061764377975
+    second: Draussen_Sprite_Sheet_3
+  - first:
+      213: -6378274494330919050
+    second: Draussen_Sprite_Sheet_4
+  - first:
+      213: 5978784929149914524
+    second: Draussen_Sprite_Sheet_5
+  - first:
+      213: 1933559282958642619
+    second: Draussen_Sprite_Sheet_6
+  - first:
+      213: 4041084791900775799
+    second: Draussen_Sprite_Sheet_7
+  - first:
+      213: -2970053663774254936
+    second: Draussen_Sprite_Sheet_8
+  - first:
+      213: -5509829549239316839
+    second: Draussen_Sprite_Sheet_9
+  - first:
+      213: 5761059162243726597
+    second: Draussen_Sprite_Sheet_10
+  - first:
+      213: 6467846576062201888
+    second: Draussen_Sprite_Sheet_11
+  - first:
+      213: -6163898349854584476
+    second: Draussen_Sprite_Sheet_12
+  - first:
+      213: -4375747502685989179
+    second: Draussen_Sprite_Sheet_13
+  - first:
+      213: 7861666657190696588
+    second: Draussen_Sprite_Sheet_14
+  - first:
+      213: -7843200139520920538
+    second: Draussen_Sprite_Sheet_15
+  - first:
+      213: 9076284802179611419
+    second: Draussen_Sprite_Sheet_16
+  - first:
+      213: 5669618639632676738
+    second: Draussen_Sprite_Sheet_17
+  - first:
+      213: -6218472690837380741
+    second: Draussen_Sprite_Sheet_18
+  - first:
+      213: -2249516894290289689
+    second: Draussen_Sprite_Sheet_19
+  - first:
+      213: 554621093947482703
+    second: Draussen_Sprite_Sheet_20
+  - first:
+      213: 3976516775772345544
+    second: Draussen_Sprite_Sheet_21
+  - first:
+      213: 1736989178713336380
+    second: Draussen_Sprite_Sheet_22
+  - first:
+      213: 3504357335593550461
+    second: Draussen_Sprite_Sheet_23
+  - first:
+      213: -3435004182552677457
+    second: Draussen_Sprite_Sheet_24
+  - first:
+      213: 2399625801193555761
+    second: Draussen_Sprite_Sheet_25
+  - first:
+      213: -2059199946603901501
+    second: Draussen_Sprite_Sheet_26
+  - first:
+      213: 4337600741395344910
+    second: Draussen_Sprite_Sheet_27
+  - first:
+      213: -1467695801122186511
+    second: Draussen_Sprite_Sheet_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_Schachtdeckel_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 959
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b9311ff69f7d230800000000000000
+      internalID: 3663671081070467995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_Schachtdeckel_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 960
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a990f800832d64b0800000000000000
+      internalID: -5445657341608289883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_muelleimer
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 954
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69472fe09d2901d0800000000000000
+      internalID: -3384123544481347221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_poller
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 954
+        width: 13
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d751c640b258660800000000000000
+      internalID: 7387358061764377975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_strassenschild_30er
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 823
+        width: 48
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677a8751421db77a0800000000000000
+      internalID: -6378274494330919050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_strassenschild_zebrastreifen
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 823
+        width: 41
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d80725739e8f250800000000000000
+      internalID: 5978784929149914524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_strassenschild_halteverbot
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 823
+        width: 42
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbda8e46ce165da10800000000000000
+      internalID: 1933559282958642619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_strassenschild_sammelpunkt
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 823
+        width: 35
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775aa782531d41830800000000000000
+      internalID: 4041084791900775799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_strassenschild_schatten_0
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 885
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a853e6cdef38c6d0800000000000000
+      internalID: -2970053663774254936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_strassenschild_schatten_1
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 871
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ec3a0a7372983b0800000000000000
+      internalID: -5509829549239316839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_strassenschild_schatten_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 855
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50dfb8fd8c463ff40800000000000000
+      internalID: 5761059162243726597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_strassenschild_schatten_3
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 841
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0200aeb513862c950800000000000000
+      internalID: 6467846576062201888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_strassenschild_schatten_4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 823
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4611d49cb1f657aa0800000000000000
+      internalID: -6163898349854584476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_Laterne_aus
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 679
+        width: 27
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6599b74d83643c0800000000000000
+      internalID: -4375747502685989179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_Laterne_an
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 679
+        width: 27
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86526cfb204a1d60800000000000000
+      internalID: 7861666657190696588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_Laterne_Licht
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 672
+        width: 135
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624bf85370b572390800000000000000
+      internalID: -7843200139520920538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_Fahrrad_Staender
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 613
+        width: 85
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b313a70f075fd70800000000000000
+      internalID: 9076284802179611419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_Fahrrad_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 524
+        width: 39
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2873d332d188eae40800000000000000
+      internalID: 5669618639632676738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_Fahrrad_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 524
+        width: 39
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71ab29d80c83b9a0800000000000000
+      internalID: -6218472690837380741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_Fahrrad_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 428
+        width: 39
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb56979d4c18c0e0800000000000000
+      internalID: -2249516894290289689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_Fahrrad_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 428
+        width: 39
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42ada942f862b700800000000000000
+      internalID: 554621093947482703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_Stuhl_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 359
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4da4760fc6f2730800000000000000
+      internalID: 3976516775772345544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_Stuhl_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 359
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ae7ef74760b1810800000000000000
+      internalID: 1736989178713336380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_Stuhl_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 295
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72861a0e6af1a030800000000000000
+      internalID: 3504357335593550461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_Stuhl_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 295
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa377f835e96450d0800000000000000
+      internalID: -3435004182552677457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_Stuhl_2
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 231
+        width: 106
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1370102d3fe2d4120800000000000000
+      internalID: 2399625801193555761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_Bank_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 23
+        width: 20
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cdcb250f804c63e0800000000000000
+      internalID: -2059199946603901501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_Bank_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 23
+        width: 20
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e275884e0423c30800000000000000
+      internalID: 4337600741395344910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Draussen_Sprite_Sheet_Bank_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 23
+        width: 20
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa97cfe172b1abe0800000000000000
+      internalID: -1467695801122186511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d56f5b58b75367e4d97693a059390825
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Draussen_Sprite_Sheet_Bank_0: -2059199946603901501
+      Draussen_Sprite_Sheet_Bank_1: 4337600741395344910
+      Draussen_Sprite_Sheet_Bank_2: -1467695801122186511
+      Draussen_Sprite_Sheet_Fahrrad_0: 5669618639632676738
+      Draussen_Sprite_Sheet_Fahrrad_1: -2249516894290289689
+      Draussen_Sprite_Sheet_Fahrrad_2: -6218472690837380741
+      Draussen_Sprite_Sheet_Fahrrad_3: 554621093947482703
+      Draussen_Sprite_Sheet_Fahrrad_Staender: 9076284802179611419
+      Draussen_Sprite_Sheet_Laterne_Licht: -7843200139520920538
+      Draussen_Sprite_Sheet_Laterne_an: 7861666657190696588
+      Draussen_Sprite_Sheet_Laterne_aus: -4375747502685989179
+      Draussen_Sprite_Sheet_Schachtdeckel_0: 3663671081070467995
+      Draussen_Sprite_Sheet_Schachtdeckel_1: -5445657341608289883
+      Draussen_Sprite_Sheet_Stuhl_0: 3976516775772345544
+      Draussen_Sprite_Sheet_Stuhl_1: 3504357335593550461
+      Draussen_Sprite_Sheet_Stuhl_2: 2399625801193555761
+      Draussen_Sprite_Sheet_Stuhl_3: 1736989178713336380
+      Draussen_Sprite_Sheet_Stuhl_4: -3435004182552677457
+      Draussen_Sprite_Sheet_muelleimer: -3384123544481347221
+      Draussen_Sprite_Sheet_poller: 7387358061764377975
+      Draussen_Sprite_Sheet_strassenschild_30er: -6378274494330919050
+      Draussen_Sprite_Sheet_strassenschild_halteverbot: 1933559282958642619
+      Draussen_Sprite_Sheet_strassenschild_sammelpunkt: 4041084791900775799
+      Draussen_Sprite_Sheet_strassenschild_schatten_0: -2970053663774254936
+      Draussen_Sprite_Sheet_strassenschild_schatten_1: -5509829549239316839
+      Draussen_Sprite_Sheet_strassenschild_schatten_2: 5761059162243726597
+      Draussen_Sprite_Sheet_strassenschild_schatten_3: 6467846576062201888
+      Draussen_Sprite_Sheet_strassenschild_schatten_4: -6163898349854584476
+      Draussen_Sprite_Sheet_strassenschild_zebrastreifen: 5978784929149914524
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

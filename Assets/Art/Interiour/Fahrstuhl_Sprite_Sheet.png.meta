@@ -1,0 +1,927 @@
+fileFormatVersion: 2
+guid: a9467a400379d0e448638671180814ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9134286396435833044
+    second: Fahrstuhl_Sprite_Sheet_0
+  - first:
+      213: 3805427559008785710
+    second: Fahrstuhl_Sprite_Sheet_1
+  - first:
+      213: -3632501224813493607
+    second: Fahrstuhl_Sprite_Sheet_2
+  - first:
+      213: -8034630459908156281
+    second: Fahrstuhl_Sprite_Sheet_3
+  - first:
+      213: 4082330173040579926
+    second: Fahrstuhl_Sprite_Sheet_4
+  - first:
+      213: 7436319547240061410
+    second: Fahrstuhl_Sprite_Sheet_5
+  - first:
+      213: -4058550783233166373
+    second: Fahrstuhl_Sprite_Sheet_6
+  - first:
+      213: -8592379457189404695
+    second: Fahrstuhl_Sprite_Sheet_7
+  - first:
+      213: 7685236698520906157
+    second: Fahrstuhl_Sprite_Sheet_8
+  - first:
+      213: 8241154305355212735
+    second: Fahrstuhl_Sprite_Sheet_9
+  - first:
+      213: -1919186010355820916
+    second: Fahrstuhl_Sprite_Sheet_10
+  - first:
+      213: 3330261945739574726
+    second: Fahrstuhl_Sprite_Sheet_11
+  - first:
+      213: 4062946726484208185
+    second: Fahrstuhl_Sprite_Sheet_12
+  - first:
+      213: 4049132241061834136
+    second: Fahrstuhl_Sprite_Sheet_13
+  - first:
+      213: 5500083503036988300
+    second: Fahrstuhl_Sprite_Sheet_14
+  - first:
+      213: -4836199628671136797
+    second: Fahrstuhl_Sprite_Sheet_15
+  - first:
+      213: 258155345986330740
+    second: Fahrstuhl_Sprite_Sheet_16
+  - first:
+      213: 1910547490646303967
+    second: Fahrstuhl_Sprite_Sheet_17
+  - first:
+      213: -8154702925050798508
+    second: Fahrstuhl_Sprite_Sheet_18
+  - first:
+      213: -81021437303979872
+    second: Fahrstuhl_Sprite_Sheet_19
+  - first:
+      213: -1826045979305840880
+    second: Fahrstuhl_Sprite_Sheet_20
+  - first:
+      213: 8372741830657160480
+    second: Fahrstuhl_Sprite_Sheet_21
+  - first:
+      213: 1962308618908804533
+    second: Fahrstuhl_Sprite_Sheet_22
+  - first:
+      213: -8976941204485589709
+    second: Fahrstuhl_Sprite_Sheet_23
+  - first:
+      213: -3356117610820466985
+    second: Fahrstuhl_Sprite_Sheet_24
+  - first:
+      213: -54937829981350484
+    second: Fahrstuhl_Sprite_Sheet_25
+  - first:
+      213: 6624038602275061184
+    second: Fahrstuhl_Sprite_Sheet_26
+  - first:
+      213: -9051978284986774300
+    second: Fahrstuhl_Sprite_Sheet_27
+  - first:
+      213: 2910841581397578841
+    second: Fahrstuhl_Sprite_Sheet_28
+  - first:
+      213: 4143917359606612644
+    second: Fahrstuhl_Sprite_Sheet_29
+  - first:
+      213: 6388057320903927114
+    second: Fahrstuhl_Sprite_Sheet_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fahrstuhl_Tuer_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 127
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0ad30051183ce70800000000000000
+      internalID: 9134286396435833044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Tuer_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 127
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e255331f3389fc430800000000000000
+      internalID: 3805427559008785710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Tuer_2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 127
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99202d0c163c69dc0800000000000000
+      internalID: -3632501224813493607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Tuer_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 52
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78414af7a224f7090800000000000000
+      internalID: -8034630459908156281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Tuer_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 52
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65551fbc9a957a830800000000000000
+      internalID: 4082330173040579926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Btn_0
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 106
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e999899a3d133760800000000000000
+      internalID: 7436319547240061410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Btn_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 106
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3f086d0912da7c0800000000000000
+      internalID: -4058550783233166373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Btn_2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 85
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef9cd6786cb1c880800000000000000
+      internalID: -8592379457189404695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Btn_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 85
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da962262f0277aa60800000000000000
+      internalID: 7685236698520906157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Display
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 24
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d621de158613830800000000000000
+      internalID: 4049132241061834136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Display_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 27
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b71892ec8345c40800000000000000
+      internalID: 5500083503036988300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Display_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 27
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb4e2e9f0e52ecb0800000000000000
+      internalID: -4836199628671136797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Display_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 27
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470226e5be6259300800000000000000
+      internalID: 258155345986330740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Display_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 27
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4ac7af1d0a38a10800000000000000
+      internalID: 1910547490646303967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Display_4
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 27
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e128725eca4de80800000000000000
+      internalID: -8154702925050798508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Display_5
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 27
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a00e4a9e6720eef0800000000000000
+      internalID: -81021437303979872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Display_6
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 27
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01fe1fb4bd498a6e0800000000000000
+      internalID: -1826045979305840880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Display_7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 27
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025bf549554f13470800000000000000
+      internalID: 8372741830657160480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Display_Pfeil_0
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 27
+        width: 3
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b52fb9ca458b3b10800000000000000
+      internalID: 1962308618908804533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Taste_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 5
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335b111598f7b6380800000000000000
+      internalID: -8976941204485589709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Taste_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 5
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d60d9e70dcac61d0800000000000000
+      internalID: -3356117610820466985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Taste_2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 5
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca51b3fa552dc3ff0800000000000000
+      internalID: -54937829981350484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Taste_3
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 5
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd741b53005deb50800000000000000
+      internalID: 6624038602275061184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Nr_7
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 8
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec40d095b9e06280800000000000000
+      internalID: -9051978284986774300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Nr_6
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 8
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95493a8fef2656820800000000000000
+      internalID: 2910841581397578841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Nr_5
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 8
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a24de512e6228930800000000000000
+      internalID: 4143917359606612644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Nr_4
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 8
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45ef49b940f6a850800000000000000
+      internalID: 6388057320903927114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Display_Pfeil_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 27
+        width: 3
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91350379fcbf374ca095463ee3c2793
+      internalID: 1577918772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Nr_3
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 8
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0c628ed2a06804f8ddd3fd6c50497e
+      internalID: 2022300227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Nr_0
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 8
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e847df0127d15f74eb7256e47935d385
+      internalID: 1396156885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fahrstuhl_Nr_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 8
+        width: 2
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1c6b99899cde8498459d8c0359fe0e
+      internalID: 162932953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6be5fe8067f78a248b7b350944c35e3e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":1,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Fahrstuhl_Btn_0: 7436319547240061410
+      Fahrstuhl_Btn_1: -4058550783233166373
+      Fahrstuhl_Btn_2: -8592379457189404695
+      Fahrstuhl_Btn_3: 7685236698520906157
+      Fahrstuhl_Btn_6: -1919186010355820916
+      Fahrstuhl_Btn_7: 4062946726484208185
+      Fahrstuhl_Display: 4049132241061834136
+      Fahrstuhl_Display_0: 5500083503036988300
+      Fahrstuhl_Display_1: -4836199628671136797
+      Fahrstuhl_Display_2: 258155345986330740
+      Fahrstuhl_Display_3: 1910547490646303967
+      Fahrstuhl_Display_4: -8154702925050798508
+      Fahrstuhl_Display_5: -81021437303979872
+      Fahrstuhl_Display_6: -1826045979305840880
+      Fahrstuhl_Display_7: 8372741830657160480
+      Fahrstuhl_Display_Pfeil_0: 1962308618908804533
+      Fahrstuhl_Display_Pfeil_1: 1577918772
+      Fahrstuhl_Nr_0: 1396156885
+      Fahrstuhl_Nr_1: 162932953
+      Fahrstuhl_Nr_3: 2022300227
+      Fahrstuhl_Nr_4: 6388057320903927114
+      Fahrstuhl_Nr_5: 4143917359606612644
+      Fahrstuhl_Nr_6: 2910841581397578841
+      Fahrstuhl_Nr_7: -9051978284986774300
+      Fahrstuhl_Taste_0: -8976941204485589709
+      Fahrstuhl_Taste_1: -3356117610820466985
+      Fahrstuhl_Taste_2: -54937829981350484
+      Fahrstuhl_Taste_3: 6624038602275061184
+      Fahrstuhl_Tuer_0: 9134286396435833044
+      Fahrstuhl_Tuer_1: 3805427559008785710
+      Fahrstuhl_Tuer_2: -3632501224813493607
+      Fahrstuhl_Tuer_3: -8034630459908156281
+      Fahrstuhl_Tuer_4: 4082330173040579926
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

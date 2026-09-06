@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b300bd985ed74142afc91ffba5a6262, type: 3}
   m_Name: Item_SafetyGlasses
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemID: 
-  itemName: 
+  itemID: Item_SafetyGlasses
+  itemName: Schutzbrille
   description: 
-  icon: {fileID: 0}
+  icon: {fileID: -8238675395855271416, guid: 373df9a71db7e1441bfbae9a803329db, type: 3}
   isBackpack: 0
