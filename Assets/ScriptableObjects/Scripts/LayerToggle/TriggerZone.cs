@@ -16,7 +16,17 @@ namespace AdventureGame.LayerToggle
 
         private LayerToggle[] targets;
 
+        private void Awake()
+        {
+            InitializeTargets();
+        }
+
         private void OnValidate()
+        {
+            InitializeTargets();
+        }
+
+        private void InitializeTargets()
         {
             if (targetsRoot == null || targetsRoot.Length == 0)
             {
