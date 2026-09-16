@@ -6,7 +6,7 @@ public class InventorySlot : MonoBehaviour
 {
     [SerializeField] private Image iconImage;
 
-    private ItemData _item;
+    public ItemData _item;
 
     public void Setup(ItemData item)
     {
