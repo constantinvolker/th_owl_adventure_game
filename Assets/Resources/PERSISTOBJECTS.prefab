@@ -2280,10 +2280,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.5177824
-    y: 0.016877636
-    width: 0.50209206
-    height: 0.37974682
+    x: 0.42720214
+    y: 0.5382087
+    width: 0.39662868
+    height: 1.1092851
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 26.000002
@@ -2446,7 +2446,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
