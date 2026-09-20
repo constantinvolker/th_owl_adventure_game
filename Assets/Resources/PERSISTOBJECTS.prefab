@@ -2280,10 +2280,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.23984376
-    y: 0.008333333
-    width: 0.125
-    height: 0.125
+    x: 0.17760417
+    y: 0.0078703705
+    width: 0.25
+    height: 0.25
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 26.000002
@@ -6485,7 +6485,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d661a3235422f424e95ec0576f3429b8, type: 2}
   m_sharedMaterial: {fileID: -3439230052795900972, guid: d661a3235422f424e95ec0576f3429b8, type: 2}
