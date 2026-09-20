@@ -58,7 +58,9 @@ public class CursorManager : MonoBehaviour
     void Update()
     {
         if (_itemHeld) return;
-        if (DialogueManager.Instance.IsPlaying)
+        
+        // ✅ Prüfe ob DialogueManager existiert, bevor du darauf zugreifst
+        if (DialogueManager.Instance != null && DialogueManager.Instance.IsPlaying)
         {
             ApplyType(CursorType.Normal, false);
             return;
