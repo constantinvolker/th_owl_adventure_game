@@ -1,70 +1,63 @@
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
-using UnityEngine.EventSystems; // ZWINGEND ERFORDERLICH f�r UI-Events!
 
 public class InventoryTooltip : MonoBehaviour
 {
-    [Header("UI Komponenten (Welt-Text)")]
-    public TextMeshProUGUI uiTextDisplay;     // Der TextContainer (Welt-TextMeshPro)
+    private TextMeshProUGUI tooltipText;
     private InventorySlot inventorySlot;
-    private Coroutine hideCoroutine;
+    private RectTransform slotRect;
 
     void Start()
     {
-        // Sicherstellen, dass der Text am Anfang unsichtbar ist
         inventorySlot = GetComponent<InventorySlot>();
+        slotRect = GetComponent<RectTransform>();
 
-        // 2. AUTOMATISCHE SUCHE im PERSISTOBJECTS-Klon:
-        // Wir suchen in der gesamten Spielwelt nach dem Text-Objekt.
-        // Ersetze "DeinNeuesTextObjektName" durch den exakten Namen des Objekts im Prefab!
-        if (uiTextDisplay == null)
-        {
-            GameObject gefundenesTextObjekt = GameObject.Find("ItemNameText");
+        // Eigenes Tooltip-Text-Objekt für diesen Slot erstellen
+        GameObject tooltipGO = new GameObject("TooltipText");
+        tooltipGO.transform.SetParent(transform);
+        tooltipGO.transform.localPosition = Vector3.zero;
 
-            if (gefundenesTextObjekt != null)
-            {
-                uiTextDisplay = gefundenesTextObjekt.GetComponent<TextMeshProUGUI>();
-            }
-        }
+        tooltipText = tooltipGO.AddComponent<TextMeshProUGUI>();
+        tooltipText.text = "";
+        tooltipText.raycastTarget = false;
+        tooltipText.color = Color.white;
 
-        uiTextDisplay.text = "";
-    }
-
-    public void OnPointerEnter()
-    {
-        if (hideCoroutine != null) StopCoroutine(hideCoroutine);
-
-        uiTextDisplay.text = inventorySlot._item.itemName; 
-        uiTextDisplay.color = new Color(uiTextDisplay.color.r, uiTextDisplay.color.g, uiTextDisplay.color.b, 1f);
-
-        uiTextDisplay.ForceMeshUpdate();
-
-        hideCoroutine = StartCoroutine(HideTextAfterDelay(3f));
+        // CanvasGroup für Sichtbarkeit
+        CanvasGroup canvasGroup = tooltipGO.AddComponent<CanvasGroup>();
+        canvasGroup.alpha = 0f;
+        canvasGroup.interactable = false;
+        canvasGroup.blocksRaycasts = false;
     }
 
     void Update()
     {
-        // Nur bewegen, wenn das Textfeld existiert und gerade Text anzeigt
-        if (uiTextDisplay != null && !string.IsNullOrEmpty(uiTextDisplay.text))
+        // 1. Wenn der Slot leer ist: Tooltip sofort verstecken und abbrechen!
+        if (inventorySlot == null || inventorySlot._item == null)
         {
-            // Holt die aktuelle Mausposition im Bildschirm-Raum (da es ein Canvas-UI-Text ist)
-            Vector2 mousePos = Input.mousePosition;
-
-            // Leicht nach rechts oben versetzen (z.B. 20 Pixel X, 20 Pixel Y), 
-            // damit der Text nicht direkt unter dem Mauszeiger klebt und flackert!
-            Vector2 offset = new Vector2(20f, -30f);
-
-            uiTextDisplay.transform.position = mousePos + offset;
+            tooltipText.text = "";
+            tooltipText.GetComponent<CanvasGroup>().alpha = 0f;
+            return;
         }
-    }
 
-    // Der Timer, der nach X Sekunden den Text l�scht
-    private System.Collections.IEnumerator HideTextAfterDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        if (uiTextDisplay != null)
+        // 2. Prüfen, ob die Maus über dem Slot ist
+        bool isMouseOver = RectTransformUtility.RectangleContainsScreenPoint(slotRect, Input.mousePosition);
+
+        if (isMouseOver)
         {
-            uiTextDisplay.text = "";
+            tooltipText.text = inventorySlot._item.itemName;
+            tooltipText.GetComponent<CanvasGroup>().alpha = 1f;
+
+            // Tooltip-Position an die Maus anheften    
+            Vector2 mousePos = Input.mousePosition;
+            Vector2 offset = new Vector2(20f, -30f);
+            tooltipText.transform.position = mousePos + offset;
+        }
+        else
+        {
+            // 3. Maus ist nicht mehr auf dem Slot: Verstecken
+            tooltipText.text = "";
+            tooltipText.GetComponent<CanvasGroup>().alpha = 0f;
         }
     }
 }
