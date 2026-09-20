@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     public bool PendingReset => _pendingReset;
 
     [Header("New Game Settings")]
-    [SerializeField] private string firstSceneName = "Room_ApartmentBedroom";
+    [SerializeField] private string firstSceneName = "opening";  
     [SerializeField] private string firstSpawnPoint = "SpawnStart";
 
     [Header("Global Dialogues")]
