@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   lines:
   - speaker: {fileID: 11400000, guid: ddd92296fabbf5643b2bf2ebdcbd04fb, type: 2}
-    text: "Hey! Hey!  Wir m\xFCssen los, du hast heute deine Projektpr\xE4sentation
-      an der Hochschule."
+    text: "Hey!  Wir m\xFCssen los, du hast heute deine Projektpr\xE4sentation an
+      der Hochschule."
   - speaker: {fileID: 11400000, guid: ddd92296fabbf5643b2bf2ebdcbd04fb, type: 2}
     text: 'Dein Zeug liegt irgendwo in diesem Chaos. '
   options: []
