@@ -7,6 +7,7 @@ public class MainMenuController : MonoBehaviour
     [Header("Panels")]
     public GameObject mainMenuPanel;
     public GameObject settingsPanel;
+    public GameObject CreditsPanel;
 
     [Header("Buttons")]
     [SerializeField] private Button continueButton;
@@ -42,6 +43,18 @@ public class MainMenuController : MonoBehaviour
     public void CloseSettings()
     {
         settingsPanel.SetActive(false);
+        mainMenuPanel.SetActive(true);
+    }
+
+    public void OpenCredits()
+    {
+        CreditsPanel.SetActive(true);
+        mainMenuPanel.SetActive(false);
+    }
+
+    public void closeCredits()
+    {
+        CreditsPanel.SetActive(false);
         mainMenuPanel.SetActive(true);
     }
 

@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 0033f0343c9a4834ea412ac30f0b5605, type: 2}
     text: 'Da ist ja mein Handy. '
   - speaker: {fileID: 11400000, guid: 0033f0343c9a4834ea412ac30f0b5605, type: 2}
-    text: Mmmhh, fast leer.
+    text: Mmmhh, fast leer. Ich hab schon wieder zu viele Videos geschaut.
   - speaker: {fileID: 11400000, guid: 0033f0343c9a4834ea412ac30f0b5605, type: 2}
     text: Ich sollte es trotzdem einpacken.
   options: []

@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: b34711288cb4dda41a343ef56686b40c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4847953197684356250
+    second: Spritesheet_Flur_0
+  - first:
+      213: -2133813955855851731
+    second: Spritesheet_Flur_1
+  - first:
+      213: 6669291868352358690
+    second: Spritesheet_Flur_2
+  - first:
+      213: -4694756757057997212
+    second: Spritesheet_Flur_3
+  - first:
+      213: 9113165864626038375
+    second: Spritesheet_Flur_4
+  - first:
+      213: -6274494639290757895
+    second: Spritesheet_Flur_5
+  - first:
+      213: -7316827643028041783
+    second: Spritesheet_Flur_6
+  - first:
+      213: -7056990153659428773
+    second: Spritesheet_Flur_7
+  - first:
+      213: -1959435065104291488
+    second: Spritesheet_Flur_8
+  - first:
+      213: 4341614378864750511
+    second: Spritesheet_Flur_9
+  - first:
+      213: 4605995830300009051
+    second: Spritesheet_Flur_10
+  - first:
+      213: 3321554687655814072
+    second: Spritesheet_Flur_11
+  - first:
+      213: -3634087026358038881
+    second: Spritesheet_Flur_12
+  - first:
+      213: -8703375389019961399
+    second: Spritesheet_Flur_13
+  - first:
+      213: -2832097011167446821
+    second: Spritesheet_Flur_14
+  - first:
+      213: 8000994923970612586
+    second: Spritesheet_Flur_15
+  - first:
+      213: -6784734287317731441
+    second: Spritesheet_Flur_16
+  - first:
+      213: -390736048703893497
+    second: Spritesheet_Flur_17
+  - first:
+      213: 2423593746855867373
+    second: Spritesheet_Flur_18
+  - first:
+      213: 4354016442511983030
+    second: Spritesheet_Flur_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet_Flur_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 431
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94f1bb6fb3674340800000000000000
+      internalID: 4847953197684356250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Flur_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 366
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fd078338b2362e0800000000000000
+      internalID: -2133813955855851731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Flur_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 431
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2292b8c6e951e8c50800000000000000
+      internalID: 6669291868352358690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Flur_3
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 366
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46671b47a9fd8deb0800000000000000
+      internalID: -4694756757057997212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Flur_4
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 431
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766204cf118787e70800000000000000
+      internalID: 9113165864626038375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Flur_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 366
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc4bf78e548ce8a0800000000000000
+      internalID: -6274494639290757895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Flur_6
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 431
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf0e8e5608657a90800000000000000
+      internalID: -7316827643028041783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Flur_7
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 366
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5053b348d8801e90800000000000000
+      internalID: -7056990153659428773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Flur_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 300
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069a3089030bec4e0800000000000000
+      internalID: -1959435065104291488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Flur_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 235
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf26f35643804c30800000000000000
+      internalID: 4341614378864750511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Flur_10
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 300
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5266f5ddc8cbef30800000000000000
+      internalID: 4605995830300009051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Flur_11
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 235
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b322cbd368881e20800000000000000
+      internalID: 3321554687655814072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Flur_12
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 300
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ec21f8a11219dc0800000000000000
+      internalID: -3634087026358038881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Flur_13
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 300
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c786963236673780800000000000000
+      internalID: -8703375389019961399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Flur_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 190
+        width: 63
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd83beff5ce52b8d0800000000000000
+      internalID: -2832097011167446821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Flur_15
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 202
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6dc8f40e7e390f60800000000000000
+      internalID: 8000994923970612586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Flur_16
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 165
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87730ddc18c7d1a0800000000000000
+      internalID: -6784734287317731441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Flur_17
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 205
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700901842a3d39af0800000000000000
+      internalID: -390736048703893497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Flur_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 138
+        width: 87
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3b3390ca552a120800000000000000
+      internalID: 2423593746855867373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Flur_19
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 86
+        width: 87
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1032ac2e29c6c30800000000000000
+      internalID: 4354016442511983030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spritesheet_Flur_0: 4847953197684356250
+      Spritesheet_Flur_1: -2133813955855851731
+      Spritesheet_Flur_10: 4605995830300009051
+      Spritesheet_Flur_11: 3321554687655814072
+      Spritesheet_Flur_12: -3634087026358038881
+      Spritesheet_Flur_13: -8703375389019961399
+      Spritesheet_Flur_14: -2832097011167446821
+      Spritesheet_Flur_15: 8000994923970612586
+      Spritesheet_Flur_16: -6784734287317731441
+      Spritesheet_Flur_17: -390736048703893497
+      Spritesheet_Flur_18: 2423593746855867373
+      Spritesheet_Flur_19: 4354016442511983030
+      Spritesheet_Flur_2: 6669291868352358690
+      Spritesheet_Flur_3: -4694756757057997212
+      Spritesheet_Flur_4: 9113165864626038375
+      Spritesheet_Flur_5: -6274494639290757895
+      Spritesheet_Flur_6: -7316827643028041783
+      Spritesheet_Flur_7: -7056990153659428773
+      Spritesheet_Flur_8: -1959435065104291488
+      Spritesheet_Flur_9: 4341614378864750511
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

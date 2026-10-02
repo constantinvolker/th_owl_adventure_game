@@ -9,7 +9,7 @@ public class PauseManager : MonoBehaviour
     [SerializeField] private GameObject settingsPanel;
 
     [Header("Scene")]
-    [SerializeField] private string firstSceneName = "Room_ApartmentBedroom";
+    [SerializeField] private string firstSceneName = "opening";
 
     private bool isPaused;
 

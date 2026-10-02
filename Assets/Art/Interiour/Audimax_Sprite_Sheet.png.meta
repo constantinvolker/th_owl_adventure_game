@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 305e6ed8ac7d22044b821448629e1d49
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6441207903646027648
+    second: Audimax_Sprite_Sheet 1_0
+  - first:
+      213: 898316817977000983
+    second: Audimax_Sprite_Sheet 1_1
+  - first:
+      213: 6758713181277908991
+    second: Audimax_Sprite_Sheet 1_2
+  - first:
+      213: 5788206326821108592
+    second: Audimax_Sprite_Sheet 1_3
+  - first:
+      213: 8848189565093476953
+    second: Audimax_Sprite_Sheet 1_4
+  - first:
+      213: -1112080408978570873
+    second: Audimax_Sprite_Sheet 1_5
+  - first:
+      213: 26121225032212900
+    second: Audimax_Sprite_Sheet 1_6
+  - first:
+      213: 5144215428104133264
+    second: Audimax_Sprite_Sheet 1_7
+  - first:
+      213: 7944953617008143754
+    second: Audimax_Sprite_Sheet 1_8
+  - first:
+      213: -8630342317701601590
+    second: Audimax_Sprite_Sheet 1_9
+  - first:
+      213: 3372634884580449121
+    second: Audimax_Sprite_Sheet 1_10
+  - first:
+      213: 4713050955515677596
+    second: Audimax_Sprite_Sheet 1_11
+  - first:
+      213: 2313682368061427393
+    second: Audimax_Sprite_Sheet 1_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Audimax_beamer
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 482
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0807db2e98b3c96a0800000000000000
+      internalID: -6441207903646027648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Audimax_Stuhl1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 441
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714474fe266777c00800000000000000
+      internalID: 898316817977000983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Audimax_Stuhl2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 441
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffe1d444d5cbcd50800000000000000
+      internalID: 6758713181277908991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blatt
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 463
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b37dcacf6d35050800000000000000
+      internalID: 5788206326821108592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buecher
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 459
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95af6bc97851bca70800000000000000
+      internalID: 8848189565093476953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papierkorb
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 458
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781492592c81190f0800000000000000
+      internalID: -1112080408978570873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuerloescher
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 458
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1a423ad1dcc5000800000000000000
+      internalID: 26121225032212900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Audimax_pult
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 393
+        width: 116
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a1b383dace36740800000000000000
+      internalID: 5144215428104133264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Audimax_rollwagen
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 392
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8da9b27835224e60800000000000000
+      internalID: 7944953617008143754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreierstecker
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 430
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac6ef57336dda3880800000000000000
+      internalID: -8630342317701601590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Audimax_flasche1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 391
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b128cfe810ece20800000000000000
+      internalID: 3372634884580449121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Audimax_flasche2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 390
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9bc3db8fde186140800000000000000
+      internalID: 4713050955515677596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blatt2
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 398
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cec267fad9db1020800000000000000
+      internalID: 2313682368061427393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 056ad4492fdd9d14fa164f2a2bfd9a56
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Audimax_Stuhl1: 898316817977000983
+      Audimax_Stuhl2: 6758713181277908991
+      Audimax_beamer: -6441207903646027648
+      Audimax_flasche1: 3372634884580449121
+      Audimax_flasche2: 4713050955515677596
+      Audimax_pult: 5144215428104133264
+      Audimax_rollwagen: 7944953617008143754
+      Blatt: 5788206326821108592
+      Buecher: 8848189565093476953
+      blatt2: 2313682368061427393
+      dreierstecker: -8630342317701601590
+      feuerloescher: 26121225032212900
+      papierkorb: -1112080408978570873
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

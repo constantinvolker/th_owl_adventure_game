@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 0033f0343c9a4834ea412ac30f0b5605, type: 2}
     text: Ein USB-Stick.
   - speaker: {fileID: 11400000, guid: 0033f0343c9a4834ea412ac30f0b5605, type: 2}
-    text: Moment mal. Das ist nicht irgendien USB-Stick.
+    text: Moment mal. Das ist nicht irgendein USB-Stick.
   - speaker: {fileID: 11400000, guid: 0033f0343c9a4834ea412ac30f0b5605, type: 2}
     text: Da ist doch das Projekt drauf. Dann stecke ich ihn lieber ein.
   options: []
